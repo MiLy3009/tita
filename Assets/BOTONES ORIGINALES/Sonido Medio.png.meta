@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 7c0e29054a9b9f6419c289822799d3e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7731391279094757392
+    second: Sonido Medio_0
+  - first:
+      213: -4325119656493848714
+    second: Sonido Medio_1
+  - first:
+      213: 748205756261430096
+    second: Sonido Medio_2
+  - first:
+      213: 5629578200641529613
+    second: Sonido Medio_3
+  - first:
+      213: -619670972020580399
+    second: Sonido Medio_4
+  - first:
+      213: -4365417469550543102
+    second: Sonido Medio_5
+  - first:
+      213: -7576916401500403511
+    second: Sonido Medio_6
+  - first:
+      213: 7065180195190449794
+    second: Sonido Medio_7
+  - first:
+      213: -2839648417262268239
+    second: Sonido Medio_8
+  - first:
+      213: -311861877327050075
+    second: Sonido Medio_9
+  - first:
+      213: 1316430345901820870
+    second: Sonido Medio_10
+  - first:
+      213: 834917487037558393
+    second: Sonido Medio_11
+  - first:
+      213: 8262822759070799289
+    second: Sonido Medio_12
+  - first:
+      213: 2254271839583528977
+    second: Sonido Medio_13
+  - first:
+      213: -2781663806676943797
+    second: Sonido Medio_14
+  - first:
+      213: 1768919508375376666
+    second: Sonido Medio_15
+  - first:
+      213: 3281388877414795869
+    second: Sonido Medio_16
+  - first:
+      213: 3181127222089653986
+    second: Sonido Medio_17
+  - first:
+      213: -7192423958677008553
+    second: Sonido Medio_18
+  - first:
+      213: -3980724702862469227
+    second: Sonido Medio_19
+  - first:
+      213: 2889317579168934875
+    second: Sonido Medio_20
+  - first:
+      213: 8212944800551824566
+    second: Sonido Medio_21
+  - first:
+      213: 5668037041973486239
+    second: Sonido Medio_22
+  - first:
+      213: -4601270386563009473
+    second: Sonido Medio_23
+  - first:
+      213: -8894357181858109977
+    second: Sonido Medio_24
+  - first:
+      213: 8055821418102507125
+    second: Sonido Medio_25
+  - first:
+      213: -2269596376027291667
+    second: Sonido Medio_26
+  - first:
+      213: -8008895419774527824
+    second: Sonido Medio_27
+  - first:
+      213: -4421970700474120270
+    second: Sonido Medio_28
+  - first:
+      213: 7220444297752393135
+    second: Sonido Medio_29
+  - first:
+      213: 2468139098881134525
+    second: Sonido Medio_30
+  - first:
+      213: 6292907874592422664
+    second: Sonido Medio_31
+  - first:
+      213: -5516419833168410449
+    second: Sonido Medio_32
+  - first:
+      213: -3594379530263210230
+    second: Sonido Medio_33
+  - first:
+      213: 7566530994267944207
+    second: Sonido Medio_34
+  - first:
+      213: -4751494061016202137
+    second: Sonido Medio_35
+  - first:
+      213: 4496323098722563521
+    second: Sonido Medio_36
+  - first:
+      213: 6787921709093337404
+    second: Sonido Medio_37
+  - first:
+      213: 785187491611134499
+    second: Sonido Medio_38
+  - first:
+      213: 7620221576560156877
+    second: Sonido Medio_39
+  - first:
+      213: -7444643844157581439
+    second: Sonido Medio_40
+  - first:
+      213: -3665803257355021974
+    second: Sonido Medio_41
+  - first:
+      213: -4973397240296199621
+    second: Sonido Medio_42
+  - first:
+      213: -796809022345840465
+    second: Sonido Medio_43
+  - first:
+      213: -2690633028470535110
+    second: Sonido Medio_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sonido Medio_0
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 232
+        width: 409
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018fef9d76b6b4b60800000000000000
+      internalID: 7731391279094757392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_1
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 670
+        width: 68
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677ef9f76961af3c0800000000000000
+      internalID: -4325119656493848714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 652
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0537dd0db29226a00800000000000000
+      internalID: 748205756261430096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_3
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 671
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d076584fb87402e40800000000000000
+      internalID: 5629578200641529613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_4
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 662
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df971bb88c7667f0800000000000000
+      internalID: -619670972020580399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_5
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 653
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fb72fb0fbea63c0800000000000000
+      internalID: -4365417469550543102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_6
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 580
+        width: 45
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8ccb35da269d690800000000000000
+      internalID: -7576916401500403511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_7
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 658
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286a37064ff8c0260800000000000000
+      internalID: 7065180195190449794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_8
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 640
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b015124fca8798d0800000000000000
+      internalID: -2839648417262268239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_9
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 643
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa4fee564b0cabf0800000000000000
+      internalID: -311861877327050075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_10
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 647
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbc503cc66e44210800000000000000
+      internalID: 1316430345901820870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_11
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 642
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ea2a7e709369b00800000000000000
+      internalID: 834917487037558393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_12
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 622
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b59d6465817ba270800000000000000
+      internalID: 8262822759070799289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_13
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 639
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118ea816b48c84f10800000000000000
+      internalID: 2254271839583528977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_14
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 631
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cb576718b8569d0800000000000000
+      internalID: -2781663806676943797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_15
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 625
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1319f4bbe67c8810800000000000000
+      internalID: 1768919508375376666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_16
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 617
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a0a386cc5d98d20800000000000000
+      internalID: 3281388877414795869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 375
+        width: 117
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee9af9aa52a52c20800000000000000
+      internalID: 3181127222089653986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_18
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 612
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f4c0544806f2c90800000000000000
+      internalID: -7192423958677008553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_19
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 606
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597924939ff91c8c0800000000000000
+      internalID: -3980724702862469227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_20
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 610
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbe7ada70be81820800000000000000
+      internalID: 2889317579168934875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_21
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 600
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc68c438cd3af170800000000000000
+      internalID: 8212944800551824566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_22
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 606
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92e59cb8a9e8ae40800000000000000
+      internalID: 5668037041973486239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_23
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 558
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34336546f00520c0800000000000000
+      internalID: -4601270386563009473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_24
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 550
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e527e57445e09480800000000000000
+      internalID: -8894357181858109977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_25
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 449
+        width: 39
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576cbffe5e60ccf60800000000000000
+      internalID: 8055821418102507125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_26
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 476
+        width: 22
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def116fee16c080e0800000000000000
+      internalID: -2269596376027291667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_27
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 520
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b616157c00bad090800000000000000
+      internalID: -8008895419774527824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_28
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 505
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b70e07931102a2c0800000000000000
+      internalID: -4421970700474120270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_29
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 494
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5b60055db243460800000000000000
+      internalID: 7220444297752393135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_30
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 434
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf00150f67904220800000000000000
+      internalID: 2468139098881134525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_31
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 448
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bf655ee56e45750800000000000000
+      internalID: 6292907874592422664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_32
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 433
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8c314936db173b0800000000000000
+      internalID: -5516419833168410449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_33
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 420
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07d9be6cd23e1ec0800000000000000
+      internalID: -3594379530263210230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_34
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 426
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05f25f99d7b10960800000000000000
+      internalID: 7566530994267944207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_35
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 420
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76440c4735d4f0eb0800000000000000
+      internalID: -4751494061016202137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_36
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 364
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5fdb62906266e30800000000000000
+      internalID: 4496323098722563521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_37
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 376
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39bba994da833e50800000000000000
+      internalID: 6787921709093337404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_38
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 376
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32acf8f0ddb85ea00800000000000000
+      internalID: 785187491611134499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_39
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 339
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0a2a4762770c960800000000000000
+      internalID: 7620221576560156877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_40
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 353
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18750bdfddf4fa890800000000000000
+      internalID: -7444643844157581439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_41
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 292
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6152e41c53702dc0800000000000000
+      internalID: -3665803257355021974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_42
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 301
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3aac356f81fafab0800000000000000
+      internalID: -4973397240296199621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_43
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 310
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8ff357a6a21f4f0800000000000000
+      internalID: -796809022345840465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sonido Medio_44
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 281
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c84152483f8aad0800000000000000
+      internalID: -2690633028470535110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sonido Medio_0: 7731391279094757392
+      Sonido Medio_1: -4325119656493848714
+      Sonido Medio_10: 1316430345901820870
+      Sonido Medio_11: 834917487037558393
+      Sonido Medio_12: 8262822759070799289
+      Sonido Medio_13: 2254271839583528977
+      Sonido Medio_14: -2781663806676943797
+      Sonido Medio_15: 1768919508375376666
+      Sonido Medio_16: 3281388877414795869
+      Sonido Medio_17: 3181127222089653986
+      Sonido Medio_18: -7192423958677008553
+      Sonido Medio_19: -3980724702862469227
+      Sonido Medio_2: 748205756261430096
+      Sonido Medio_20: 2889317579168934875
+      Sonido Medio_21: 8212944800551824566
+      Sonido Medio_22: 5668037041973486239
+      Sonido Medio_23: -4601270386563009473
+      Sonido Medio_24: -8894357181858109977
+      Sonido Medio_25: 8055821418102507125
+      Sonido Medio_26: -2269596376027291667
+      Sonido Medio_27: -8008895419774527824
+      Sonido Medio_28: -4421970700474120270
+      Sonido Medio_29: 7220444297752393135
+      Sonido Medio_3: 5629578200641529613
+      Sonido Medio_30: 2468139098881134525
+      Sonido Medio_31: 6292907874592422664
+      Sonido Medio_32: -5516419833168410449
+      Sonido Medio_33: -3594379530263210230
+      Sonido Medio_34: 7566530994267944207
+      Sonido Medio_35: -4751494061016202137
+      Sonido Medio_36: 4496323098722563521
+      Sonido Medio_37: 6787921709093337404
+      Sonido Medio_38: 785187491611134499
+      Sonido Medio_39: 7620221576560156877
+      Sonido Medio_4: -619670972020580399
+      Sonido Medio_40: -7444643844157581439
+      Sonido Medio_41: -3665803257355021974
+      Sonido Medio_42: -4973397240296199621
+      Sonido Medio_43: -796809022345840465
+      Sonido Medio_44: -2690633028470535110
+      Sonido Medio_5: -4365417469550543102
+      Sonido Medio_6: -7576916401500403511
+      Sonido Medio_7: 7065180195190449794
+      Sonido Medio_8: -2839648417262268239
+      Sonido Medio_9: -311861877327050075
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

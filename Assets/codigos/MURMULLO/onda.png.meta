@@ -1,0 +1,2743 @@
+fileFormatVersion: 2
+guid: e6cd2abeba33ac14fb506d6f658d3c58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5785101180110658595
+    second: onda_0
+  - first:
+      213: 4027855213568180120
+    second: onda_1
+  - first:
+      213: 5079577963972190127
+    second: onda_2
+  - first:
+      213: 2108091977872776076
+    second: onda_3
+  - first:
+      213: -3093811541719957456
+    second: onda_4
+  - first:
+      213: -2476267417394099985
+    second: onda_5
+  - first:
+      213: -6230006402134443586
+    second: onda_6
+  - first:
+      213: -7180493831989969514
+    second: onda_7
+  - first:
+      213: 4456965586773280532
+    second: onda_8
+  - first:
+      213: -5314463124547736101
+    second: onda_9
+  - first:
+      213: 63120897352200278
+    second: onda_10
+  - first:
+      213: -5858339811166419858
+    second: onda_11
+  - first:
+      213: -7920422625098647656
+    second: onda_12
+  - first:
+      213: 2422273890822724385
+    second: onda_13
+  - first:
+      213: -5178812908684651790
+    second: onda_14
+  - first:
+      213: -7138272819244000869
+    second: onda_15
+  - first:
+      213: 2516526588307318670
+    second: onda_16
+  - first:
+      213: -5386331852331962935
+    second: onda_17
+  - first:
+      213: 4623722048010887987
+    second: onda_18
+  - first:
+      213: 4765183449877924633
+    second: onda_19
+  - first:
+      213: 1376246235882169331
+    second: onda_20
+  - first:
+      213: 7706905983591927224
+    second: onda_21
+  - first:
+      213: -7337506801839405426
+    second: onda_22
+  - first:
+      213: -5290645415007412345
+    second: onda_23
+  - first:
+      213: -5303942752051250567
+    second: onda_24
+  - first:
+      213: -9079637007092211234
+    second: onda_25
+  - first:
+      213: -8843175277158730539
+    second: onda_26
+  - first:
+      213: 943005499511724255
+    second: onda_27
+  - first:
+      213: 8473838795163032127
+    second: onda_28
+  - first:
+      213: -3041263723467544384
+    second: onda_29
+  - first:
+      213: 5582630047221463521
+    second: onda_30
+  - first:
+      213: -2733267846996799438
+    second: onda_31
+  - first:
+      213: 427446798563120901
+    second: onda_32
+  - first:
+      213: 4186284364658161055
+    second: onda_33
+  - first:
+      213: -3881718837794757028
+    second: onda_34
+  - first:
+      213: -2910836343352534192
+    second: onda_35
+  - first:
+      213: -8190560581847860138
+    second: onda_36
+  - first:
+      213: 6639647199720657361
+    second: onda_37
+  - first:
+      213: -2110980857166892922
+    second: onda_38
+  - first:
+      213: 3226123101150779549
+    second: onda_39
+  - first:
+      213: -2094354688017792700
+    second: onda_40
+  - first:
+      213: 260875449064051667
+    second: onda_41
+  - first:
+      213: 3409693970748868178
+    second: onda_42
+  - first:
+      213: 7671887248715415720
+    second: onda_43
+  - first:
+      213: -5692204840793950422
+    second: onda_44
+  - first:
+      213: -656069805299017664
+    second: onda_45
+  - first:
+      213: -93232195028280894
+    second: onda_46
+  - first:
+      213: 1058794376695913618
+    second: onda_47
+  - first:
+      213: -5294649654092453146
+    second: onda_48
+  - first:
+      213: -7525415952031879625
+    second: onda_49
+  - first:
+      213: -7875327197931221244
+    second: onda_50
+  - first:
+      213: 2543636293828081288
+    second: onda_51
+  - first:
+      213: -5022329722775196580
+    second: onda_52
+  - first:
+      213: -7860161252827624179
+    second: onda_53
+  - first:
+      213: 3348575392310724859
+    second: onda_54
+  - first:
+      213: 2622848079437600341
+    second: onda_55
+  - first:
+      213: -8740111775786115296
+    second: onda_56
+  - first:
+      213: -6747135652224039353
+    second: onda_57
+  - first:
+      213: -7075917744320443840
+    second: onda_58
+  - first:
+      213: -5262833846504538829
+    second: onda_59
+  - first:
+      213: -2137193817827377653
+    second: onda_60
+  - first:
+      213: -3321992201892150817
+    second: onda_61
+  - first:
+      213: -4094845974118804747
+    second: onda_62
+  - first:
+      213: -2888940619927787804
+    second: onda_63
+  - first:
+      213: 5363634446923288744
+    second: onda_64
+  - first:
+      213: 2272689330456865488
+    second: onda_65
+  - first:
+      213: -1612609221513102293
+    second: onda_66
+  - first:
+      213: -1721303827415631993
+    second: onda_67
+  - first:
+      213: 2184182202343578531
+    second: onda_68
+  - first:
+      213: 2688731594575942520
+    second: onda_69
+  - first:
+      213: 7835499659878778632
+    second: onda_70
+  - first:
+      213: -4380980968717585650
+    second: onda_71
+  - first:
+      213: -2528936579066373170
+    second: onda_72
+  - first:
+      213: 8514461411119170726
+    second: onda_73
+  - first:
+      213: 6271571103194308108
+    second: onda_74
+  - first:
+      213: -810879717339394298
+    second: onda_75
+  - first:
+      213: -5918668619549057802
+    second: onda_76
+  - first:
+      213: -4885355742789691974
+    second: onda_77
+  - first:
+      213: -4797566537137916175
+    second: onda_78
+  - first:
+      213: -3437452358644806979
+    second: onda_79
+  - first:
+      213: -3882140482212804902
+    second: onda_80
+  - first:
+      213: 2973126034828027184
+    second: onda_81
+  - first:
+      213: 3874762774496488636
+    second: onda_82
+  - first:
+      213: 8870332696997907507
+    second: onda_83
+  - first:
+      213: -5918378760134525367
+    second: onda_84
+  - first:
+      213: -1400216742363390977
+    second: onda_85
+  - first:
+      213: 2879322512640637500
+    second: onda_86
+  - first:
+      213: 2834700517818609882
+    second: onda_87
+  - first:
+      213: -583704395137814751
+    second: onda_88
+  - first:
+      213: -6888857564820169609
+    second: onda_89
+  - first:
+      213: -2831607163102850860
+    second: onda_90
+  - first:
+      213: 2307298983627446391
+    second: onda_91
+  - first:
+      213: 3161840001288252161
+    second: onda_92
+  - first:
+      213: -3382844244221491363
+    second: onda_93
+  - first:
+      213: 7616791157415286746
+    second: onda_94
+  - first:
+      213: 8811709903338017052
+    second: onda_95
+  - first:
+      213: 7903725230788563465
+    second: onda_96
+  - first:
+      213: -230039960637161886
+    second: onda_97
+  - first:
+      213: -7607410008233703991
+    second: onda_98
+  - first:
+      213: 6740349198695190599
+    second: onda_99
+  - first:
+      213: -1329973615155800085
+    second: onda_100
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: onda_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 259
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3afc1a02137bfa0800000000000000
+      internalID: -5785101180110658595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 239
+        width: 8
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fbf6be9f0d5e730800000000000000
+      internalID: 4027855213568180120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 227
+        width: 7
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafd677de394e7640800000000000000
+      internalID: 5079577963972190127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 249
+        width: 7
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b15f61c72714d10800000000000000
+      internalID: 2108091977872776076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 197
+        width: 7
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03047c56bc29015d0800000000000000
+      internalID: -3093811541719957456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 209
+        width: 7
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8c95957e782add0800000000000000
+      internalID: -2476267417394099985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 232
+        width: 7
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9fd5c6f229a89a0800000000000000
+      internalID: -6230006402134443586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 249
+        width: 7
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dba5857e2c95c90800000000000000
+      internalID: -7180493831989969514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 182
+        width: 8
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41703cf46925add30800000000000000
+      internalID: 4456965586773280532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 197
+        width: 8
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd6b6902fb3f36b0800000000000000
+      internalID: -5314463124547736101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 206
+        width: 7
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650f4982f1040e000800000000000000
+      internalID: 63120897352200278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 210
+        width: 7
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6485e50bfef2bea0800000000000000
+      internalID: -5858339811166419858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 228
+        width: 7
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89737003691051290800000000000000
+      internalID: -7920422625098647656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 179
+        width: 7
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b113b1545ad9120800000000000000
+      internalID: 2422273890822724385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_14
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 160
+        width: 8
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2d4ab19192128b0800000000000000
+      internalID: -5178812908684651790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_15
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 179
+        width: 8
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99922be0b2cfec90800000000000000
+      internalID: -7138272819244000869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_16
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 246
+        width: 8
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8722e3599f7ce220800000000000000
+      internalID: 2516526588307318670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 197
+        width: 7
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cda163e7b7ef35b0800000000000000
+      internalID: -5386331852331962935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 214
+        width: 7
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333a4d384b2ca2040800000000000000
+      internalID: 4623722048010887987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 222
+        width: 7
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b4b83c915512240800000000000000
+      internalID: 4765183449877924633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_20
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 198
+        width: 7
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3a93de8a8691310800000000000000
+      internalID: 1376246235882169331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 198
+        width: 8
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd445db82e64fa60800000000000000
+      internalID: 7706905983591927224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_22
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 208
+        width: 8
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8689538070fb2a90800000000000000
+      internalID: -7337506801839405426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_23
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 219
+        width: 7
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f1feda60ad396b0800000000000000
+      internalID: -5290645415007412345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_24
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 227
+        width: 7
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a3af22b2c9466b0800000000000000
+      internalID: -5303942752051250567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_25
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 182
+        width: 7
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed127ce7f36aef180800000000000000
+      internalID: -9079637007092211234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 163
+        width: 7
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4ff6640fab64580800000000000000
+      internalID: -8843175277158730539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_27
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 182
+        width: 8
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8d2ab618a361d00800000000000000
+      internalID: 943005499511724255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_28
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 193
+        width: 8
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3add95ec7f199570800000000000000
+      internalID: 8473838795163032127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_29
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 216
+        width: 8
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c86f6eb1c24bc5d0800000000000000
+      internalID: -3041263723467544384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_30
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 233
+        width: 7
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9be0d237c797d40800000000000000
+      internalID: 5582630047221463521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_31
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 249
+        width: 7
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23052c7ef5b711ad0800000000000000
+      internalID: -2733267846996799438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_32
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 216
+        width: 7
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5079bbc39989ee500800000000000000
+      internalID: 427446798563120901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_33
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 189
+        width: 7
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95b834237ba81a30800000000000000
+      internalID: 4186284364658161055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_34
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 156
+        width: 8
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c562d43884d512ac0800000000000000
+      internalID: -3881718837794757028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_35
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 141
+        width: 8
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bdc2b94c1aa97d0800000000000000
+      internalID: -2910836343352534192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_36
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 156
+        width: 8
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c34a7db88455e80800000000000000
+      internalID: -8190560581847860138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_37
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 198
+        width: 7
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1544523f3c42c50800000000000000
+      internalID: 6639647199720657361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_38
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 211
+        width: 7
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680fae8481a44b2e0800000000000000
+      internalID: -2110980857166892922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_39
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 136
+        width: 7
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9816c52edd75cc20800000000000000
+      internalID: 3226123101150779549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_40
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 110
+        width: 7
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4418603f18b5fe2e0800000000000000
+      internalID: -2094354688017792700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_41
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 137
+        width: 8
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d35518b6d0de9300800000000000000
+      internalID: 260875449064051667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_42
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 225
+        width: 8
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256074fd99aa15f20800000000000000
+      internalID: 3409693970748868178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_43
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 182
+        width: 7
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a008882ec4087a60800000000000000
+      internalID: 7671887248715415720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_44
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 197
+        width: 7
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27b7bb1bd93101b0800000000000000
+      internalID: -5692204840793950422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_45
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 138
+        width: 7
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048da43fcfb25e6f0800000000000000
+      internalID: -656069805299017664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_46
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 186
+        width: 7
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c995b500d5c4bef0800000000000000
+      internalID: -93232195028280894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_47
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 217
+        width: 7
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c142930e791be00800000000000000
+      internalID: 1058794376695913618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_48
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 131
+        width: 7
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eaacad1130a586b0800000000000000
+      internalID: -5294649654092453146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_49
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 197
+        width: 8
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ee410201a509790800000000000000
+      internalID: -7525415952031879625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_50
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 126
+        width: 8
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f465583a735b290800000000000000
+      internalID: -7875327197931221244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_51
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 97
+        width: 7
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886f9638bbfcc4320800000000000000
+      internalID: 2543636293828081288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_52
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 132
+        width: 7
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c29110ab91d4ab0800000000000000
+      internalID: -5022329722775196580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_53
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 161
+        width: 7
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d8be74cf81be290800000000000000
+      internalID: -7860161252827624179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_54
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 185
+        width: 7
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf88b4ae397887e20800000000000000
+      internalID: 3348575392310724859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_55
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 207
+        width: 8
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55691ba8e6a366420800000000000000
+      internalID: 2622848079437600341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_56
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 141
+        width: 8
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f5f03a5a2e4b680800000000000000
+      internalID: -8740111775786115296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_57
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 112
+        width: 8
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74600d54fdb5d52a0800000000000000
+      internalID: -6747135652224039353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_58
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 160
+        width: 7
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a85e52d4a4dcd90800000000000000
+      internalID: -7075917744320443840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_59
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 120
+        width: 7
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33db1331088a6f6b0800000000000000
+      internalID: -5262833846504538829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_60
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 181
+        width: 7
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0efc38cb892752e0800000000000000
+      internalID: -2137193817827377653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_61
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 231
+        width: 8
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1c99b61b9e5e1d0800000000000000
+      internalID: -3321992201892150817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_62
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 170
+        width: 8
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2d5be284f2c27c0800000000000000
+      internalID: -4094845974118804747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_63
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 170
+        width: 8
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6e10cffcb68e7d0800000000000000
+      internalID: -2888940619927787804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_64
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 192
+        width: 7
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a059e99c157f6a40800000000000000
+      internalID: 5363634446923288744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_65
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 194
+        width: 7
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0daa3b2a7e63a8f10800000000000000
+      internalID: 2272689330456865488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_66
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 194
+        width: 7
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c313ef47cde99e0800000000000000
+      internalID: -1612609221513102293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_67
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 211
+        width: 7
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787fe50f943bc18e0800000000000000
+      internalID: -1721303827415631993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_68
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 227
+        width: 8
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab5b670426cf4e10800000000000000
+      internalID: 2184182202343578531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_69
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 239
+        width: 8
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8739117c32b405520800000000000000
+      internalID: 2688731594575942520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_70
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 195
+        width: 8
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807c4c82d694dbc60800000000000000
+      internalID: 7835499659878778632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_71
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 208
+        width: 7
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0377d73501a333c0800000000000000
+      internalID: -4380980968717585650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_72
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 219
+        width: 7
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbd149849967ecd0800000000000000
+      internalID: -2528936579066373170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_73
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 241
+        width: 7
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a48787ba81792670800000000000000
+      internalID: 8514461411119170726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_74
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 246
+        width: 7
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e508da0b8190750800000000000000
+      internalID: 6271571103194308108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_75
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 241
+        width: 8
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f8a6c713d2fb4f0800000000000000
+      internalID: -810879717339394298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_76
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 228
+        width: 7
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcd68cbf3aacdda0800000000000000
+      internalID: -5918668619549057802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_77
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 220
+        width: 8
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab51b9de5dab33cb0800000000000000
+      internalID: -4885355742789691974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_78
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 208
+        width: 8
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6f79f27ae9b6db0800000000000000
+      internalID: -4797566537137916175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_79
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 198
+        width: 8
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbac5aeca47bb40d0800000000000000
+      internalID: -3437452358644806979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_80
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 197
+        width: 7
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6ca85cccddf1ac0800000000000000
+      internalID: -3882140482212804902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_81
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 221
+        width: 7
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035e36a506aa24920800000000000000
+      internalID: 2973126034828027184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_82
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 214
+        width: 7
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc25cac63ce5c530800000000000000
+      internalID: 3874762774496488636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_83
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 198
+        width: 8
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cc7144790c91b70800000000000000
+      internalID: 8870332696997907507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_84
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 247
+        width: 8
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ef6f3efd1bddda0800000000000000
+      internalID: -5918378760134525367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_85
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 180
+        width: 8
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb10ee9a4e619ce0800000000000000
+      internalID: -1400216742363390977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_86
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 160
+        width: 8
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3afab7e19865f720800000000000000
+      internalID: 2879322512640637500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_87
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 179
+        width: 7
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0b1312a11e65720800000000000000
+      internalID: 2834700517818609882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_88
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 228
+        width: 7
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fe9f9f1f346e7f0800000000000000
+      internalID: -583704395137814751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_89
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 210
+        width: 7
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c91a42b8cd560a0800000000000000
+      internalID: -6888857564820169609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_90
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 206
+        width: 8
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d09dc3a94c14b8d0800000000000000
+      internalID: -2831607163102850860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_91
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 197
+        width: 8
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778dbb5733c250020800000000000000
+      internalID: 2307298983627446391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_92
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 183
+        width: 8
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b2861aabc11eb20800000000000000
+      internalID: 3161840001288252161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_93
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 249
+        width: 7
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5704bc3519bd01d0800000000000000
+      internalID: -3382844244221491363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_94
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 232
+        width: 7
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad71312c33744b960800000000000000
+      internalID: 7616791157415286746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_95
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 209
+        width: 7
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11114c787b794a70800000000000000
+      internalID: 8811709903338017052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_96
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 197
+        width: 7
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902d17fb83cafad60800000000000000
+      internalID: 7903725230788563465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_97
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 249
+        width: 7
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26eb316efdbbeccf0800000000000000
+      internalID: -230039960637161886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_98
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 227
+        width: 8
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c58a7e37ec0d6690800000000000000
+      internalID: -7607410008233703991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_99
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 239
+        width: 8
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740d05262e78a8d50800000000000000
+      internalID: 6740349198695190599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_100
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 259
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be71ff32b0cfa8de0800000000000000
+      internalID: -1329973615155800085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      onda_0: -5785101180110658595
+      onda_1: 4027855213568180120
+      onda_10: 63120897352200278
+      onda_100: -1329973615155800085
+      onda_11: -5858339811166419858
+      onda_12: -7920422625098647656
+      onda_13: 2422273890822724385
+      onda_14: -5178812908684651790
+      onda_15: -7138272819244000869
+      onda_16: 2516526588307318670
+      onda_17: -5386331852331962935
+      onda_18: 4623722048010887987
+      onda_19: 4765183449877924633
+      onda_2: 5079577963972190127
+      onda_20: 1376246235882169331
+      onda_21: 7706905983591927224
+      onda_22: -7337506801839405426
+      onda_23: -5290645415007412345
+      onda_24: -5303942752051250567
+      onda_25: -9079637007092211234
+      onda_26: -8843175277158730539
+      onda_27: 943005499511724255
+      onda_28: 8473838795163032127
+      onda_29: -3041263723467544384
+      onda_3: 2108091977872776076
+      onda_30: 5582630047221463521
+      onda_31: -2733267846996799438
+      onda_32: 427446798563120901
+      onda_33: 4186284364658161055
+      onda_34: -3881718837794757028
+      onda_35: -2910836343352534192
+      onda_36: -8190560581847860138
+      onda_37: 6639647199720657361
+      onda_38: -2110980857166892922
+      onda_39: 3226123101150779549
+      onda_4: -3093811541719957456
+      onda_40: -2094354688017792700
+      onda_41: 260875449064051667
+      onda_42: 3409693970748868178
+      onda_43: 7671887248715415720
+      onda_44: -5692204840793950422
+      onda_45: -656069805299017664
+      onda_46: -93232195028280894
+      onda_47: 1058794376695913618
+      onda_48: -5294649654092453146
+      onda_49: -7525415952031879625
+      onda_5: -2476267417394099985
+      onda_50: -7875327197931221244
+      onda_51: 2543636293828081288
+      onda_52: -5022329722775196580
+      onda_53: -7860161252827624179
+      onda_54: 3348575392310724859
+      onda_55: 2622848079437600341
+      onda_56: -8740111775786115296
+      onda_57: -6747135652224039353
+      onda_58: -7075917744320443840
+      onda_59: -5262833846504538829
+      onda_6: -6230006402134443586
+      onda_60: -2137193817827377653
+      onda_61: -3321992201892150817
+      onda_62: -4094845974118804747
+      onda_63: -2888940619927787804
+      onda_64: 5363634446923288744
+      onda_65: 2272689330456865488
+      onda_66: -1612609221513102293
+      onda_67: -1721303827415631993
+      onda_68: 2184182202343578531
+      onda_69: 2688731594575942520
+      onda_7: -7180493831989969514
+      onda_70: 7835499659878778632
+      onda_71: -4380980968717585650
+      onda_72: -2528936579066373170
+      onda_73: 8514461411119170726
+      onda_74: 6271571103194308108
+      onda_75: -810879717339394298
+      onda_76: -5918668619549057802
+      onda_77: -4885355742789691974
+      onda_78: -4797566537137916175
+      onda_79: -3437452358644806979
+      onda_8: 4456965586773280532
+      onda_80: -3882140482212804902
+      onda_81: 2973126034828027184
+      onda_82: 3874762774496488636
+      onda_83: 8870332696997907507
+      onda_84: -5918378760134525367
+      onda_85: -1400216742363390977
+      onda_86: 2879322512640637500
+      onda_87: 2834700517818609882
+      onda_88: -583704395137814751
+      onda_89: -6888857564820169609
+      onda_9: -5314463124547736101
+      onda_90: -2831607163102850860
+      onda_91: 2307298983627446391
+      onda_92: 3161840001288252161
+      onda_93: -3382844244221491363
+      onda_94: 7616791157415286746
+      onda_95: 8811709903338017052
+      onda_96: 7903725230788563465
+      onda_97: -230039960637161886
+      onda_98: -7607410008233703991
+      onda_99: 6740349198695190599
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
