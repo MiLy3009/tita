@@ -5,12 +5,15 @@ public class AudioSync : MonoBehaviour
 {
     public AudioSource audioSource;
     public Slider slider;
-    public AudioClip audioDistorsionado;  // el de reversa
-    public AudioClip audioLimpio;         // el original claro
+    public AudioClip audioDistorsionado;
+    public AudioClip audioLimpio;
 
     [Range(0f, 1f)]
     public float valorCorrecto = 0.6f;
     public float tolerancia = 0.05f;
+
+    [Header("Botón Siguiente")]
+    public Button botonSiguiente; // Asigna en el Inspector
 
     private bool resuelto = false;
 
@@ -21,6 +24,10 @@ public class AudioSync : MonoBehaviour
         audioSource.pitch = 1f;
         audioSource.volume = 1f;
         audioSource.Play();
+
+        // Oculta el botón al inicio
+        if (botonSiguiente != null)
+            botonSiguiente.gameObject.SetActive(false);
     }
 
     public void OnSliderCambiado()
@@ -38,7 +45,12 @@ public class AudioSync : MonoBehaviour
             audioSource.pitch = 1f;
             audioSource.volume = 1f;
             audioSource.Play();
+
             Debug.Log("¡Sincronizado!");
+
+            // Muestra el botón Siguiente al sincronizar
+            if (botonSiguiente != null)
+                botonSiguiente.gameObject.SetActive(true);
         }
     }
 }
