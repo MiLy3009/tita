@@ -11,13 +11,31 @@ public class QuizManager : MonoBehaviour
     public GameObject siguientePanel;
     public GameObject panelPregunta;
 
+    [Header("Botón Continuar")]
+    public Button continuarButton; // Asigna este botón en el Inspector (empieza desactivado)
+
     private int currentIndex = 0;
 
-    void Start() => LoadQuestion();
+    void Start()
+    {
+        // Asegura que el botón Continuar empiece oculto
+        if (continuarButton != null)
+        {
+            continuarButton.gameObject.SetActive(false);
+            continuarButton.onClick.AddListener(IrSiguientePanel);
+        }
+
+        LoadQuestion();
+    }
 
     void LoadQuestion()
     {
         feedbackText.text = "";
+
+        // Oculta el botón Continuar al cargar nueva pregunta
+        if (continuarButton != null)
+            continuarButton.gameObject.SetActive(false);
+
         QuestionData q = questions[currentIndex];
         questionText.text = q.questionText;
 
@@ -51,7 +69,10 @@ public class QuizManager : MonoBehaviour
         {
             feedbackText.text = "¡CORRECTO!";
             feedbackText.color = Color.green;
-            Invoke(nameof(IrSiguientePanel), 1.5f);
+
+            // Muestra el botón Continuar en lugar de cambiar de panel automáticamente
+            if (continuarButton != null)
+                continuarButton.gameObject.SetActive(true);
         }
         else
         {
