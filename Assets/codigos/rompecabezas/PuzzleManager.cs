@@ -25,8 +25,6 @@ public class PuzzleManager : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
 
-        // ✅ Asignar manager ANTES de desactivar el panel
-        // Awake corre incluso en objetos desactivados si el padre está activo
         for (int i = 0; i < piezas.Count; i++)
         {
             piezas[i].manager = this;
@@ -94,6 +92,8 @@ public class PuzzleManager : MonoBehaviour
 
     public void SeleccionarPieza(PuzzlePiece pieza)
     {
+        if (!posicionesGuardadas) return;
+
         if (piezaSeleccionada == null)
         {
             piezaSeleccionada = pieza;
@@ -127,6 +127,8 @@ public class PuzzleManager : MonoBehaviour
 
     void VerificarVictoria()
     {
+        if (posicionesCorrectas == null) return;
+
         for (int i = 0; i < piezas.Count; i++)
         {
             Vector2 pos = piezas[i].GetComponent<RectTransform>().anchoredPosition;
@@ -137,9 +139,7 @@ public class PuzzleManager : MonoBehaviour
         Debug.Log("¡Rompecabezas completado!");
         ReproducirSonido(sonidoCompletado);
 
-        if (panelRompecabezas != null)
-            panelRompecabezas.SetActive(false);
-
+        // ✅ El rompecabezas se queda visible debajo del panel victoria
         if (panelVictoria != null)
             panelVictoria.SetActive(true);
     }
