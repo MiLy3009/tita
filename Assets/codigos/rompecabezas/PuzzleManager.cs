@@ -1,5 +1,7 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PuzzleManager : MonoBehaviour
 {
@@ -11,24 +13,65 @@ public class PuzzleManager : MonoBehaviour
     public AudioClip sonidoCompletado;
     public GameObject panelVictoria;
 
+    [Header("Panel del rompecabezas")]
+    public GameObject panelRompecabezas;
+
     private PuzzlePiece piezaSeleccionada = null;
     private AudioSource audioSource;
-    private Vector2[] posicionesCorrectas; // ← Vector2 para UI
+    private Vector2[] posicionesCorrectas;
+    private bool posicionesGuardadas = false;
 
-    void Start()
+    void Awake()
     {
         audioSource = GetComponent<AudioSource>();
 
-        posicionesCorrectas = new Vector2[piezas.Count];
+        // ✅ Asignar manager ANTES de desactivar el panel
+        // Awake corre incluso en objetos desactivados si el padre está activo
         for (int i = 0; i < piezas.Count; i++)
         {
-            // anchoredPosition es la posición correcta en UI
-            posicionesCorrectas[i] = piezas[i].GetComponent<RectTransform>().anchoredPosition;
-            piezas[i].indiceCorecto = i;
             piezas[i].manager = this;
+            piezas[i].indiceCorecto = i;
+        }
+    }
+
+    void Start()
+    {
+        if (panelRompecabezas != null)
+            panelRompecabezas.SetActive(false);
+    }
+
+    public void AbrirRompecabezas()
+    {
+        if (panelRompecabezas != null)
+            panelRompecabezas.SetActive(true);
+
+        StartCoroutine(IniciarRompecabezas());
+    }
+
+    IEnumerator IniciarRompecabezas()
+    {
+        Canvas.ForceUpdateCanvases();
+        yield return null;
+
+        if (!posicionesGuardadas)
+        {
+            posicionesCorrectas = new Vector2[piezas.Count];
+            for (int i = 0; i < piezas.Count; i++)
+            {
+                posicionesCorrectas[i] = piezas[i].GetComponent<RectTransform>().anchoredPosition;
+            }
+            posicionesGuardadas = true;
         }
 
         MezclarPiezas();
+    }
+
+    public void CerrarRompecabezas()
+    {
+        if (panelRompecabezas != null)
+            panelRompecabezas.SetActive(false);
+
+        piezaSeleccionada = null;
     }
 
     void MezclarPiezas()
@@ -93,6 +136,10 @@ public class PuzzleManager : MonoBehaviour
 
         Debug.Log("¡Rompecabezas completado!");
         ReproducirSonido(sonidoCompletado);
+
+        if (panelRompecabezas != null)
+            panelRompecabezas.SetActive(false);
+
         if (panelVictoria != null)
             panelVictoria.SetActive(true);
     }
