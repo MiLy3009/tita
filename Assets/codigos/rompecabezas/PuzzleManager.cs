@@ -16,6 +16,9 @@ public class PuzzleManager : MonoBehaviour
     [Header("Panel del rompecabezas")]
     public GameObject panelRompecabezas;
 
+    [Header("Panel a apagar al abrir")]
+    public GameObject panelCelular; // ← Arrastra Panel CELULAR aquí
+
     private PuzzlePiece piezaSeleccionada = null;
     private AudioSource audioSource;
     private Vector2[] posicionesCorrectas;
@@ -42,6 +45,10 @@ public class PuzzleManager : MonoBehaviour
     {
         if (panelRompecabezas != null)
             panelRompecabezas.SetActive(true);
+
+        // ✅ Apaga Panel CELULAR sin usar PanelTransitionManager
+        if (panelCelular != null)
+            panelCelular.SetActive(false);
 
         StartCoroutine(IniciarRompecabezas());
     }
@@ -139,7 +146,6 @@ public class PuzzleManager : MonoBehaviour
         Debug.Log("¡Rompecabezas completado!");
         ReproducirSonido(sonidoCompletado);
 
-        // ✅ El rompecabezas se queda visible debajo del panel victoria
         if (panelVictoria != null)
             panelVictoria.SetActive(true);
     }
