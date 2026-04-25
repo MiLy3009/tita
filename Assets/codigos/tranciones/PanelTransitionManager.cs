@@ -8,27 +8,25 @@ public class PanelTransitionManager : MonoBehaviour
     [Header("Configuración")]
     public float duracion = 0.4f;
 
-    [Header("Transición de Escena")]
-    public GameObject panelNegro; // Un panel negro que cubre toda la pantalla
+    [Header("Panel Negro (asígnalo manualmente en el Inspector)")]
+    public GameObject panelNegro;
 
     private CanvasGroup canvasGrupoNegro;
+    private static PanelTransitionManager instancia;
 
     void Awake()
     {
-        // Si no asignaste el panel negro, lo crea automáticamente
-        if (panelNegro == null)
+        // Singleton: evita duplicados al cambiar de escena
+        if (instancia != null && instancia != this)
         {
-            panelNegro = CrearPanelNegro();
+            Destroy(gameObject);
+            return;
         }
-
-        canvasGrupoNegro = ObtenerCanvasGroup(panelNegro);
-        canvasGrupoNegro.alpha = 0f;
-        panelNegro.SetActive(false);
-
-        // Marca este objeto para que no se destruya al cambiar escena
+        instancia = this;
         DontDestroyOnLoad(gameObject);
 
-        // Escucha cuando una escena termina de cargar para hacer fade in
+        InicializarPanelNegro();
+
         SceneManager.sceneLoaded += OnScenaCargada;
     }
 
@@ -37,7 +35,22 @@ public class PanelTransitionManager : MonoBehaviour
         SceneManager.sceneLoaded -= OnScenaCargada;
     }
 
-    // ─── Transición entre paneles (mismo comportamiento que antes) ───────────
+    void InicializarPanelNegro()
+    {
+        if (panelNegro == null)
+        {
+            panelNegro = CrearPanelNegro();
+        }
+
+        canvasGrupoNegro = ObtenerCanvasGroup(panelNegro);
+
+        // Empieza completamente negro y opaco para que no se vea nada raro al inicio
+        canvasGrupoNegro.alpha = 1f;
+        canvasGrupoNegro.blocksRaycasts = true;
+        panelNegro.SetActive(true);
+    }
+
+    // ─── Transición entre paneles (misma escena) ─────────────────────────────
 
     public void CambiarPanel(GameObject panelActual, GameObject panelNuevo)
     {
@@ -54,7 +67,7 @@ public class PanelTransitionManager : MonoBehaviour
         yield return StartCoroutine(FadePanel(nuevo, 0f, 1f));
     }
 
-    // ─── Transición de escena con negro ─────────────────────────────────────
+    // ─── Transición de escena con negro ──────────────────────────────────────
 
     public void CambiarEscena(string nombreEscena)
     {
@@ -63,39 +76,69 @@ public class PanelTransitionManager : MonoBehaviour
 
     public void CambiarEscenaPorIndice(int indice)
     {
-        StartCoroutine(TransicionEscena(indice));
+        StartCoroutine(TransicionEscenaIndice(indice));
     }
 
-    private IEnumerator TransicionEscena(object escena)
+    private IEnumerator TransicionEscena(string nombreEscena)
     {
-        // Fade a negro
+        // 1. Fade a negro
         panelNegro.SetActive(true);
+        canvasGrupoNegro.blocksRaycasts = true;
         yield return StartCoroutine(FadeNegro(0f, 1f));
 
-        // Carga la escena
-        if (escena is string nombre)
-            SceneManager.LoadScene(nombre);
-        else if (escena is int indice)
-            SceneManager.LoadScene(indice);
-    }
+        // 2. Carga la escena en segundo plano pero NO la activa todavía
+        AsyncOperation op = SceneManager.LoadSceneAsync(nombreEscena);
+        op.allowSceneActivation = false;
 
-    private void OnScenaCargada(Scene escena, LoadSceneMode modo)
-    {
-        // Cuando la nueva escena cargó, hace fade de negro a transparente
-        StartCoroutine(FadeNegroDespuesDeCargar());
-    }
+        // Espera a que cargue al 90% (Unity para en 0.9 hasta allowSceneActivation)
+        while (op.progress < 0.9f)
+            yield return null;
 
-    private IEnumerator FadeNegroDespuesDeCargar()
-    {
+        // 3. Activa la escena (aquí cambia, pero la pantalla sigue negra)
+        op.allowSceneActivation = true;
+
         // Espera un frame para que la escena termine de inicializarse
+        yield return null;
+        yield return null;
+
+        // 4. Fade de negro a transparente
+        yield return StartCoroutine(FadeNegro(1f, 0f));
+        canvasGrupoNegro.blocksRaycasts = false;
+    }
+
+    private IEnumerator TransicionEscenaIndice(int indice)
+    {
+        panelNegro.SetActive(true);
+        canvasGrupoNegro.blocksRaycasts = true;
+        yield return StartCoroutine(FadeNegro(0f, 1f));
+
+        AsyncOperation op = SceneManager.LoadSceneAsync(indice);
+        op.allowSceneActivation = false;
+
+        while (op.progress < 0.9f)
+            yield return null;
+
+        op.allowSceneActivation = true;
+
+        yield return null;
         yield return null;
 
         yield return StartCoroutine(FadeNegro(1f, 0f));
-        panelNegro.SetActive(false);
+        canvasGrupoNegro.blocksRaycasts = false;
     }
+
+    // El fade de entrada al cargar escena ya no es necesario aquí
+    // porque lo manejamos con AsyncOperation arriba
+    private void OnScenaCargada(Scene escena, LoadSceneMode modo)
+    {
+        // Nada — el fade de entrada lo controla TransicionEscena directamente
+    }
+
+    // ─── Fades ───────────────────────────────────────────────────────────────
 
     private IEnumerator FadeNegro(float desde, float hasta)
     {
+        canvasGrupoNegro.alpha = desde;
         float tiempo = 0f;
         while (tiempo < duracion)
         {
@@ -105,8 +148,6 @@ public class PanelTransitionManager : MonoBehaviour
         }
         canvasGrupoNegro.alpha = hasta;
     }
-
-    // ─── Utilidades ──────────────────────────────────────────────────────────
 
     private IEnumerator FadePanel(GameObject panel, float desde, float hasta)
     {
@@ -136,12 +177,13 @@ public class PanelTransitionManager : MonoBehaviour
         return cg;
     }
 
-    // Crea automáticamente el panel negro si no existe en escena
+    // ─── Crear panel negro automático ────────────────────────────────────────
+
     private GameObject CrearPanelNegro()
     {
-        Canvas canvas = FindObjectOfType<Canvas>();
+        Canvas canvas = Object.FindAnyObjectByType<Canvas>();
 
-        GameObject panel = new GameObject("PanelNegro");
+        GameObject panel = new GameObject("PanelFondoNegro");
         panel.transform.SetParent(canvas.transform, false);
 
         Image img = panel.AddComponent<Image>();
@@ -153,7 +195,6 @@ public class PanelTransitionManager : MonoBehaviour
         rect.offsetMin = Vector2.zero;
         rect.offsetMax = Vector2.zero;
 
-        // Se asegura de que esté encima de todo
         panel.transform.SetAsLastSibling();
 
         return panel;

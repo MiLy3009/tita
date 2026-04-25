@@ -7688,7 +7688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PanelTransitionManager
   duracion: 1.5
-  panelNegro: {fileID: 0}
+  panelNegro: {fileID: 1556742494}
 --- !u!4 &721492703
 Transform:
   m_ObjectHideFlags: 0
@@ -8769,7 +8769,7 @@ MonoBehaviour:
   btnSiguiente: {fileID: 962394255}
   scratchOverlay: {fileID: 1684068278}
   brushSize: 100
-  revealThreshold: 1
+  revealThreshold: 0.8
   zonaX: 0.4
   zonaY: 0.52
   zonaAncho: 0.3
@@ -15264,8 +15264,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 7681044171860850835, guid: 7bdd272b92375354295ee6ea96ab3c2d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
