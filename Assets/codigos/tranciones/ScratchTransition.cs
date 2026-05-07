@@ -12,12 +12,16 @@ public class ScratchTransition : MonoBehaviour
     public VideoPlayer videoPlayer2;
 
     [Header("UI Elementos")]
-    public Button btnSiguiente; // NUEVO: Arrastra aquí tu botón
+    public Button btnSiguiente;
 
     [Header("Scratch Settings")]
     public RawImage scratchOverlay;
     public float brushSize = 120f;
     public float revealThreshold = 0.5f;
+
+    // ✅ NUEVO: Arrastra aquí tu imagen desde el Inspector
+    [Header("Imagen de Raspado")]
+    public Texture2D imagenRaspado;
 
     [Header("Zona de raspado")]
     [Range(0f, 1f)] public float zonaX = 0.25f;
@@ -43,7 +47,6 @@ public class ScratchTransition : MonoBehaviour
         videoPlayer1.Play();
         scratchOverlay.gameObject.SetActive(false);
 
-        // Aseguramos que el botón esté oculto al inicio
         if (btnSiguiente != null)
         {
             btnSiguiente.gameObject.SetActive(false);
@@ -77,17 +80,42 @@ public class ScratchTransition : MonoBehaviour
         scratchMask = new Texture2D(w, h, TextureFormat.RGBA32, false);
         maskPixels = new Color[w * h];
 
+        // ✅ Primero todo transparente
         for (int i = 0; i < maskPixels.Length; i++)
             maskPixels[i] = Color.clear;
 
         totalPixels = 0;
+
         for (int x = zonaPixX; x < zonaPixX + zonaPixW; x++)
         {
             for (int y = zonaPixY; y < zonaPixY + zonaPixH; y++)
             {
                 if (x >= 0 && x < w && y >= 0 && y < h)
                 {
-                    maskPixels[y * w + x] = Color.black;
+                    // ✅ Si hay imagen, samplear su color; si no, negro como fallback
+                    if (imagenRaspado != null)
+                    {
+                        // Normalizar la posición dentro de la zona
+                        float u = (float)(x - zonaPixX) / zonaPixW;
+                        float v = (float)(y - zonaPixY) / zonaPixH;
+
+                        // Obtener el color de la imagen en esa posición
+                        Color colorImagen = imagenRaspado.GetPixelBilinear(u, v);
+
+                        // Solo pintamos si el píxel de la imagen no es totalmente transparente
+                        maskPixels[y * w + x] = new Color(
+                            colorImagen.r,
+                            colorImagen.g,
+                            colorImagen.b,
+                            colorImagen.a > 0 ? 1f : 0f
+                        );
+                    }
+                    else
+                    {
+                        // Fallback: negro
+                        maskPixels[y * w + x] = Color.black;
+                    }
+
                     totalPixels++;
                 }
             }
@@ -163,11 +191,8 @@ public class ScratchTransition : MonoBehaviour
 
         float percent = (float)revealedPixels / totalPixels;
 
-        // Si llegamos al umbral, mostramos el botón
         if (percent >= revealThreshold)
-        {
             ShowNextButton();
-        }
     }
 
     void ShowNextButton()
@@ -178,14 +203,12 @@ public class ScratchTransition : MonoBehaviour
         if (cursorCircle != null)
             cursorCircle.gameObject.SetActive(false);
 
-        // Activamos el botón para que el usuario decida cuándo seguir
         if (btnSiguiente != null)
             btnSiguiente.gameObject.SetActive(true);
     }
 
     void OnBotonPresionado()
     {
-        // Limpiamos la pantalla y pasamos al siguiente video
         panel1.SetActive(false);
         scratchOverlay.gameObject.SetActive(false);
         if (btnSiguiente != null) btnSiguiente.gameObject.SetActive(false);

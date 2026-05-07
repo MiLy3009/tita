@@ -1011,7 +1011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14.79071, y: -6.826477}
+  m_AnchoredPosition: {x: 14.7907715, y: -6.826416}
   m_SizeDelta: {x: 29.5814, y: 13.6531}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &129282664
@@ -6166,7 +6166,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 235, y: 107}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.49999997, y: 0.4999999}
 --- !u!114 &613226013
 MonoBehaviour:
@@ -6181,7 +6181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8238,12 +8238,13 @@ MonoBehaviour:
   videoPlayer2: {fileID: 429211863}
   btnSiguiente: {fileID: 962394255}
   scratchOverlay: {fileID: 1684068278}
-  brushSize: 100
+  brushSize: 80
   revealThreshold: 0.8
-  zonaX: 0.4
-  zonaY: 0.52
-  zonaAncho: 0.3
-  zonaAlto: 0.18
+  imagenRaspado: {fileID: 2800000, guid: 36dbd1fe4a5e2d140a4b70c70890e156, type: 3}
+  zonaX: 0.38
+  zonaY: 0.48
+  zonaAncho: 0.35
+  zonaAlto: 0.24
   cursorCircle: {fileID: 613226012}
 --- !u!1 &836696714
 GameObject:
@@ -11739,7 +11740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -13.799988, y: 0.7999878}
+  m_AnchoredPosition: {x: -13.800049, y: 0.8000488}
   m_SizeDelta: {x: -7.9000244, y: -0.0048828125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1165762256
@@ -15507,14 +15508,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
   m_Material: {fileID: 0}
-  m_Color: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
+  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 36dbd1fe4a5e2d140a4b70c70890e156, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
