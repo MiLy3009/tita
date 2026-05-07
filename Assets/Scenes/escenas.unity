@@ -7145,7 +7145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b445f25f70dc34ba6591a9cfb29f3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PanelTransitionManager
-  duracion: 0
+  duracion: 1.5
   panelNegro: {fileID: 1556742494}
 --- !u!4 &721492703
 Transform:
