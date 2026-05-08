@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Video;
 
 public class SistemaImagenesVideo : MonoBehaviour
 {
@@ -26,7 +25,6 @@ public class SistemaImagenesVideo : MonoBehaviour
 
     void Start()
     {
-        // ✅ Cuadro 1 aparece al inicio con el video 1
         cuadro1.SetActive(true);
         botonSiguiente.SetActive(true);
 
@@ -44,14 +42,12 @@ public class SistemaImagenesVideo : MonoBehaviour
     {
         if (!enFase2)
         {
-            // Click en cuadro 1 → raspadita
             cuadro1.SetActive(false);
             botonSiguiente.SetActive(false);
             scratchTransition.ActivarRaspadita();
             return;
         }
 
-        // Avanzar cuadros 2-6
         cuadros2al6[indiceActual].SetActive(false);
         indiceActual++;
 
@@ -68,7 +64,6 @@ public class SistemaImagenesVideo : MonoBehaviour
         }
     }
 
-    // ✅ Se llama cuando EMPIEZA el video 2, no cuando termina
     public void ActivarCuadrosDespuesVideo2()
     {
         enFase2 = true;
@@ -77,7 +72,6 @@ public class SistemaImagenesVideo : MonoBehaviour
         if (panelVideo2 != null)
             panelVideo2.SetActive(true);
 
-        // Mostrar primer cuadro inmediatamente
         cuadros2al6[0].SetActive(true);
         botonSiguiente.SetActive(true);
     }

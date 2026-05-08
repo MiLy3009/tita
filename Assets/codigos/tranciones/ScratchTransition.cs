@@ -42,7 +42,6 @@ public class ScratchTransition : MonoBehaviour
     private bool transitionDone = false;
     private bool raspaditaYaUsada = false;
     private int zonaPixX, zonaPixY, zonaPixW, zonaPixH;
-    private bool video2TerminoBandera = false;
 
     void Start()
     {
@@ -127,14 +126,6 @@ public class ScratchTransition : MonoBehaviour
 
     void Update()
     {
-        if (video2TerminoBandera)
-        {
-            video2TerminoBandera = false;
-            scratchOverlay.gameObject.SetActive(false);
-            if (sistemaImagenes != null)
-                sistemaImagenes.MostrarRaspaditaDespuesVideo2();
-        }
-
         if (!isScratching || transitionDone) return;
 
         Vector2 inputPos = Vector2.zero;
@@ -221,22 +212,11 @@ public class ScratchTransition : MonoBehaviour
         scratchOverlay.gameObject.SetActive(false);
         if (btnSiguiente != null) btnSiguiente.gameObject.SetActive(false);
 
-        // ✅ Activar panel2 y video2
         panel2.SetActive(true);
         videoPlayer2.Play();
 
-        // ✅ Mostrar cuadros AL INICIO del video, no al final
+        // ✅ Mostrar cuadros AL INICIO del video 2
         if (sistemaImagenes != null)
             sistemaImagenes.ActivarCuadrosDespuesVideo2();
-
-        // ✅ Esperar fin del video2 por si necesitas algo al terminar
-        videoPlayer2.loopPointReached += (vp) => { video2TerminoBandera = true; };
-    }
-
-    // ✅ Llamado cuando termina video2 - por ahora no hace nada con raspadita
-    // pero lo dejamos por si lo necesitas después
-    public void MostrarRaspaditaDespuesVideo2()
-    {
-        // aquí puedes agregar lógica futura
     }
 }
