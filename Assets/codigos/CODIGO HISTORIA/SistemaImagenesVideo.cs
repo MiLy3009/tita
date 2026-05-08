@@ -6,10 +6,13 @@ public class SistemaImagenesVideo : MonoBehaviour
     [Header("Cuadro 1 - encima del video 1")]
     public GameObject cuadro1;
 
+    [Header("Panel video 2")]
+    public GameObject panelVideo2;
+
     [Header("Cuadros 2-6 - encima del video 2 (en orden)")]
     public GameObject[] cuadros2al6;
 
-    [Header("Botón siguiente")]
+    [Header("Botón siguiente cuadros")]
     public GameObject botonSiguiente;
 
     [Header("Raspadita")]
@@ -23,13 +26,15 @@ public class SistemaImagenesVideo : MonoBehaviour
 
     void Start()
     {
-        // Solo mostrar cuadro 1
+        // ✅ Cuadro 1 aparece al inicio con el video 1
         cuadro1.SetActive(true);
         botonSiguiente.SetActive(true);
 
-        // Ocultar cuadros 2-6
         foreach (GameObject c in cuadros2al6)
             c.SetActive(false);
+
+        if (panelVideo2 != null)
+            panelVideo2.SetActive(false);
 
         if (panelFinal != null)
             panelFinal.SetActive(false);
@@ -46,7 +51,7 @@ public class SistemaImagenesVideo : MonoBehaviour
             return;
         }
 
-        // Fase 2: avanzar cuadros 2-6
+        // Avanzar cuadros 2-6
         cuadros2al6[indiceActual].SetActive(false);
         indiceActual++;
 
@@ -57,18 +62,22 @@ public class SistemaImagenesVideo : MonoBehaviour
         }
         else
         {
-            // Terminaron todos → panel final
             botonSiguiente.SetActive(false);
             if (panelFinal != null)
                 panelFinal.SetActive(true);
         }
     }
 
-    // Llamado automáticamente cuando termina el video 2
+    // ✅ Se llama cuando EMPIEZA el video 2, no cuando termina
     public void ActivarCuadrosDespuesVideo2()
     {
         enFase2 = true;
         indiceActual = 0;
+
+        if (panelVideo2 != null)
+            panelVideo2.SetActive(true);
+
+        // Mostrar primer cuadro inmediatamente
         cuadros2al6[0].SetActive(true);
         botonSiguiente.SetActive(true);
     }

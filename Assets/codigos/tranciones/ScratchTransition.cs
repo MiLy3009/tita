@@ -40,6 +40,7 @@ public class ScratchTransition : MonoBehaviour
     private int revealedPixels = 0;
     private bool isScratching = false;
     private bool transitionDone = false;
+    private bool raspaditaYaUsada = false;
     private int zonaPixX, zonaPixY, zonaPixW, zonaPixH;
     private bool video2TerminoBandera = false;
 
@@ -62,10 +63,15 @@ public class ScratchTransition : MonoBehaviour
 
     public void ActivarRaspadita()
     {
+        if (raspaditaYaUsada) return;
+
+        transitionDone = false;
+        revealedPixels = 0;
+        isScratching = true;
+
         scratchOverlay.gameObject.SetActive(true);
         if (cursorCircle != null) cursorCircle.gameObject.SetActive(true);
         InitScratchMask();
-        isScratching = true;
     }
 
     void InitScratchMask()
@@ -108,7 +114,6 @@ public class ScratchTransition : MonoBehaviour
                     {
                         maskPixels[y * w + x] = Color.black;
                     }
-
                     totalPixels++;
                 }
             }
@@ -125,8 +130,9 @@ public class ScratchTransition : MonoBehaviour
         if (video2TerminoBandera)
         {
             video2TerminoBandera = false;
+            scratchOverlay.gameObject.SetActive(false);
             if (sistemaImagenes != null)
-                sistemaImagenes.ActivarCuadrosDespuesVideo2();
+                sistemaImagenes.MostrarRaspaditaDespuesVideo2();
         }
 
         if (!isScratching || transitionDone) return;
@@ -190,7 +196,6 @@ public class ScratchTransition : MonoBehaviour
         scratchMask.Apply();
 
         float percent = (float)revealedPixels / totalPixels;
-
         if (percent >= revealThreshold)
             ShowNextButton();
     }
@@ -209,13 +214,29 @@ public class ScratchTransition : MonoBehaviour
 
     void OnBotonPresionado()
     {
+        raspaditaYaUsada = true;
+        isScratching = false;
+
         panel1.SetActive(false);
         scratchOverlay.gameObject.SetActive(false);
         if (btnSiguiente != null) btnSiguiente.gameObject.SetActive(false);
 
+        // ✅ Activar panel2 y video2
         panel2.SetActive(true);
         videoPlayer2.Play();
 
+        // ✅ Mostrar cuadros AL INICIO del video, no al final
+        if (sistemaImagenes != null)
+            sistemaImagenes.ActivarCuadrosDespuesVideo2();
+
+        // ✅ Esperar fin del video2 por si necesitas algo al terminar
         videoPlayer2.loopPointReached += (vp) => { video2TerminoBandera = true; };
+    }
+
+    // ✅ Llamado cuando termina video2 - por ahora no hace nada con raspadita
+    // pero lo dejamos por si lo necesitas después
+    public void MostrarRaspaditaDespuesVideo2()
+    {
+        // aquí puedes agregar lógica futura
     }
 }

@@ -3555,7 +3555,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &388855769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10999,8 +10999,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97315985d48a44a44877bd6f772f9574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SistemaImagenesVideo
-  cuadro1: {fileID: 0}
-  cuadros2al6: []
+  cuadro1: {fileID: 1527190438}
+  panelVideo2: {fileID: 1964166064}
+  cuadros2al6:
+  - {fileID: 1679708186}
+  - {fileID: 1700392703}
+  - {fileID: 108147036}
+  - {fileID: 2103990742}
+  - {fileID: 409150650}
   botonSiguiente: {fileID: 1500989434}
   scratchTransition: {fileID: 834550272}
   panelFinal: {fileID: 1431032896}
@@ -18871,7 +18877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1964166065
 MonoBehaviour:
   m_ObjectHideFlags: 0
