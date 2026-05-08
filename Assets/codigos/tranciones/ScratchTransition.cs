@@ -19,7 +19,6 @@ public class ScratchTransition : MonoBehaviour
     public float brushSize = 120f;
     public float revealThreshold = 0.5f;
 
-    // ✅ NUEVO: Arrastra aquí tu imagen desde el Inspector
     [Header("Imagen de Raspado")]
     public Texture2D imagenRaspado;
 
@@ -32,6 +31,9 @@ public class ScratchTransition : MonoBehaviour
     [Header("Cursor Visual")]
     public RectTransform cursorCircle;
 
+    [Header("Sistema Imagenes")]
+    public SistemaImagenesVideo sistemaImagenes;
+
     private Texture2D scratchMask;
     private Color[] maskPixels;
     private int totalPixels;
@@ -39,6 +41,7 @@ public class ScratchTransition : MonoBehaviour
     private bool isScratching = false;
     private bool transitionDone = false;
     private int zonaPixX, zonaPixY, zonaPixW, zonaPixH;
+    private bool video2TerminoBandera = false;
 
     void Start()
     {
@@ -55,11 +58,9 @@ public class ScratchTransition : MonoBehaviour
 
         if (cursorCircle != null)
             cursorCircle.gameObject.SetActive(false);
-
-        videoPlayer1.loopPointReached += OnVideo1Finished;
     }
 
-    void OnVideo1Finished(VideoPlayer vp)
+    public void ActivarRaspadita()
     {
         scratchOverlay.gameObject.SetActive(true);
         if (cursorCircle != null) cursorCircle.gameObject.SetActive(true);
@@ -80,7 +81,6 @@ public class ScratchTransition : MonoBehaviour
         scratchMask = new Texture2D(w, h, TextureFormat.RGBA32, false);
         maskPixels = new Color[w * h];
 
-        // ✅ Primero todo transparente
         for (int i = 0; i < maskPixels.Length; i++)
             maskPixels[i] = Color.clear;
 
@@ -92,17 +92,11 @@ public class ScratchTransition : MonoBehaviour
             {
                 if (x >= 0 && x < w && y >= 0 && y < h)
                 {
-                    // ✅ Si hay imagen, samplear su color; si no, negro como fallback
                     if (imagenRaspado != null)
                     {
-                        // Normalizar la posición dentro de la zona
                         float u = (float)(x - zonaPixX) / zonaPixW;
                         float v = (float)(y - zonaPixY) / zonaPixH;
-
-                        // Obtener el color de la imagen en esa posición
                         Color colorImagen = imagenRaspado.GetPixelBilinear(u, v);
-
-                        // Solo pintamos si el píxel de la imagen no es totalmente transparente
                         maskPixels[y * w + x] = new Color(
                             colorImagen.r,
                             colorImagen.g,
@@ -112,7 +106,6 @@ public class ScratchTransition : MonoBehaviour
                     }
                     else
                     {
-                        // Fallback: negro
                         maskPixels[y * w + x] = Color.black;
                     }
 
@@ -129,6 +122,13 @@ public class ScratchTransition : MonoBehaviour
 
     void Update()
     {
+        if (video2TerminoBandera)
+        {
+            video2TerminoBandera = false;
+            if (sistemaImagenes != null)
+                sistemaImagenes.ActivarCuadrosDespuesVideo2();
+        }
+
         if (!isScratching || transitionDone) return;
 
         Vector2 inputPos = Vector2.zero;
@@ -215,5 +215,7 @@ public class ScratchTransition : MonoBehaviour
 
         panel2.SetActive(true);
         videoPlayer2.Play();
+
+        videoPlayer2.loopPointReached += (vp) => { video2TerminoBandera = true; };
     }
 }
