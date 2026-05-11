@@ -26,6 +26,9 @@ public class AudioSync : MonoBehaviour
     public GameObject panelActual;
     public GameObject panelSiguiente;
 
+    [Header("Sonido al terminar")]
+    public AudioClip sonidoFinal;
+
     private bool resuelto = false;
     private int cuadroActual = 0;
     private GameObject[] cuadros;
@@ -38,11 +41,9 @@ public class AudioSync : MonoBehaviour
 
         cuadros = new GameObject[] { cuadro1, cuadro2, cuadro3, cuadro4 };
 
-        // Ocultar todos los cuadros al inicio
         foreach (GameObject c in cuadros)
             if (c != null) c.SetActive(false);
 
-        // Ocultar botón al inicio
         if (botonSiguiente != null)
             botonSiguiente.gameObject.SetActive(false);
     }
@@ -66,6 +67,7 @@ public class AudioSync : MonoBehaviour
 
     IEnumerator EsperarAudioYMostrar()
     {
+        // Espera a que el audio limpio termine
         yield return new WaitWhile(() => audioSource.isPlaying);
 
         cuadroActual = 0;
@@ -74,7 +76,7 @@ public class AudioSync : MonoBehaviour
 
     void MostrarCuadro(int indice)
     {
-        // Ocultar todos
+        // Ocultar todos los cuadros
         foreach (GameObject c in cuadros)
             if (c != null) c.SetActive(false);
 
@@ -87,20 +89,39 @@ public class AudioSync : MonoBehaviour
             botonSiguiente.gameObject.SetActive(true);
     }
 
-    // Este método lo llamas desde el OnClick del botón en el Inspector
     public void OnBotonSiguienteClick()
     {
+        // Deshabilitar botón para evitar doble clic
+        if (botonSiguiente != null)
+            botonSiguiente.interactable = false;
+
         cuadroActual++;
 
         if (cuadroActual < cuadros.Length)
         {
             MostrarCuadro(cuadroActual);
+
+            // Volver a habilitar el botón
+            if (botonSiguiente != null)
+                botonSiguiente.interactable = true;
         }
         else
         {
-            // Pasaron los 4 cuadros → cambiar panel
-            if (panelActual != null) panelActual.SetActive(false);
-            if (panelSiguiente != null) panelSiguiente.SetActive(true);
+            StartCoroutine(SonidoYCambiarPanel());
         }
+    }
+
+    IEnumerator SonidoYCambiarPanel()
+    {
+        // Suena el audio final
+        if (sonidoFinal != null)
+            audioSource.PlayOneShot(sonidoFinal);
+
+        // Espera a que termine el sonido
+        yield return new WaitForSeconds(sonidoFinal != null ? sonidoFinal.length : 0f);
+
+        // Cambia de panel
+        if (panelActual != null) panelActual.SetActive(false);
+        if (panelSiguiente != null) panelSiguiente.SetActive(true);
     }
 }
