@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a3c22af708d7eb343bfa3519277b75f7
+guid: 0827c7b97c3340041aa4be2da21e2520
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3616570876529431919
-    second: diario 3_0
+      213: 1970465510173608422
+    second: pasta del cuaderno 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: diario 3_0
+      name: pasta del cuaderno 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 720
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f655f800d04a03230800000000000000
-      internalID: 3616570876529431919
+      spriteID: 6e98e0801ff785b10800000000000000
+      internalID: 1970465510173608422
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      diario 3_0: 3616570876529431919
+      pasta del cuaderno 1_0: 1970465510173608422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
