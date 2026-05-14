@@ -1449,7 +1449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DiarioManager
   panelPregunta: {fileID: 957359625}
-  panelSiguiente: {fileID: 658932342}
+  panelSiguiente: {fileID: 1662311747}
 --- !u!114 &144976401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6170,7 +6170,6 @@ RectTransform:
   m_Children:
   - {fileID: 463398255}
   - {fileID: 169099172}
-  - {fileID: 1431032897}
   m_Father: {fileID: 945061994}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -7576,7 +7575,7 @@ RectTransform:
   m_Father: {fileID: 1439452664}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -6.75, y: 14.4506}
   m_SizeDelta: {x: 13.5, y: -4.9013}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10962,6 +10961,7 @@ RectTransform:
   - {fileID: 1556742495}
   - {fileID: 486630971}
   - {fileID: 1631433065}
+  - {fileID: 1431032897}
   - {fileID: 1954308591}
   - {fileID: 219936128}
   - {fileID: 534456752}
@@ -15164,7 +15164,7 @@ RectTransform:
   m_Father: {fileID: 1023071542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -16198,7 +16198,7 @@ RectTransform:
   - {fileID: 2034413502}
   - {fileID: 2012787021}
   - {fileID: 45499524}
-  m_Father: {fileID: 534456752}
+  m_Father: {fileID: 945061994}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -18701,7 +18701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1662311748
 RectTransform:
   m_ObjectHideFlags: 0
