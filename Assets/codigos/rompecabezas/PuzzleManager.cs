@@ -17,7 +17,7 @@ public class PuzzleManager : MonoBehaviour
     public GameObject panelRompecabezas;
 
     [Header("Panel a apagar al abrir")]
-    public GameObject panelCelular; // ← Arrastra Panel CELULAR aquí
+    public GameObject panelCelular;
 
     private PuzzlePiece piezaSeleccionada = null;
     private AudioSource audioSource;
@@ -46,10 +46,6 @@ public class PuzzleManager : MonoBehaviour
         if (panelRompecabezas != null)
             panelRompecabezas.SetActive(true);
 
-        // ✅ Apaga Panel CELULAR sin usar PanelTransitionManager
-        if (panelCelular != null)
-            panelCelular.SetActive(false);
-
         StartCoroutine(IniciarRompecabezas());
     }
 
@@ -57,6 +53,10 @@ public class PuzzleManager : MonoBehaviour
     {
         Canvas.ForceUpdateCanvases();
         yield return null;
+
+        // Apaga el panel celular después de un frame para no interferir
+        if (panelCelular != null)
+            panelCelular.SetActive(false);
 
         if (!posicionesGuardadas)
         {

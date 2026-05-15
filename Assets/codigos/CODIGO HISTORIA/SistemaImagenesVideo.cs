@@ -20,6 +20,9 @@ public class SistemaImagenesVideo : MonoBehaviour
     [Header("Panel final - después del cuadro 6")]
     public GameObject panelFinal;
 
+    [Header("Panel a apagar al terminar")]
+    public GameObject panelRaspadita;
+
     private int indiceActual = 0;
     private bool enFase2 = false;
 
@@ -59,6 +62,10 @@ public class SistemaImagenesVideo : MonoBehaviour
         else
         {
             botonSiguiente.SetActive(false);
+
+            if (panelRaspadita != null)
+                panelRaspadita.SetActive(false);
+
             if (panelFinal != null)
                 panelFinal.SetActive(true);
         }

@@ -1606,7 +1606,6 @@ GameObject:
   - component: {fileID: 169099176}
   - component: {fileID: 169099175}
   - component: {fileID: 169099174}
-  - component: {fileID: 169099173}
   m_Layer: 5
   m_Name: Button REGRESAR
   m_TagString: Untagged
@@ -1633,20 +1632,6 @@ RectTransform:
   m_AnchoredPosition: {x: -214.36584, y: 123.345276}
   m_SizeDelta: {x: 140, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &169099173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169099171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7504a013d319b38439f0ebc2301cf244, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BotonPanel
-  panelActual: {fileID: 534456751}
-  panelNuevo: {fileID: 1165762254}
 --- !u!114 &169099174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2222,7 +2207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &219936128
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8762,7 +8747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b445f25f70dc34ba6591a9cfb29f3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PanelTransitionManager
-  duracion: 0
+  duracion: 1.5
   panelNegro: {fileID: 1556742494}
 --- !u!4 &721492703
 Transform:
@@ -11512,6 +11497,7 @@ GameObject:
   - component: {fileID: 958039827}
   - component: {fileID: 958039826}
   - component: {fileID: 958039825}
+  - component: {fileID: 958039828}
   m_Layer: 5
   m_Name: 'Button CAP 1 '
   m_TagString: Untagged
@@ -11583,10 +11569,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 486630970}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 958039828}
+        m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
+        m_MethodName: AlAplastar
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -11594,18 +11580,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1631433064}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &958039826
 MonoBehaviour:
@@ -11645,6 +11619,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958039823}
   m_CullTransparentMesh: 1
+--- !u!114 &958039828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958039823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7504a013d319b38439f0ebc2301cf244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BotonPanel
+  panelActual: {fileID: 486630970}
+  panelNuevo: {fileID: 1631433064}
 --- !u!1 &962394253
 GameObject:
   m_ObjectHideFlags: 0
@@ -12948,6 +12936,7 @@ MonoBehaviour:
   botonSiguiente: {fileID: 1500989434}
   scratchTransition: {fileID: 834550272}
   panelFinal: {fileID: 1431032896}
+  panelRaspadita: {fileID: 1631433064}
 --- !u!1 &1069972280
 GameObject:
   m_ObjectHideFlags: 0
@@ -13940,7 +13929,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1142782632}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1142782630}
+        m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
+        m_MethodName: AlAplastar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1142782632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17038,7 +17039,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1498818291}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1498818289}
+        m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
+        m_MethodName: AlAplastar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1498818291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23208,7 +23221,7 @@ MonoBehaviour:
   sonidoCompletado: {fileID: 8300000, guid: 61824231f4b18994eb89988de3ffaae7, type: 3}
   panelVictoria: {fileID: 1495118213}
   panelRompecabezas: {fileID: 1165762254}
-  panelCelular: {fileID: 0}
+  panelCelular: {fileID: 534456751}
 --- !u!82 &2010127952
 AudioSource:
   m_ObjectHideFlags: 0
@@ -23911,6 +23924,7 @@ GameObject:
   - component: {fileID: 2034413505}
   - component: {fileID: 2034413504}
   - component: {fileID: 2034413503}
+  - component: {fileID: 2034413506}
   m_Layer: 5
   m_Name: Button CAP2
   m_TagString: Untagged
@@ -23982,22 +23996,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1431032896}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1954308588}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 261082594}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -24006,9 +24008,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 261082594}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 2034413506}
+        m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
+        m_MethodName: AlAplastar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24056,6 +24058,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034413501}
   m_CullTransparentMesh: 1
+--- !u!114 &2034413506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034413501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7504a013d319b38439f0ebc2301cf244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BotonPanel
+  panelActual: {fileID: 1431032896}
+  panelNuevo: {fileID: 1954308588}
 --- !u!1 &2043678236
 GameObject:
   m_ObjectHideFlags: 0
