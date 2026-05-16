@@ -14,6 +14,9 @@ public class SistemaImagenesVideo : MonoBehaviour
     [Header("Botón siguiente cuadros")]
     public GameObject botonSiguiente;
 
+    [Header("Raspadita")]
+    public ScratchTransition scratchTransition;
+
     [Header("Panel final - después del cuadro 6")]
     public GameObject panelFinal;
 
@@ -44,6 +47,7 @@ public class SistemaImagenesVideo : MonoBehaviour
         {
             cuadro1.SetActive(false);
             botonSiguiente.SetActive(false);
+            scratchTransition.ActivarRaspadita();
             return;
         }
 

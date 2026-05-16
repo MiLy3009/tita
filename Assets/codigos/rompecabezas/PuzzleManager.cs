@@ -43,6 +43,11 @@ public class PuzzleManager : MonoBehaviour
 
     public void AbrirRompecabezas()
     {
+        // ✅ Primero apaga el celular ANTES de que Unity procese más frames
+        if (panelCelular != null)
+            panelCelular.SetActive(false);
+
+        // ✅ Luego activa el rompecabezas
         if (panelRompecabezas != null)
             panelRompecabezas.SetActive(true);
 
@@ -52,11 +57,7 @@ public class PuzzleManager : MonoBehaviour
     IEnumerator IniciarRompecabezas()
     {
         Canvas.ForceUpdateCanvases();
-        yield return null;
-
-        // Apaga el panel celular después de un frame para no interferir
-        if (panelCelular != null)
-            panelCelular.SetActive(false);
+        yield return new WaitForEndOfFrame();
 
         if (!posicionesGuardadas)
         {
