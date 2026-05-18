@@ -22,7 +22,6 @@ public class VolverAlMenu : MonoBehaviour
 
     public void CargarAjustes()
     {
-        // Guarda que venimos del JUEGO
         PlayerPrefs.SetString("escenaAnterior", SceneManager.GetActiveScene().name);
         PlayerPrefs.SetInt("AbrirAjustes", 1);
         SceneManager.LoadScene("menu");

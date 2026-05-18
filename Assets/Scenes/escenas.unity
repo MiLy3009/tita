@@ -682,7 +682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2005506218825498191, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3873021441155173124, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
       propertyPath: m_Pivot.x
@@ -6367,7 +6367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_Color: {r: 0.9960785, g: 0.5882353, b: 0.48627454, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8530,10 +8530,10 @@ MonoBehaviour:
   brushSize: 80
   revealThreshold: 0.8
   imagenRaspado: {fileID: 2800000, guid: 36dbd1fe4a5e2d140a4b70c70890e156, type: 3}
-  zonaX: 0.25
-  zonaY: 0.25
-  zonaAncho: 0.5
-  zonaAlto: 0.5
+  zonaX: 0.38
+  zonaY: 0.48
+  zonaAncho: 0.35
+  zonaAlto: 0.24
   cursorCircle: {fileID: 613226012}
   sistemaImagenes: {fileID: 1067129833}
 --- !u!1 &836696714
@@ -10755,7 +10755,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1389708719}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -13858,7 +13858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1363558698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20553,18 +20553,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1389708719}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 483351812}
         m_TargetAssemblyTypeName: VolverAlMenu, Assembly-CSharp
         m_MethodName: CargarMenu
