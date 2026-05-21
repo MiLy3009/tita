@@ -5,8 +5,8 @@ using UnityEngine.UI;
 public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 {
     [Header("Audio")]
-    public AudioSource audioSource;
-    public Distorsion distorsion;
+    public AudioSource audioLimpio;
+    public AudioSource audioEstatica;
 
     [Header("LEDs")]
     public Image ledRojo;
@@ -19,24 +19,29 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
     private Vector2 _lastMouse;
     private float _angulo = -135f;
     private float[] _spectrum = new float[64];
-    private float _noise = 0f;
+    private float _noise = 1f;
+    private System.Random _rand = new System.Random();
 
     void Start()
     {
         lineRenderer.positionCount = 64;
-        AplicarTuning();
+        audioLimpio.volume = 0f;
+        audioEstatica.volume = 1f;
+        audioLimpio.Play();
+        audioEstatica.Play();
+        ActualizarLEDs();
     }
 
     void Update()
     {
-        audioSource.GetSpectrumData(_spectrum, 0, FFTWindow.Hamming);
+        audioLimpio.GetSpectrumData(_spectrum, 0, FFTWindow.Hamming);
         _noise = Mathf.Lerp(_noise, 1f - _tuning, Time.deltaTime * 5f);
 
         for (int i = 0; i < 64; i++)
         {
             float x = -3f + i * 0.1f;
             float cleanY = Mathf.Sqrt(_spectrum[i]) * 3f;
-            float noiseY = Random.Range(-1f, 1f);
+            float noiseY = (float)(_rand.NextDouble() * 2.0 - 1.0);
             float y = Mathf.Lerp(cleanY, noiseY, _noise);
             lineRenderer.SetPosition(i, new Vector3(x, y, 0));
         }
@@ -60,10 +65,13 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     void AplicarTuning()
     {
-        audioSource.volume = _tuning;
-        audioSource.pitch = Mathf.Lerp(0.7f, 1f, _tuning);
-        distorsion.cantidad = 1f - _tuning;
+        audioLimpio.volume = _tuning;
+        audioEstatica.volume = 1f - _tuning;
+        ActualizarLEDs();
+    }
 
+    void ActualizarLEDs()
+    {
         bool buena = _tuning > 0.7f;
         ledRojo.color = buena ? new Color(0.3f, 0, 0) : Color.red;
         ledVerde.color = buena ? Color.green : new Color(0, 0.3f, 0);
