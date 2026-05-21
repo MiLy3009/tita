@@ -27,8 +27,6 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
         lineRenderer.positionCount = 64;
         audioLimpio.volume = 0f;
         audioEstatica.volume = 1f;
-        audioLimpio.Play();
-        audioEstatica.Play();
         ActualizarLEDs();
     }
 
@@ -65,14 +63,16 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     void AplicarTuning()
     {
-        audioLimpio.volume = _tuning;
-        audioEstatica.volume = 1f - _tuning;
+        // Audio limpio solo sube al final del recorrido
+        audioLimpio.volume = Mathf.Clamp01((_tuning - 0.7f) / 0.3f);
+        // Estatica baja al final del recorrido
+        audioEstatica.volume = Mathf.Clamp01(1f - ((_tuning - 0.5f) / 0.5f));
         ActualizarLEDs();
     }
 
     void ActualizarLEDs()
     {
-        bool buena = _tuning > 0.7f;
+        bool buena = _tuning > 0.95f;
         ledRojo.color = buena ? new Color(0.3f, 0, 0) : Color.red;
         ledVerde.color = buena ? Color.green : new Color(0, 0.3f, 0);
     }
