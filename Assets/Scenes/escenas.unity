@@ -1175,21 +1175,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 129174514}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 129174513}
-        m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
-        m_MethodName: AlAplastar
+      - m_Target: {fileID: 421564899}
+        m_TargetAssemblyTypeName: DesaparecerAlPresionar, Assembly-CSharp
+        m_MethodName: Aparecer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3740,6 +3728,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3873021441155173124, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
   m_PrefabInstance: {fileID: 1687928404413557490}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &421564899 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1696877570674205037, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
+  m_PrefabInstance: {fileID: 1687928404413557490}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421564897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0d908d5755c3946ba1a1db7db64650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DesaparecerAlPresionar
 --- !u!1 &426607460
 GameObject:
   m_ObjectHideFlags: 0
@@ -6543,6 +6542,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3873021441155173124, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
   m_PrefabInstance: {fileID: 581059269}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &651057131 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1696877570674205037, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
+  m_PrefabInstance: {fileID: 581059269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651057129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0d908d5755c3946ba1a1db7db64650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DesaparecerAlPresionar
 --- !u!1 &653901031
 GameObject:
   m_ObjectHideFlags: 0
@@ -7925,30 +7935,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 798061792}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 798061793}
-        m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
-        m_MethodName: AlAplastar
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1154213962}
         m_TargetAssemblyTypeName: SecuenciaBotones, Assembly-CSharp
         m_MethodName: IntentarBoton
@@ -7957,6 +7943,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 651057131}
+        m_TargetAssemblyTypeName: DesaparecerAlPresionar, Assembly-CSharp
+        m_MethodName: Aparecer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -13596,7 +13594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1363558698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13684,6 +13682,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3873021441155173124, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
   m_PrefabInstance: {fileID: 66717303}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1382002448 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1696877570674205037, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
+  m_PrefabInstance: {fileID: 66717303}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382002446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0d908d5755c3946ba1a1db7db64650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DesaparecerAlPresionar
 --- !u!1 &1389708719
 GameObject:
   m_ObjectHideFlags: 0
@@ -14202,21 +14211,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1456865972}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1456865971}
-        m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
-        m_MethodName: AlAplastar
+      - m_Target: {fileID: 1382002448}
+        m_TargetAssemblyTypeName: DesaparecerAlPresionar, Assembly-CSharp
+        m_MethodName: Aparecer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20297,8 +20294,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2034413506}
-        m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
-        m_MethodName: AlAplastar
+        m_TargetAssemblyTypeName: VolverAlEscenas, Assembly-CSharp
+        m_MethodName: CargarCap2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20306,7 +20303,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2034413504
 MonoBehaviour:
@@ -20355,11 +20352,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2034413501}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7504a013d319b38439f0ebc2301cf244, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e306385f61f2d3498b7fa6e4a534dc8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BotonPanel
-  panelActual: {fileID: 1431032896}
-  panelNuevo: {fileID: 1634196655}
+  m_EditorClassIdentifier: Assembly-CSharp::VolverAlEscenas
+  panelAjustes: {fileID: 1044929921}
 --- !u!1 &2037426303
 GameObject:
   m_ObjectHideFlags: 0
