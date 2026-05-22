@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 4252647600482565407}
   - component: {fileID: 4988304716843149757}
   - component: {fileID: 7982684014038400722}
+  - component: {fileID: 1696877570674205037}
   m_Layer: 5
   m_Name: Panel NOTAS
   m_TagString: Untagged
@@ -177,6 +178,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1696877570674205037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005506218825498191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0d908d5755c3946ba1a1db7db64650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DesaparecerAlPresionar
 --- !u!1 &2935087789419358446
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,7 +477,6 @@ GameObject:
   - component: {fileID: 6092969784067611806}
   - component: {fileID: 3202000130154161569}
   - component: {fileID: 7504277344124784842}
-  - component: {fileID: 7096857231298154766}
   m_Layer: 5
   m_Name: Button REGRESAR
   m_TagString: Untagged
@@ -574,9 +586,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7096857231298154766}
-        m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
-        m_MethodName: AlAplastar
+      - m_Target: {fileID: 1696877570674205037}
+        m_TargetAssemblyTypeName: DesaparecerAlPresionar, Assembly-CSharp
+        m_MethodName: Desaparecer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -586,20 +598,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7096857231298154766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6579826302998546595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7504a013d319b38439f0ebc2301cf244, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BotonPanel
-  panelActual: {fileID: 2005506218825498191}
-  panelNuevo: {fileID: 0}
 --- !u!1 &8179690335766716706
 GameObject:
   m_ObjectHideFlags: 0

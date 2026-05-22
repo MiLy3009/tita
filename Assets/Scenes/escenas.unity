@@ -1504,16 +1504,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d100fc65b6f87084c845b88e84be0f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameState
---- !u!1 &147786389 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2005506218825498191, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
-  m_PrefabInstance: {fileID: 90541193}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &147786390 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3873021441155173124, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
   m_PrefabInstance: {fileID: 90541193}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &147786394 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1696877570674205037, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
+  m_PrefabInstance: {fileID: 90541193}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0d908d5755c3946ba1a1db7db64650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DesaparecerAlPresionar
 --- !u!1 &155526926
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,7 +2245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &219936128
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16479,7 +16485,6 @@ GameObject:
   - component: {fileID: 1675342153}
   - component: {fileID: 1675342156}
   - component: {fileID: 1675342158}
-  - component: {fileID: 1675342157}
   m_Layer: 5
   m_Name: 'Button AUDIFONOS '
   m_TagString: Untagged
@@ -16550,19 +16555,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1675342156}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1675342158}
+      - m_Target: {fileID: 147786394}
         m_TargetAssemblyTypeName: DesaparecerAlPresionar, Assembly-CSharp
         m_MethodName: Aparecer
         m_Mode: 1
@@ -16646,20 +16639,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1675342157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675342150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7504a013d319b38439f0ebc2301cf244, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  panelActual: {fileID: 1363558697}
-  panelNuevo: {fileID: 147786389}
 --- !u!114 &1675342158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20317,18 +20296,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 2034413506}
         m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
         m_MethodName: AlAplastar
