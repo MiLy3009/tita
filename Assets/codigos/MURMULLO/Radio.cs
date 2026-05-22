@@ -46,6 +46,7 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
     {
         lineRenderer.positionCount = 64;
         audioLimpio.volume = 0f;
+        audioLimpio.loop = false;
         audioEstatica.volume = 1f;
         ActualizarLED();
 
@@ -62,6 +63,14 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     void Update()
     {
+        // Si ya termino el audio limpio apaga la onda
+        if (resuelto && !audioLimpio.isPlaying)
+        {
+            if (lineRenderer.gameObject.activeSelf)
+                lineRenderer.gameObject.SetActive(false);
+            return;
+        }
+
         audioLimpio.GetSpectrumData(_spectrum, 0, FFTWindow.Hamming);
         _noise = Mathf.Lerp(_noise, 1f - _tuning, Time.deltaTime * 5f);
 
@@ -95,15 +104,16 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     void AplicarTuning()
     {
-        audioLimpio.volume = Mathf.Clamp01((_tuning - 0.85f) / 0.15f);
         audioEstatica.volume = Mathf.Clamp01(1f - (_tuning / 0.85f));
+        audioLimpio.volume = 0f;
         ActualizarLED();
 
-        // Cuando llega al verde se resuelve
         if (_tuning >= 0.95f && !resuelto)
         {
             resuelto = true;
             audioEstatica.Stop();
+            audioLimpio.volume = 1f;
+            audioLimpio.Play();
             StartCoroutine(EsperarAudioYMostrar());
         }
     }
@@ -115,7 +125,6 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     IEnumerator EsperarAudioYMostrar()
     {
-        // Espera que termine el audio limpio
         yield return new WaitWhile(() => audioLimpio.isPlaying);
         cuadroActual = 0;
         MostrarCuadro(0);
