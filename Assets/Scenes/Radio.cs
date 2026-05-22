@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -9,11 +10,26 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
     public AudioSource audioEstatica;
 
     [Header("LEDs")]
-    public Image ledRojo;
-    public Image ledVerde;
+    public Image ledUnico;
 
     [Header("Waveform")]
     public LineRenderer lineRenderer;
+
+    [Header("Cuadros de texto (en orden)")]
+    public GameObject cuadro1;
+    public GameObject cuadro2;
+    public GameObject cuadro3;
+    public GameObject cuadro4;
+
+    [Header("Boton Siguiente")]
+    public Button botonSiguiente;
+
+    [Header("Cambio de panel")]
+    public GameObject panelActual;
+    public GameObject panelSiguiente;
+
+    [Header("Sonido al terminar")]
+    public AudioClip sonidoFinal;
 
     private float _tuning = 0f;
     private Vector2 _lastMouse;
@@ -22,12 +38,26 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
     private float _noise = 1f;
     private System.Random _rand = new System.Random();
 
+    private bool resuelto = false;
+    private int cuadroActual = 0;
+    private GameObject[] cuadros;
+
     void Start()
     {
         lineRenderer.positionCount = 64;
         audioLimpio.volume = 0f;
         audioEstatica.volume = 1f;
-        ActualizarLEDs();
+        ActualizarLED();
+
+        cuadros = new GameObject[] { cuadro1, cuadro2, cuadro3, cuadro4 };
+        foreach (GameObject c in cuadros)
+            if (c != null) c.SetActive(false);
+
+        if (botonSiguiente != null)
+            botonSiguiente.gameObject.SetActive(false);
+
+        if (botonSiguiente != null)
+            botonSiguiente.onClick.AddListener(OnBotonSiguienteClick);
     }
 
     void Update()
@@ -53,6 +83,8 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     public void OnDrag(PointerEventData e)
     {
+        if (resuelto) return;
+
         float delta = (e.position.y - _lastMouse.y) * 0.5f;
         _angulo = Mathf.Clamp(_angulo + delta, -135f, 135f);
         _lastMouse = e.position;
@@ -63,17 +95,71 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     void AplicarTuning()
     {
-        // Audio limpio solo sube al final del recorrido
-        audioLimpio.volume = Mathf.Clamp01((_tuning - 0.7f) / 0.3f);
-        // Estatica baja al final del recorrido
-        audioEstatica.volume = Mathf.Clamp01(1f - ((_tuning - 0.5f) / 0.5f));
-        ActualizarLEDs();
+        audioLimpio.volume = Mathf.Clamp01((_tuning - 0.85f) / 0.15f);
+        audioEstatica.volume = Mathf.Clamp01(1f - (_tuning / 0.85f));
+        ActualizarLED();
+
+        // Cuando llega al verde se resuelve
+        if (_tuning >= 0.95f && !resuelto)
+        {
+            resuelto = true;
+            audioEstatica.Stop();
+            StartCoroutine(EsperarAudioYMostrar());
+        }
     }
 
-    void ActualizarLEDs()
+    void ActualizarLED()
     {
-        bool buena = _tuning > 0.95f;
-        ledRojo.color = buena ? new Color(0.3f, 0, 0) : Color.red;
-        ledVerde.color = buena ? Color.green : new Color(0, 0.3f, 0);
+        ledUnico.color = Color.Lerp(Color.red, Color.green, _tuning);
+    }
+
+    IEnumerator EsperarAudioYMostrar()
+    {
+        // Espera que termine el audio limpio
+        yield return new WaitWhile(() => audioLimpio.isPlaying);
+        cuadroActual = 0;
+        MostrarCuadro(0);
+    }
+
+    void MostrarCuadro(int indice)
+    {
+        foreach (GameObject c in cuadros)
+            if (c != null) c.SetActive(false);
+
+        if (indice < cuadros.Length && cuadros[indice] != null)
+            cuadros[indice].SetActive(true);
+
+        if (botonSiguiente != null)
+            botonSiguiente.gameObject.SetActive(true);
+    }
+
+    void OnBotonSiguienteClick()
+    {
+        if (botonSiguiente != null)
+            botonSiguiente.interactable = false;
+
+        cuadroActual++;
+
+        if (cuadroActual < cuadros.Length)
+        {
+            MostrarCuadro(cuadroActual);
+            if (botonSiguiente != null)
+                botonSiguiente.interactable = true;
+        }
+        else
+        {
+            StartCoroutine(SonidoYCambiarPanel());
+        }
+    }
+
+    IEnumerator SonidoYCambiarPanel()
+    {
+        if (sonidoFinal != null)
+            audioLimpio.PlayOneShot(sonidoFinal);
+
+        yield return new WaitForSeconds(sonidoFinal != null ? sonidoFinal.length : 0f);
+
+        if (panelActual != null) panelActual.SetActive(false);
+        if (panelSiguiente != null) panelSiguiente.SetActive(true);
     }
 }
