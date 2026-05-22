@@ -4607,7 +4607,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 483351813}
-  - component: {fileID: 483351812}
+  - component: {fileID: 483351814}
   m_Layer: 0
   m_Name: volveralmenu
   m_TagString: Untagged
@@ -4615,19 +4615,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &483351812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483351811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e306385f61f2d3498b7fa6e4a534dc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VolverAlMenu
-  panelAjustes: {fileID: 0}
 --- !u!4 &483351813
 Transform:
   m_ObjectHideFlags: 0
@@ -4643,6 +4630,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &483351814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483351811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2abd902506767f44ca7d590b213a1b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VolverAlMenu
+  panelAjustes: {fileID: 1044929921}
 --- !u!1 &484713981
 GameObject:
   m_ObjectHideFlags: 0
@@ -14027,7 +14027,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1431032897
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15240,6 +15240,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559033428}
   m_CullTransparentMesh: 1
+--- !u!1 &1587228379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1587228381}
+  - component: {fileID: 1587228380}
+  m_Layer: 0
+  m_Name: 'cambiarescenas '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1587228380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587228379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00f8b3d4d522d241968594e9a18ed96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CambiarEscena
+--- !u!4 &1587228381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587228379}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 499.74774, y: 253.32672, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590339392
 GameObject:
   m_ObjectHideFlags: 0
@@ -20221,7 +20265,6 @@ GameObject:
   - component: {fileID: 2034413505}
   - component: {fileID: 2034413504}
   - component: {fileID: 2034413503}
-  - component: {fileID: 2034413506}
   m_Layer: 5
   m_Name: Button CAP2
   m_TagString: Untagged
@@ -20293,16 +20336,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2034413506}
-        m_TargetAssemblyTypeName: VolverAlEscenas, Assembly-CSharp
-        m_MethodName: CargarCap2
-        m_Mode: 1
+      - m_Target: {fileID: 1587228380}
+        m_TargetAssemblyTypeName: CambiarEscena, Assembly-CSharp
+        m_MethodName: CargarEscena
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Cap 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2034413504
@@ -20343,19 +20386,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034413501}
   m_CullTransparentMesh: 1
---- !u!114 &2034413506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034413501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e306385f61f2d3498b7fa6e4a534dc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VolverAlEscenas
-  panelAjustes: {fileID: 1044929921}
 --- !u!1 &2037426303
 GameObject:
   m_ObjectHideFlags: 0
@@ -20438,7 +20468,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 483351812}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: VolverAlMenu, Assembly-CSharp
         m_MethodName: CargarMenu
         m_Mode: 1
@@ -21488,5 +21518,6 @@ SceneRoots:
   - {fileID: 693587908}
   - {fileID: 79962504}
   - {fileID: 1766569633}
+  - {fileID: 1587228381}
   - {fileID: 483351813}
   - {fileID: 297373967}

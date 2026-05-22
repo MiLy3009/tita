@@ -11,5 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/escenas.unity
     guid: 06ca3cf23c76d9d48ba57998d7f2dbff
+  - enabled: 1
+    path: Assets/Scenes/Cap 2.unity
+    guid: a5898793874b14e44b831acb2b7c5be9
+  - enabled: 1
+    path: Assets/Scenes/Cap 2.1.unity
+    guid: b1e1e8027dfc5f54a88c1b5f61e71b59
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
