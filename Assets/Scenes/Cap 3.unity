@@ -2930,7 +2930,6 @@ GameObject:
   - component: {fileID: 240923458}
   - component: {fileID: 240923460}
   - component: {fileID: 240923457}
-  - component: {fileID: 240923456}
   m_Layer: 5
   m_Name: Button CINTA
   m_TagString: Untagged
@@ -2957,20 +2956,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1316, y: 794}
   m_SizeDelta: {x: 163.8269, y: 104.1731}
   m_Pivot: {x: 0.49999988, y: 0.49999893}
---- !u!114 &240923456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240923454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7504a013d319b38439f0ebc2301cf244, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BotonPanel
-  panelActual: {fileID: 1237183613}
-  panelNuevo: {fileID: 1823910424}
 --- !u!95 &240923457
 Animator:
   serializedVersion: 7
@@ -9754,17 +9739,12 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1696877570674205037, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
   m_PrefabInstance: {fileID: 1010979965}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010979967}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b0d908d5755c3946ba1a1db7db64650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesaparecerAlPresionar
---- !u!1 &1010979967 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2005506218825498191, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
-  m_PrefabInstance: {fileID: 1010979965}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1010979971 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3873021441155173124, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
@@ -15808,7 +15788,6 @@ GameObject:
   - component: {fileID: 1735013295}
   - component: {fileID: 1735013297}
   - component: {fileID: 1735013294}
-  - component: {fileID: 1735013293}
   m_Layer: 5
   m_Name: Button OSO
   m_TagString: Untagged
@@ -15835,20 +15814,6 @@ RectTransform:
   m_AnchoredPosition: {x: -603.2371, y: 659.26}
   m_SizeDelta: {x: 174.4725, y: 278.31}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1735013293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735013291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7504a013d319b38439f0ebc2301cf244, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  panelActual: {fileID: 1237183613}
-  panelNuevo: {fileID: 1010979967}
 --- !u!95 &1735013294
 Animator:
   serializedVersion: 7
@@ -16885,17 +16850,12 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1696877570674205037, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
   m_PrefabInstance: {fileID: 1823910422}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823910424}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b0d908d5755c3946ba1a1db7db64650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesaparecerAlPresionar
---- !u!1 &1823910424 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2005506218825498191, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
-  m_PrefabInstance: {fileID: 1823910422}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1823910428 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3873021441155173124, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
