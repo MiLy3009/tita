@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: c73ebe0919b5fec4298624b08e270a7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6235539096761201256
+    second: ITEM DIARIO NARANJA_0
+  - first:
+      213: 3693727530505269586
+    second: ITEM DIARIO NARANJA_1
+  - first:
+      213: -4829865291454428851
+    second: ITEM DIARIO NARANJA_2
+  - first:
+      213: 6072367468739350215
+    second: ITEM DIARIO NARANJA_3
+  - first:
+      213: 5815956296621828965
+    second: ITEM DIARIO NARANJA_4
+  - first:
+      213: 5877366778717283704
+    second: ITEM DIARIO NARANJA_5
+  - first:
+      213: -348241696913055528
+    second: ITEM DIARIO NARANJA_6
+  - first:
+      213: 853946336037448475
+    second: ITEM DIARIO NARANJA_7
+  - first:
+      213: -395537267108941649
+    second: ITEM DIARIO NARANJA_8
+  - first:
+      213: 4684794174932414080
+    second: ITEM DIARIO NARANJA_9
+  - first:
+      213: -6728788879471590753
+    second: ITEM DIARIO NARANJA_10
+  - first:
+      213: -3602757851274511604
+    second: ITEM DIARIO NARANJA_11
+  - first:
+      213: 285351668917836406
+    second: ITEM DIARIO NARANJA_12
+  - first:
+      213: -2113878496884929851
+    second: ITEM DIARIO NARANJA_13
+  - first:
+      213: 376637488643925798
+    second: ITEM DIARIO NARANJA_14
+  - first:
+      213: -3559746218412152977
+    second: ITEM DIARIO NARANJA_15
+  - first:
+      213: 1515093941487792369
+    second: ITEM DIARIO NARANJA_16
+  - first:
+      213: -4003816739395406798
+    second: ITEM DIARIO NARANJA_17
+  - first:
+      213: 63693177806138900
+    second: ITEM DIARIO NARANJA_18
+  - first:
+      213: 5189168377947992974
+    second: ITEM DIARIO NARANJA_19
+  - first:
+      213: -874907848416963568
+    second: ITEM DIARIO NARANJA_20
+  - first:
+      213: 3680995279106094482
+    second: ITEM DIARIO NARANJA_21
+  - first:
+      213: -7323024388518174398
+    second: ITEM DIARIO NARANJA_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_0
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 717
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d0d729a3ae679a0800000000000000
+      internalID: -6235539096761201256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_1
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 721
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251f8d86e91c24330800000000000000
+      internalID: 3693727530505269586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 724
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49cedd6b1fd8fcb0800000000000000
+      internalID: -4829865291454428851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 247
+        width: 932
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cec8df3a02654450800000000000000
+      internalID: 6072367468739350215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_4
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 612
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b2751007d66b050800000000000000
+      internalID: 5815956296621828965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_5
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 609
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875202412f9909150800000000000000
+      internalID: 5877366778717283704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_6
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 606
+        width: 20
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0a48f850cca2bf0800000000000000
+      internalID: -348241696913055528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_7
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 596
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b22c01ba3d9db00800000000000000
+      internalID: 853946336037448475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 518
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0fa8283f4c28af0800000000000000
+      internalID: -395537267108941649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_9
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 459
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e6aa22b7bb30140800000000000000
+      internalID: 4684794174932414080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 254
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f924f7e2a2a8e92a0800000000000000
+      internalID: -6728788879471590753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 247
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b780f82de600ec0800000000000000
+      internalID: -3602757851274511604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 265
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a99edb4d5c5f300800000000000000
+      internalID: 285351668917836406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_13
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 247
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca46d6f4bef9a2e0800000000000000
+      internalID: -2113878496884929851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_14
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 258
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62767b7ecc51a3500800000000000000
+      internalID: 376637488643925798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_15
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 278
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67e009bcad399ec0800000000000000
+      internalID: -3559746218412152977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_16
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 282
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0f9b799e1b60510800000000000000
+      internalID: 1515093941487792369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 248
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234f29e73e59f68c0800000000000000
+      internalID: -4003816739395406798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_18
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 247
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e20c59b9842e000800000000000000
+      internalID: 63693177806138900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_19
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 258
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83b7477521a30840800000000000000
+      internalID: 5189168377947992974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 251
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014d7e382f3bbd3f0800000000000000
+      internalID: -874907848416963568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_21
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 247
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295320f14b5851330800000000000000
+      internalID: 3680995279106094482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM DIARIO NARANJA_22
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 247
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2412ad02e146f5a90800000000000000
+      internalID: -7323024388518174398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ITEM DIARIO NARANJA_0: -6235539096761201256
+      ITEM DIARIO NARANJA_1: 3693727530505269586
+      ITEM DIARIO NARANJA_10: -6728788879471590753
+      ITEM DIARIO NARANJA_11: -3602757851274511604
+      ITEM DIARIO NARANJA_12: 285351668917836406
+      ITEM DIARIO NARANJA_13: -2113878496884929851
+      ITEM DIARIO NARANJA_14: 376637488643925798
+      ITEM DIARIO NARANJA_15: -3559746218412152977
+      ITEM DIARIO NARANJA_16: 1515093941487792369
+      ITEM DIARIO NARANJA_17: -4003816739395406798
+      ITEM DIARIO NARANJA_18: 63693177806138900
+      ITEM DIARIO NARANJA_19: 5189168377947992974
+      ITEM DIARIO NARANJA_2: -4829865291454428851
+      ITEM DIARIO NARANJA_20: -874907848416963568
+      ITEM DIARIO NARANJA_21: 3680995279106094482
+      ITEM DIARIO NARANJA_22: -7323024388518174398
+      ITEM DIARIO NARANJA_3: 6072367468739350215
+      ITEM DIARIO NARANJA_4: 5815956296621828965
+      ITEM DIARIO NARANJA_5: 5877366778717283704
+      ITEM DIARIO NARANJA_6: -348241696913055528
+      ITEM DIARIO NARANJA_7: 853946336037448475
+      ITEM DIARIO NARANJA_8: -395537267108941649
+      ITEM DIARIO NARANJA_9: 4684794174932414080
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
