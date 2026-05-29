@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: de61ccc6caae863449f73e5d0a9586bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4104224534991670694
+    second: ITEM NOTA COLOR NARANJA_0
+  - first:
+      213: -6438396368830649647
+    second: ITEM NOTA COLOR NARANJA_1
+  - first:
+      213: -6689150183656388258
+    second: ITEM NOTA COLOR NARANJA_2
+  - first:
+      213: -5476786388900215529
+    second: ITEM NOTA COLOR NARANJA_3
+  - first:
+      213: 2427288039216410620
+    second: ITEM NOTA COLOR NARANJA_4
+  - first:
+      213: 873165723907360758
+    second: ITEM NOTA COLOR NARANJA_5
+  - first:
+      213: -8950627457464149879
+    second: ITEM NOTA COLOR NARANJA_6
+  - first:
+      213: 8981640388196864384
+    second: ITEM NOTA COLOR NARANJA_7
+  - first:
+      213: -6850464531115371328
+    second: ITEM NOTA COLOR NARANJA_8
+  - first:
+      213: 3667906978997290442
+    second: ITEM NOTA COLOR NARANJA_9
+  - first:
+      213: 155207106843991154
+    second: ITEM NOTA COLOR NARANJA_10
+  - first:
+      213: 5253424244848377760
+    second: ITEM NOTA COLOR NARANJA_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 110
+        width: 919
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad0f9e287225f830800000000000000
+      internalID: 4104224534991670694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 776
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da2fa85d9836a6a0800000000000000
+      internalID: -6438396368830649647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_2
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 519
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e590ced395d5b23a0800000000000000
+      internalID: -6689150183656388258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_3
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 512
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71588eaebcb8ef3b0800000000000000
+      internalID: -5476786388900215529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_4
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 508
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff6c018c957fa120800000000000000
+      internalID: 2427288039216410620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_5
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 487
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f78b83899b1e1c00800000000000000
+      internalID: 873165723907360758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_6
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 471
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988ddf8ffbbf8c380800000000000000
+      internalID: -8950627457464149879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_7
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 341
+        width: 15
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08196c6a85235ac70800000000000000
+      internalID: 8981640388196864384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_8
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 323
+        width: 9
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c49474edc24ee0a0800000000000000
+      internalID: -6850464531115371328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_9
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 128
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac54f48c6f507e230800000000000000
+      internalID: 3667906978997290442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_10
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c5d069a08672200800000000000000
+      internalID: 155207106843991154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM NOTA COLOR NARANJA_11
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 110
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afbc905489e7e840800000000000000
+      internalID: 5253424244848377760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ITEM NOTA COLOR NARANJA_0: 4104224534991670694
+      ITEM NOTA COLOR NARANJA_1: -6438396368830649647
+      ITEM NOTA COLOR NARANJA_10: 155207106843991154
+      ITEM NOTA COLOR NARANJA_11: 5253424244848377760
+      ITEM NOTA COLOR NARANJA_2: -6689150183656388258
+      ITEM NOTA COLOR NARANJA_3: -5476786388900215529
+      ITEM NOTA COLOR NARANJA_4: 2427288039216410620
+      ITEM NOTA COLOR NARANJA_5: 873165723907360758
+      ITEM NOTA COLOR NARANJA_6: -8950627457464149879
+      ITEM NOTA COLOR NARANJA_7: 8981640388196864384
+      ITEM NOTA COLOR NARANJA_8: -6850464531115371328
+      ITEM NOTA COLOR NARANJA_9: 3667906978997290442
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

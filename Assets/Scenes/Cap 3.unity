@@ -3392,7 +3392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &323662728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3497,8 +3497,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1772.7, y: 470.12512}
-  m_SizeDelta: {x: 174.4725, y: 278.31}
+  m_AnchoredPosition: {x: -1763.2, y: 452}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336163374
 MonoBehaviour:
@@ -3648,7 +3648,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2075025254975684318, guid: 5994e0e826d2eb64997f415c1f5758d4, type: 3}
+  m_Sprite: {fileID: -4604763232502392704, guid: 0e33917c787e82941bf5034de74e0425, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8805,17 +8805,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006112635}
-  m_LocalRotation: {x: -0, y: -0, z: 0.39026004, w: -0.9207047}
+  m_LocalRotation: {x: -0, y: -0, z: 0.007858856, w: -0.9999691}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 866127292}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45.941}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.901}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1770.4, y: 731.9951}
-  m_SizeDelta: {x: 169.9425, y: 154.0205}
+  m_AnchoredPosition: {x: -1763.2, y: 620}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5000002, y: 0.41719347}
 --- !u!114 &1006112637
 MonoBehaviour:
@@ -8965,7 +8965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1455206138050320482, guid: 2e6d1390b4ac35e43ba4a1084e92c287, type: 3}
+  m_Sprite: {fileID: -3106843245607831257, guid: c3f370811a6679e47b6425e864d20c00, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9098,7 +9098,7 @@ PrefabInstance:
     - target: {fileID: 5043125039887725430, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2075025254975684318, guid: 5994e0e826d2eb64997f415c1f5758d4, type: 3}
+      objectReference: {fileID: 2545858802506038712, guid: 5065caceb07a00944b8ca99110e7e9b4, type: 3}
     - target: {fileID: 5542088621324161755, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}
       propertyPath: m_text
       value: "Pap\xE1 : \xBFY este oso? Yo no se lo compre... Emma nunca me dijo
@@ -9469,7 +9469,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9005418844888839914, guid: 5595976b57b06104da724879eeb5af7b, type: 3}
+  m_Sprite: {fileID: 1598190189160208086, guid: 35d2f0fd01e015a49b5adde6fe3b1295, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10346,7 +10346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1065337367524621994, guid: 6fb071e0e18ddae4bad837d866020be2, type: 3}
+  m_Sprite: {fileID: -9077581936083146603, guid: fc5a7bde43ea51a4c938d1b42d10a48d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10609,7 +10609,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1237183614
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13682,7 +13682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1634626046
 RectTransform:
   m_ObjectHideFlags: 0

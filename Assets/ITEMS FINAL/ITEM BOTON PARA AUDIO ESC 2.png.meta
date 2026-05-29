@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: aaf71cbeb1c1152459ade0bdde21c826
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8733507419934389617
+    second: ITEM BOTON PARA AUDIO ESC 2_0
+  - first:
+      213: -7111975140744548578
+    second: ITEM BOTON PARA AUDIO ESC 2_1
+  - first:
+      213: 6053327604170548694
+    second: ITEM BOTON PARA AUDIO ESC 2_2
+  - first:
+      213: -243764236612692997
+    second: ITEM BOTON PARA AUDIO ESC 2_3
+  - first:
+      213: -7305864051220844141
+    second: ITEM BOTON PARA AUDIO ESC 2_4
+  - first:
+      213: -2911778729173790379
+    second: ITEM BOTON PARA AUDIO ESC 2_5
+  - first:
+      213: 4852156234785961400
+    second: ITEM BOTON PARA AUDIO ESC 2_6
+  - first:
+      213: 3178648218170761383
+    second: ITEM BOTON PARA AUDIO ESC 2_7
+  - first:
+      213: -6454276300042267349
+    second: ITEM BOTON PARA AUDIO ESC 2_8
+  - first:
+      213: -4325104029724805828
+    second: ITEM BOTON PARA AUDIO ESC 2_9
+  - first:
+      213: -7945884063402885403
+    second: ITEM BOTON PARA AUDIO ESC 2_10
+  - first:
+      213: 4164282529684536233
+    second: ITEM BOTON PARA AUDIO ESC 2_11
+  - first:
+      213: -6882172518143249750
+    second: ITEM BOTON PARA AUDIO ESC 2_12
+  - first:
+      213: 7796227607346318641
+    second: ITEM BOTON PARA AUDIO ESC 2_13
+  - first:
+      213: 1465372237067050118
+    second: ITEM BOTON PARA AUDIO ESC 2_14
+  - first:
+      213: 3911426437354711906
+    second: ITEM BOTON PARA AUDIO ESC 2_15
+  - first:
+      213: -2706301776461632463
+    second: ITEM BOTON PARA AUDIO ESC 2_16
+  - first:
+      213: -3055940106178439414
+    second: ITEM BOTON PARA AUDIO ESC 2_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_0
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 856
+        width: 49
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a829f06495cc680800000000000000
+      internalID: -8733507419934389617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_1
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 854
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f23845a403d4d90800000000000000
+      internalID: -7111975140744548578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 858
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5e6a3526db10450800000000000000
+      internalID: 6053327604170548694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 845
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf391c3e7b9fd9cf0800000000000000
+      internalID: -243764236612692997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 167
+        width: 664
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3917fa18a5b5c9a90800000000000000
+      internalID: -7305864051220844141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_5
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 844
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551de0f4ca84797d0800000000000000
+      internalID: -2911778729173790379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 840
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b53d114362565340800000000000000
+      internalID: 4852156234785961400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_7
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 828
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a02ff596b3dc1c20800000000000000
+      internalID: 3178648218170761383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 674
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2512cdb6edcd66a0800000000000000
+      internalID: -6454276300042267349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 666
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3574a3ecc42af3c0800000000000000
+      internalID: -4325104029724805828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 652
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eefe6e1b8c8ab190800000000000000
+      internalID: -7945884063402885403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 533
+        width: 22
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab363eb5e08ac930800000000000000
+      internalID: 4164282529684536233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_12
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 511
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2bd1dde8c9d70a0800000000000000
+      internalID: -6882172518143249750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_13
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 396
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d88f3e3b3c13c60800000000000000
+      internalID: 7796227607346318641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_14
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 355
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cd916294c065410800000000000000
+      internalID: 1465372237067050118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_15
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 162
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b69930f9d284630800000000000000
+      internalID: 3911426437354711906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_16
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 129
+        width: 152
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ceef67fd8417ad0800000000000000
+      internalID: -2706301776461632463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ITEM BOTON PARA AUDIO ESC 2_17
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 146
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a075d5c1aae1795d0800000000000000
+      internalID: -3055940106178439414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ITEM BOTON PARA AUDIO ESC 2_0: -8733507419934389617
+      ITEM BOTON PARA AUDIO ESC 2_1: -7111975140744548578
+      ITEM BOTON PARA AUDIO ESC 2_10: -7945884063402885403
+      ITEM BOTON PARA AUDIO ESC 2_11: 4164282529684536233
+      ITEM BOTON PARA AUDIO ESC 2_12: -6882172518143249750
+      ITEM BOTON PARA AUDIO ESC 2_13: 7796227607346318641
+      ITEM BOTON PARA AUDIO ESC 2_14: 1465372237067050118
+      ITEM BOTON PARA AUDIO ESC 2_15: 3911426437354711906
+      ITEM BOTON PARA AUDIO ESC 2_16: -2706301776461632463
+      ITEM BOTON PARA AUDIO ESC 2_17: -3055940106178439414
+      ITEM BOTON PARA AUDIO ESC 2_2: 6053327604170548694
+      ITEM BOTON PARA AUDIO ESC 2_3: -243764236612692997
+      ITEM BOTON PARA AUDIO ESC 2_4: -7305864051220844141
+      ITEM BOTON PARA AUDIO ESC 2_5: -2911778729173790379
+      ITEM BOTON PARA AUDIO ESC 2_6: 4852156234785961400
+      ITEM BOTON PARA AUDIO ESC 2_7: 3178648218170761383
+      ITEM BOTON PARA AUDIO ESC 2_8: -6454276300042267349
+      ITEM BOTON PARA AUDIO ESC 2_9: -4325104029724805828
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
