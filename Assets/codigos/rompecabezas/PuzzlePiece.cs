@@ -4,8 +4,8 @@ using UnityEngine.EventSystems;
 
 public class PuzzlePiece : MonoBehaviour, IPointerClickHandler
 {
-    [HideInInspector] public int indiceCorecto;   // Posición correcta en el panel
-    [HideInInspector] public int indiceActual;    // Posición actual en el panel
+    [HideInInspector] public int indiceCorecto;
+    [HideInInspector] public int indiceActual;
     [HideInInspector] public Vector2 posicionCorrecta;
     [HideInInspector] public PuzzleManager manager;
 
@@ -13,7 +13,7 @@ public class PuzzlePiece : MonoBehaviour, IPointerClickHandler
     private Color colorOriginal;
 
     [Header("Color de selección")]
-    public Color colorSeleccionado = new Color(1f, 0.8f, 0f, 1f); // Amarillo
+    public Color colorSeleccionado = new Color(1f, 0.8f, 0f, 1f);
 
     void Awake()
     {

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PuzzleManager : MonoBehaviour
 {
-    [Header("Piezas del rompecabezas (en orden correcto: pieza1..pieza9)")]
+    [Header("Piezas del rompecabezas (en orden correcto: pieza1..pieza16)")]
     public List<PuzzlePiece> piezas = new List<PuzzlePiece>();
 
     [Header("Efectos (opcional)")]
@@ -21,8 +21,6 @@ public class PuzzleManager : MonoBehaviour
 
     private PuzzlePiece piezaSeleccionada = null;
     private AudioSource audioSource;
-    private Vector2[] posicionesCorrectas;
-    private bool posicionesGuardadas = false;
 
     void Awake()
     {
@@ -33,21 +31,33 @@ public class PuzzleManager : MonoBehaviour
             piezas[i].manager = this;
             piezas[i].indiceCorecto = i;
         }
+
+        if (panelRompecabezas != null)
+            panelRompecabezas.SetActive(false);
+
+        if (panelVictoria != null)
+            panelVictoria.SetActive(false);
     }
 
     void Start()
     {
         if (panelRompecabezas != null)
             panelRompecabezas.SetActive(false);
+
+        if (panelVictoria != null)
+            panelVictoria.SetActive(false);
     }
 
     public void AbrirRompecabezas()
     {
-        // ✅ Primero apaga el celular ANTES de que Unity procese más frames
+        piezaSeleccionada = null;
+
+        if (panelVictoria != null)
+            panelVictoria.SetActive(false);
+
         if (panelCelular != null)
             panelCelular.SetActive(false);
 
-        // ✅ Luego activa el rompecabezas
         if (panelRompecabezas != null)
             panelRompecabezas.SetActive(true);
 
@@ -58,16 +68,7 @@ public class PuzzleManager : MonoBehaviour
     {
         Canvas.ForceUpdateCanvases();
         yield return new WaitForEndOfFrame();
-
-        if (!posicionesGuardadas)
-        {
-            posicionesCorrectas = new Vector2[piezas.Count];
-            for (int i = 0; i < piezas.Count; i++)
-            {
-                posicionesCorrectas[i] = piezas[i].GetComponent<RectTransform>().anchoredPosition;
-            }
-            posicionesGuardadas = true;
-        }
+        yield return new WaitForEndOfFrame();
 
         MezclarPiezas();
     }
@@ -82,26 +83,50 @@ public class PuzzleManager : MonoBehaviour
 
     void MezclarPiezas()
     {
-        List<Vector2> mezcladas = new List<Vector2>(posicionesCorrectas);
+        // Crea lista de índices y la mezcla
+        List<int> indices = new List<int>();
+        for (int i = 0; i < piezas.Count; i++)
+            indices.Add(i);
 
-        for (int i = mezcladas.Count - 1; i > 0; i--)
+        // Fisher-Yates shuffle
+        for (int i = indices.Count - 1; i > 0; i--)
         {
             int j = Random.Range(0, i + 1);
-            Vector2 temp = mezcladas[i];
-            mezcladas[i] = mezcladas[j];
-            mezcladas[j] = temp;
+            int temp = indices[i];
+            indices[i] = indices[j];
+            indices[j] = temp;
         }
 
+        // Evita que quede igual al original
+        bool igualAlOriginal = true;
+        for (int i = 0; i < indices.Count; i++)
+        {
+            if (indices[i] != i)
+            {
+                igualAlOriginal = false;
+                break;
+            }
+        }
+
+        if (igualAlOriginal && piezas.Count >= 2)
+        {
+            int temp = indices[0];
+            indices[0] = indices[1];
+            indices[1] = temp;
+        }
+
+        // Reordena los hijos en la jerarquía según los índices mezclados
+        // El Grid Layout Group usa el sibling index para posicionar
         for (int i = 0; i < piezas.Count; i++)
         {
-            piezas[i].GetComponent<RectTransform>().anchoredPosition = mezcladas[i];
+            piezas[indices[i]].transform.SetSiblingIndex(i);
         }
+
+        Canvas.ForceUpdateCanvases();
     }
 
     public void SeleccionarPieza(PuzzlePiece pieza)
     {
-        if (!posicionesGuardadas) return;
-
         if (piezaSeleccionada == null)
         {
             piezaSeleccionada = pieza;
@@ -116,31 +141,31 @@ public class PuzzleManager : MonoBehaviour
         else
         {
             ReproducirSonido(sonidoClick);
-            IntercambiarPosiciones(piezaSeleccionada, pieza);
+            IntercambiarPiezas(piezaSeleccionada, pieza);
             piezaSeleccionada.Resaltar(false);
             piezaSeleccionada = null;
             VerificarVictoria();
         }
     }
 
-    void IntercambiarPosiciones(PuzzlePiece a, PuzzlePiece b)
+    void IntercambiarPiezas(PuzzlePiece a, PuzzlePiece b)
     {
-        RectTransform rtA = a.GetComponent<RectTransform>();
-        RectTransform rtB = b.GetComponent<RectTransform>();
+        // Intercambia el sibling index entre las dos piezas
+        int indexA = a.transform.GetSiblingIndex();
+        int indexB = b.transform.GetSiblingIndex();
 
-        Vector2 posA = rtA.anchoredPosition;
-        rtA.anchoredPosition = rtB.anchoredPosition;
-        rtB.anchoredPosition = posA;
+        a.transform.SetSiblingIndex(indexB);
+        b.transform.SetSiblingIndex(indexA);
+
+        Canvas.ForceUpdateCanvases();
     }
 
     void VerificarVictoria()
     {
-        if (posicionesCorrectas == null) return;
-
+        // La victoria es cuando cada pieza está en su sibling index correcto
         for (int i = 0; i < piezas.Count; i++)
         {
-            Vector2 pos = piezas[i].GetComponent<RectTransform>().anchoredPosition;
-            if (Vector2.Distance(pos, posicionesCorrectas[i]) > 0.5f)
+            if (piezas[i].transform.GetSiblingIndex() != i)
                 return;
         }
 
