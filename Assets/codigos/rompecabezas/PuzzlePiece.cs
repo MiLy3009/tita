@@ -4,16 +4,12 @@ using UnityEngine.EventSystems;
 
 public class PuzzlePiece : MonoBehaviour, IPointerClickHandler
 {
-    [HideInInspector] public int indiceCorecto;
-    [HideInInspector] public int indiceActual;
-    [HideInInspector] public Vector2 posicionCorrecta;
     [HideInInspector] public PuzzleManager manager;
+    [HideInInspector] public int indiceCorecto;
+    [HideInInspector] public Vector2 posicionCorrecta;
 
     private Image imagen;
     private Color colorOriginal;
-
-    [Header("Color de selección")]
-    public Color colorSeleccionado = new Color(1f, 0.8f, 0f, 1f);
 
     void Awake()
     {
@@ -31,6 +27,10 @@ public class PuzzlePiece : MonoBehaviour, IPointerClickHandler
     public void Resaltar(bool activar)
     {
         if (imagen == null) return;
-        imagen.color = activar ? colorSeleccionado : colorOriginal;
+
+        if (activar)
+            imagen.color = new Color(0.7f, 1f, 0.7f, 1f); // verde claro al seleccionar
+        else
+            imagen.color = colorOriginal;
     }
 }

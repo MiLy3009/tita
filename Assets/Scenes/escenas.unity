@@ -2807,7 +2807,7 @@ MonoBehaviour:
   scratchOverlay: {fileID: 1684068278}
   brushSize: 80
   revealThreshold: 0.8
-  imagenRaspado: {fileID: 2800000, guid: 36dbd1fe4a5e2d140a4b70c70890e156, type: 3}
+  imagenRaspado: {fileID: 2800000, guid: 4b4b4980610d72b4b999ffa36d6428c9, type: 3}
   zonaX: 0.38
   zonaY: 0.48
   zonaAncho: 0.35
@@ -4589,7 +4589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 36dbd1fe4a5e2d140a4b70c70890e156, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4b4b4980610d72b4b999ffa36d6428c9, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0

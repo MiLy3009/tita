@@ -491,11 +491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &28154194
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,11 +807,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &52782607
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,11 +898,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &58206575
 GameObject:
   m_ObjectHideFlags: 0
@@ -2107,11 +2101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &188920008
 GameObject:
   m_ObjectHideFlags: 0
@@ -5147,11 +5139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &568866937
 GameObject:
   m_ObjectHideFlags: 0
@@ -5524,11 +5514,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -6421,11 +6409,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &683842511
 GameObject:
   m_ObjectHideFlags: 0
@@ -9519,11 +9505,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &1041589271
 GameObject:
   m_ObjectHideFlags: 0
@@ -10246,11 +10230,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &1128794474
 GameObject:
   m_ObjectHideFlags: 0
@@ -11409,11 +11391,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &1263279504
 GameObject:
   m_ObjectHideFlags: 0
@@ -12055,11 +12035,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &1341769717
 GameObject:
   m_ObjectHideFlags: 0
@@ -14016,11 +13994,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &1610672493
 GameObject:
   m_ObjectHideFlags: 0
@@ -14256,11 +14232,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &1632570095
 GameObject:
   m_ObjectHideFlags: 0
@@ -14682,13 +14656,13 @@ MonoBehaviour:
   - {fileID: 1251482803}
   - {fileID: 52782611}
   - {fileID: 1620561150}
-  - {fileID: 2101334517}
-  - {fileID: 2101334517}
-  - {fileID: 2101334517}
-  - {fileID: 2101334517}
-  - {fileID: 2101334517}
-  - {fileID: 2101334517}
-  - {fileID: 2101334517}
+  - {fileID: 1745274472}
+  - {fileID: 1032825657}
+  - {fileID: 1114855615}
+  - {fileID: 2046128690}
+  - {fileID: 560895562}
+  - {fileID: 1321609388}
+  - {fileID: 1597804583}
   sonidoClick: {fileID: 8300000, guid: 1dac9035ff042614dbf4b550c94626b3, type: 3}
   sonidoCompletado: {fileID: 8300000, guid: 61824231f4b18994eb89988de3ffaae7, type: 3}
   panelVictoria: {fileID: 1942850508}
@@ -15642,11 +15616,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &1755035753
 GameObject:
   m_ObjectHideFlags: 0
@@ -16771,7 +16743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1888709106
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16789,8 +16761,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -13.800049, y: 0.8000488}
-  m_SizeDelta: {x: -7.9001465, y: -0.0048828125}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0.40124512}
+  m_SizeDelta: {x: 0.00012207, y: -0.80249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1888709107
 MonoBehaviour:
@@ -17725,11 +17697,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!1 &2052642980
 GameObject:
   m_ObjectHideFlags: 0
@@ -18167,11 +18137,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4fb6659c1a3704abc3b3ab7e702638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  indiceCorecto: 0
-  indiceActual: 0
-  posicionCorrecta: {x: 0, y: 0}
   manager: {fileID: 0}
-  colorSeleccionado: {r: 0.6818559, g: 0.8478001, b: 0.9811321, a: 1}
+  indiceCorecto: 0
+  posicionCorrecta: {x: 0, y: 0}
 --- !u!224 &2139139163 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8077584921992711725, guid: 3f5977a06183bf64aad765adc649bcdd, type: 3}

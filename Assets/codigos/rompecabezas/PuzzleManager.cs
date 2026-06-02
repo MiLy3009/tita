@@ -21,10 +21,12 @@ public class PuzzleManager : MonoBehaviour
 
     private PuzzlePiece piezaSeleccionada = null;
     private AudioSource audioSource;
+    private GridLayoutGroup gridLayout;
 
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
+        gridLayout = GetComponentInChildren<GridLayoutGroup>();
 
         for (int i = 0; i < piezas.Count; i++)
         {
@@ -66,9 +68,18 @@ public class PuzzleManager : MonoBehaviour
 
     IEnumerator IniciarRompecabezas()
     {
+        if (gridLayout != null)
+            gridLayout.enabled = true;
+
         Canvas.ForceUpdateCanvases();
         yield return new WaitForEndOfFrame();
         yield return new WaitForEndOfFrame();
+
+        for (int i = 0; i < piezas.Count; i++)
+            piezas[i].posicionCorrecta = piezas[i].GetComponent<RectTransform>().anchoredPosition;
+
+        if (gridLayout != null)
+            gridLayout.enabled = false;
 
         MezclarPiezas();
     }
@@ -79,29 +90,32 @@ public class PuzzleManager : MonoBehaviour
             panelRompecabezas.SetActive(false);
 
         piezaSeleccionada = null;
+
+        if (gridLayout != null)
+            gridLayout.enabled = true;
     }
 
     void MezclarPiezas()
     {
-        // Crea lista de índices y la mezcla
-        List<int> indices = new List<int>();
+        // 1. Guarda las posiciones correctas del grid
+        Vector2[] posiciones = new Vector2[piezas.Count];
         for (int i = 0; i < piezas.Count; i++)
-            indices.Add(i);
+            posiciones[i] = piezas[i].GetComponent<RectTransform>().anchoredPosition;
 
-        // Fisher-Yates shuffle
-        for (int i = indices.Count - 1; i > 0; i--)
+        // 2. Fisher-Yates shuffle sobre las posiciones directamente
+        for (int i = posiciones.Length - 1; i > 0; i--)
         {
             int j = Random.Range(0, i + 1);
-            int temp = indices[i];
-            indices[i] = indices[j];
-            indices[j] = temp;
+            Vector2 temp = posiciones[i];
+            posiciones[i] = posiciones[j];
+            posiciones[j] = temp;
         }
 
-        // Evita que quede igual al original
+        // 3. Evitar que quede igual al original
         bool igualAlOriginal = true;
-        for (int i = 0; i < indices.Count; i++)
+        for (int i = 0; i < posiciones.Length; i++)
         {
-            if (indices[i] != i)
+            if (Vector2.Distance(posiciones[i], piezas[i].posicionCorrecta) > 0.5f)
             {
                 igualAlOriginal = false;
                 break;
@@ -110,19 +124,14 @@ public class PuzzleManager : MonoBehaviour
 
         if (igualAlOriginal && piezas.Count >= 2)
         {
-            int temp = indices[0];
-            indices[0] = indices[1];
-            indices[1] = temp;
+            Vector2 temp = posiciones[0];
+            posiciones[0] = posiciones[1];
+            posiciones[1] = temp;
         }
 
-        // Reordena los hijos en la jerarquía según los índices mezclados
-        // El Grid Layout Group usa el sibling index para posicionar
+        // 4. Asignar posiciones mezcladas a cada pieza
         for (int i = 0; i < piezas.Count; i++)
-        {
-            piezas[indices[i]].transform.SetSiblingIndex(i);
-        }
-
-        Canvas.ForceUpdateCanvases();
+            piezas[i].GetComponent<RectTransform>().anchoredPosition = posiciones[i];
     }
 
     public void SeleccionarPieza(PuzzlePiece pieza)
@@ -150,22 +159,22 @@ public class PuzzleManager : MonoBehaviour
 
     void IntercambiarPiezas(PuzzlePiece a, PuzzlePiece b)
     {
-        // Intercambia el sibling index entre las dos piezas
-        int indexA = a.transform.GetSiblingIndex();
-        int indexB = b.transform.GetSiblingIndex();
+        RectTransform rtA = a.GetComponent<RectTransform>();
+        RectTransform rtB = b.GetComponent<RectTransform>();
 
-        a.transform.SetSiblingIndex(indexB);
-        b.transform.SetSiblingIndex(indexA);
+        Vector2 posTemp = rtA.anchoredPosition;
+        rtA.anchoredPosition = rtB.anchoredPosition;
+        rtB.anchoredPosition = posTemp;
 
         Canvas.ForceUpdateCanvases();
     }
 
     void VerificarVictoria()
     {
-        // La victoria es cuando cada pieza está en su sibling index correcto
         for (int i = 0; i < piezas.Count; i++)
         {
-            if (piezas[i].transform.GetSiblingIndex() != i)
+            RectTransform rt = piezas[i].GetComponent<RectTransform>();
+            if (Vector2.Distance(rt.anchoredPosition, piezas[i].posicionCorrecta) > 0.5f)
                 return;
         }
 

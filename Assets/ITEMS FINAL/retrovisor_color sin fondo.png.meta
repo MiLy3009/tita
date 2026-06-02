@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 36dbd1fe4a5e2d140a4b70c70890e156
+guid: 4b4b4980610d72b4b999ffa36d6428c9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2060302261858828666
-    second: Captura de pantalla 2026-04-24 072930_0
+      213: -4028596198014849848
+    second: retrovisor_color sin fondo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -55,9 +55,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captura de pantalla 2026-04-24 072930_0
+      name: retrovisor_color sin fondo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 839
-        height: 357
+        x: 232
+        y: 212
+        width: 203
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68e78ff32065863e0800000000000000
-      internalID: -2060302261858828666
+      spriteID: 8cce5d13a1d8718c0800000000000000
+      internalID: -4028596198014849848
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Captura de pantalla 2026-04-24 072930_0: -2060302261858828666
+      retrovisor_color sin fondo_0: -4028596198014849848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
