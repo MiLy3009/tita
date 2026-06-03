@@ -199,6 +199,8 @@ public class ScratchTransition : MonoBehaviour
         if (cursorCircle != null)
             cursorCircle.gameObject.SetActive(false);
 
+        scratchOverlay.gameObject.SetActive(false);
+
         if (btnSiguiente != null)
             btnSiguiente.gameObject.SetActive(true);
     }
@@ -215,7 +217,6 @@ public class ScratchTransition : MonoBehaviour
         panel2.SetActive(true);
         videoPlayer2.Play();
 
-        // ✅ Mostrar cuadros AL INICIO del video 2
         if (sistemaImagenes != null)
             sistemaImagenes.ActivarCuadrosDespuesVideo2();
     }
