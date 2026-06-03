@@ -2806,8 +2806,8 @@ MonoBehaviour:
   btnSiguiente: {fileID: 962394255}
   scratchOverlay: {fileID: 1684068278}
   brushSize: 80
-  revealThreshold: 0.8
-  imagenRaspado: {fileID: 2800000, guid: 4b4b4980610d72b4b999ffa36d6428c9, type: 3}
+  revealThreshold: 0.1
+  imagenRaspado: {fileID: 2800000, guid: 4184a9f466f3e464cabd594e8c050aee, type: 3}
   zonaX: 0.38
   zonaY: 0.28
   zonaAncho: 0.942
@@ -3884,7 +3884,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1431032897
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4589,7 +4589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 4b4b4980610d72b4b999ffa36d6428c9, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4184a9f466f3e464cabd594e8c050aee, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
