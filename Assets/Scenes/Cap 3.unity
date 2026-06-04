@@ -14035,11 +14035,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d88ca9ba39099242b3a6aa0291ebcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  ingresoUsuario: {fileID: 0}
-  textoMsj: {fileID: 0}
+  ingresoUsuario: {fileID: 191128929}
+  textoMsj: {fileID: 631969577}
   cartelitoMsj: {fileID: 0}
-  panelActual: {fileID: 0}
-  panelSiguiente: {fileID: 0}
+  panelActual: {fileID: 1864078859}
+  panelSiguiente: {fileID: 1041589271}
 --- !u!4 &1592603979
 Transform:
   m_ObjectHideFlags: 0
