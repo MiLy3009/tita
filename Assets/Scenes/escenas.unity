@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 51, y: -131}
-  m_SizeDelta: {x: 509.5196, y: 82.79498}
+  m_AnchoredPosition: {x: 187.2, y: -139.6}
+  m_SizeDelta: {x: 578.8495, y: 82.795}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &45499525
 MonoBehaviour:
@@ -176,10 +176,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'CAPITULOS '
+  m_text: "CAP\xCDTULOS "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1074,7 +1074,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -3113026317095146170, guid: 0dda59f38f53f2347949f7834c8c1b5f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1482,7 +1482,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429211862}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 85b4ace78716fa444b149631bfcb0e7c, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a5ee12a2eda9fd3418464f663749f760, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1696,7 +1696,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -3113026317095146170, guid: 0dda59f38f53f2347949f7834c8c1b5f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1743,7 +1743,8 @@ Transform:
   m_LocalPosition: {x: 1546.2245, y: 412.54306, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2012787021}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &483351814
@@ -2505,8 +2506,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 434}
-  m_SizeDelta: {x: 370.1623, y: 50}
+  m_AnchoredPosition: {x: 152, y: 409}
+  m_SizeDelta: {x: 688.9767, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650715866
 MonoBehaviour:
@@ -2528,10 +2529,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'CAPITULOS '
+  m_text: "CAP\xCDTULOS "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2555,8 +2556,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2841,7 +2842,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 891512099}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 3cbf17720fdfa054fad6a3f53e6db679, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e15535ea2460ac549a06c60020ba3100, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3764,8 +3765,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.799988, y: 209}
-  m_SizeDelta: {x: 275.0375, y: 50}
+  m_AnchoredPosition: {x: 32.3, y: 206.8}
+  m_SizeDelta: {x: 402.0499, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1239445068
 MonoBehaviour:
@@ -3789,8 +3790,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: DE CAMINO A LA ESCUELA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3901,7 +3902,6 @@ RectTransform:
   - {fileID: 1942148091}
   - {fileID: 1239445067}
   - {fileID: 2034413502}
-  - {fileID: 2012787021}
   - {fileID: 45499524}
   m_Father: {fileID: 945061994}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4314,7 +4314,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1631433065
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4830,8 +4830,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 287, y: 9}
-  m_SizeDelta: {x: 275.0375, y: 50}
+  m_AnchoredPosition: {x: 317, y: 13}
+  m_SizeDelta: {x: 397.5243, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761964140
 MonoBehaviour:
@@ -4855,8 +4855,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: DE CAMINO A LA ESCUELA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4992,8 +4992,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: MURMULLO TRAS LA PUERTA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5599,11 +5599,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1431032897}
+  m_Father: {fileID: 483351813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -813, y: 409}
+  m_AnchoredPosition: {x: -1399.2245, y: 536.4569}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012787022

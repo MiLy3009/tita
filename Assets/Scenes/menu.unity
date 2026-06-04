@@ -1073,10 +1073,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: INICIAR SIMULACION
+  m_text: "INICIAR SIMULACI\xD3N"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1100,8 +1100,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -1186,7 +1186,7 @@ RectTransform:
   m_Father: {fileID: 470185074}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1344,6 +1344,7 @@ GameObject:
   - component: {fileID: 958039827}
   - component: {fileID: 958039826}
   - component: {fileID: 958039825}
+  - component: {fileID: 958039828}
   m_Layer: 5
   m_Name: 'Button INICIAR SIMULACION '
   m_TagString: Untagged
@@ -1465,6 +1466,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958039823}
   m_CullTransparentMesh: 1
+--- !u!114 &958039828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958039823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00f8b3d4d522d241968594e9a18ed96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CambiarEscena
 --- !u!1 &1008196990
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,8 +1537,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SALIR
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1671,7 +1684,7 @@ RectTransform:
   m_Father: {fileID: 211124152}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2428,7 +2441,7 @@ RectTransform:
   m_Father: {fileID: 1279531032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2629,7 +2642,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1969015758
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2864,7 +2877,7 @@ RectTransform:
   m_Father: {fileID: 1025985129}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
