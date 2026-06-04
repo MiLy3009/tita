@@ -1609,7 +1609,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &87737066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1665,7 +1665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.84088135, y: 76}
+  m_AnchoredPosition: {x: -0.8408203, y: 76}
   m_SizeDelta: {x: -1446.5923, y: -899.4326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &100422847 stripped
@@ -4442,7 +4442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 51, y: -131}
+  m_AnchoredPosition: {x: 80, y: -168}
   m_SizeDelta: {x: 509.5196, y: 82.79498}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &440839460
@@ -4465,7 +4465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'CAPITULOS '
+  m_text: "CAP\xCDTULOS "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
@@ -4531,7 +4531,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -50.572205, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6904,7 +6904,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6297504446069308291, guid: 02d4511b0135f534790744179c14513b, type: 3}
+  m_Sprite: {fileID: -3113026317095146170, guid: 0dda59f38f53f2347949f7834c8c1b5f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16833,7 +16833,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1864078860
 MonoBehaviour:
   m_ObjectHideFlags: 0
