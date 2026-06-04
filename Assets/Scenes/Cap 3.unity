@@ -1292,8 +1292,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: DE CAMINO A LA ESCUELA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1609,7 +1609,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &87737066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1623,15 +1623,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5598077, g: 0.5964838, b: 0.9622642, a: 0.92941177}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.63529414}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 6297504446069308291, guid: 02d4511b0135f534790744179c14513b, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1665,8 +1665,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9, y: 31}
-  m_SizeDelta: {x: -560.08276, y: -479.74817}
+  m_AnchoredPosition: {x: -0.84088135, y: 76}
+  m_SizeDelta: {x: -1446.5923, y: -899.4326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &100422847 stripped
 RectTransform:
@@ -4467,8 +4467,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'CAPITULOS '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5154,7 +5154,6 @@ GameObject:
   - component: {fileID: 568866941}
   - component: {fileID: 568866940}
   - component: {fileID: 568866939}
-  - component: {fileID: 568866942}
   m_Layer: 5
   m_Name: 'Button aceptar '
   m_TagString: Untagged
@@ -5225,9 +5224,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 568866942}
-        m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
-        m_MethodName: AlAplastar
+      - m_Target: {fileID: 1592603978}
+        m_TargetAssemblyTypeName: ValidarContrasenia, Assembly-CSharp
+        m_MethodName: validarContrasenia
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5275,20 +5274,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568866937}
   m_CullTransparentMesh: 1
---- !u!114 &568866942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568866937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7504a013d319b38439f0ebc2301cf244, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BotonPanel
-  panelActual: {fileID: 1864078859}
-  panelNuevo: {fileID: 1041589271}
 --- !u!1 &582356818
 GameObject:
   m_ObjectHideFlags: 0
@@ -5635,7 +5620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -178, y: -11}
+  m_AnchoredPosition: {x: -70, y: -8}
   m_SizeDelta: {x: 202.67, y: 55.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &631969577
@@ -5658,10 +5643,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Contrase\xF1a Incorrecta"
+  m_text: " Contrase\xF1a Incorrecta"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5685,8 +5670,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 35.9
+  m_fontSizeBase: 35.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10446,8 +10431,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "LA RUTA DEL ENGA\xD1O "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13272,8 +13257,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: MURMULLO TRAS LA PUERTA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14037,7 +14022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   ingresoUsuario: {fileID: 191128929}
   textoMsj: {fileID: 631969577}
-  cartelitoMsj: {fileID: 0}
+  cartelitoMsj: {fileID: 87737065}
   panelActual: {fileID: 1864078859}
   panelSiguiente: {fileID: 1041589271}
 --- !u!4 &1592603979
