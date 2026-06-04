@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c1a9e50068458a9479e2f97cb2b32990
+guid: 6a684c14ad2b2af45a71182dac9263dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3041223286395038198
-    second: FONDO CELULAR_0
+      213: -3811092234978007279
+    second: FONDO CELULAR (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FONDO CELULAR_0
+      name: FONDO CELULAR (2)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f9e8344778943a20800000000000000
-      internalID: 3041223286395038198
+      spriteID: 117e2e7edc74c1bc0800000000000000
+      internalID: -3811092234978007279
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FONDO CELULAR_0: 3041223286395038198
+      FONDO CELULAR (2)_0: -3811092234978007279
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
