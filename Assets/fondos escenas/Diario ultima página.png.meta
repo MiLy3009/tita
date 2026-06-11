@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d205a816da214e45aa0660d45b1dae6
+guid: 4f4d931b6334979449bf6946daa6aed9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1308323465452454219
-    second: "Diario tercera pa\u0301gina_0"
+      213: -2818419072497061396
+    second: "Diario ultima pa\u0301gina_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Diario tercera pa\u0301gina_0"
+      name: "Diario ultima pa\u0301gina_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5bef56e6db6e7dde0800000000000000
-      internalID: -1308323465452454219
+      spriteID: ce170a349c6f2e8d0800000000000000
+      internalID: -2818419072497061396
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Diario tercera pa\u0301gina_0": -1308323465452454219
+      "Diario ultima pa\u0301gina_0": -2818419072497061396
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
