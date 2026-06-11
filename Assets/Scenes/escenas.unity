@@ -2939,12 +2939,12 @@ MonoBehaviour:
   btnSiguiente: {fileID: 962394255}
   scratchOverlay: {fileID: 1684068278}
   brushSize: 80
-  revealThreshold: 0.1
+  revealThreshold: 0.46
   imagenRaspado: {fileID: 2800000, guid: 047d09597d29eca48bc12a0f563b6f1a, type: 3}
-  zonaX: 0.38
-  zonaY: 0.28
-  zonaAncho: 0.942
-  zonaAlto: 0.871
+  zonaX: 0.32
+  zonaY: 0.5
+  zonaAncho: 0.35
+  zonaAlto: 0.35
   cursorCircle: {fileID: 613226012}
   sistemaImagenes: {fileID: 1067129833}
 --- !u!1 &891512099
