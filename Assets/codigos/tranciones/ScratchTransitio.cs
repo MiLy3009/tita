@@ -50,11 +50,9 @@ public class ScratchTransition : MonoBehaviour
         videoPlayer1.Play();
         scratchOverlay.gameObject.SetActive(false);
 
+        // El botón se oculta siempre, ya no se usa para la transición
         if (btnSiguiente != null)
-        {
             btnSiguiente.gameObject.SetActive(false);
-            btnSiguiente.onClick.AddListener(OnBotonPresionado);
-        }
 
         if (cursorCircle != null)
             cursorCircle.gameObject.SetActive(false);
@@ -188,10 +186,11 @@ public class ScratchTransition : MonoBehaviour
 
         float percent = (float)revealedPixels / totalPixels;
         if (percent >= revealThreshold)
-            ShowNextButton();
+            TransicionDirecta(); // ← antes llamaba a ShowNextButton()
     }
 
-    void ShowNextButton()
+    // Ya no muestra botón, ejecuta la transición directo
+    void TransicionDirecta()
     {
         transitionDone = true;
         isScratching = false;
@@ -201,8 +200,7 @@ public class ScratchTransition : MonoBehaviour
 
         scratchOverlay.gameObject.SetActive(false);
 
-        if (btnSiguiente != null)
-            btnSiguiente.gameObject.SetActive(true);
+        OnBotonPresionado(); // ← pasa directo al panel2
     }
 
     void OnBotonPresionado()
@@ -212,7 +210,9 @@ public class ScratchTransition : MonoBehaviour
 
         panel1.SetActive(false);
         scratchOverlay.gameObject.SetActive(false);
-        if (btnSiguiente != null) btnSiguiente.gameObject.SetActive(false);
+
+        if (btnSiguiente != null)
+            btnSiguiente.gameObject.SetActive(false);
 
         panel2.SetActive(true);
         videoPlayer2.Play();
