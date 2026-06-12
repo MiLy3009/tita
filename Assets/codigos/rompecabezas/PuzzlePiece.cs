@@ -7,13 +7,14 @@ public class PuzzlePiece : MonoBehaviour, IPointerClickHandler
     [HideInInspector] public PuzzleManager manager;
     [HideInInspector] public int indiceCorecto;
     [HideInInspector] public Vector2 posicionCorrecta;
+    
 
-    private Image imagen;
+    public Image imagen;
     private Color colorOriginal;
 
     void Awake()
     {
-        imagen = GetComponent<Image>();
+        //imagen = GetComponent<Image>();
         if (imagen != null)
             colorOriginal = imagen.color;
     }
