@@ -13,7 +13,7 @@ public class ScratchTransition : MonoBehaviour
 
     [Header("UI Elementos")]
     public Button btnSiguiente;
-    public GameObject textoRaspadita; // ← arrastra aquí el texto
+    public GameObject textoRaspadita;
 
     [Header("Scratch Settings")]
     public RawImage scratchOverlay;
@@ -58,7 +58,7 @@ public class ScratchTransition : MonoBehaviour
             cursorCircle.gameObject.SetActive(false);
 
         if (textoRaspadita != null)
-            textoRaspadita.SetActive(false); // ← oculto al inicio
+            textoRaspadita.SetActive(false);
     }
 
     public void ActivarRaspadita()
@@ -69,9 +69,13 @@ public class ScratchTransition : MonoBehaviour
         revealedPixels = 0;
         isScratching = true;
 
+        // ✅ Activar panel2 y su video ANTES de raspar para que se vea detrás
+        panel2.SetActive(true);
+        videoPlayer2.Play();
+
         scratchOverlay.gameObject.SetActive(true);
         if (cursorCircle != null) cursorCircle.gameObject.SetActive(true);
-        if (textoRaspadita != null) textoRaspadita.SetActive(true); // ← aparece con la raspadita
+        if (textoRaspadita != null) textoRaspadita.SetActive(true);
         InitScratchMask();
     }
 
@@ -202,7 +206,7 @@ public class ScratchTransition : MonoBehaviour
             cursorCircle.gameObject.SetActive(false);
 
         if (textoRaspadita != null)
-            textoRaspadita.SetActive(false); // ← se oculta al terminar
+            textoRaspadita.SetActive(false);
 
         scratchOverlay.gameObject.SetActive(false);
         OnBotonPresionado();
@@ -213,14 +217,14 @@ public class ScratchTransition : MonoBehaviour
         raspaditaYaUsada = true;
         isScratching = false;
 
+        // ✅ panel2 ya está activo, solo ocultamos panel1 y el overlay
         panel1.SetActive(false);
         scratchOverlay.gameObject.SetActive(false);
 
         if (btnSiguiente != null)
             btnSiguiente.gameObject.SetActive(false);
 
-        panel2.SetActive(true);
-        videoPlayer2.Play();
+        // panel2 ya está activo y videoPlayer2 ya está corriendo
 
         if (sistemaImagenes != null)
             sistemaImagenes.ActivarCuadrosDespuesVideo2();
