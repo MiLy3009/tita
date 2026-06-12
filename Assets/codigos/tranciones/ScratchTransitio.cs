@@ -13,6 +13,7 @@ public class ScratchTransition : MonoBehaviour
 
     [Header("UI Elementos")]
     public Button btnSiguiente;
+    public GameObject textoRaspadita; // ← arrastra aquí el texto
 
     [Header("Scratch Settings")]
     public RawImage scratchOverlay;
@@ -50,12 +51,14 @@ public class ScratchTransition : MonoBehaviour
         videoPlayer1.Play();
         scratchOverlay.gameObject.SetActive(false);
 
-        // El botón se oculta siempre, ya no se usa para la transición
         if (btnSiguiente != null)
             btnSiguiente.gameObject.SetActive(false);
 
         if (cursorCircle != null)
             cursorCircle.gameObject.SetActive(false);
+
+        if (textoRaspadita != null)
+            textoRaspadita.SetActive(false); // ← oculto al inicio
     }
 
     public void ActivarRaspadita()
@@ -68,6 +71,7 @@ public class ScratchTransition : MonoBehaviour
 
         scratchOverlay.gameObject.SetActive(true);
         if (cursorCircle != null) cursorCircle.gameObject.SetActive(true);
+        if (textoRaspadita != null) textoRaspadita.SetActive(true); // ← aparece con la raspadita
         InitScratchMask();
     }
 
@@ -186,10 +190,9 @@ public class ScratchTransition : MonoBehaviour
 
         float percent = (float)revealedPixels / totalPixels;
         if (percent >= revealThreshold)
-            TransicionDirecta(); // ← antes llamaba a ShowNextButton()
+            TransicionDirecta();
     }
 
-    // Ya no muestra botón, ejecuta la transición directo
     void TransicionDirecta()
     {
         transitionDone = true;
@@ -198,9 +201,11 @@ public class ScratchTransition : MonoBehaviour
         if (cursorCircle != null)
             cursorCircle.gameObject.SetActive(false);
 
-        scratchOverlay.gameObject.SetActive(false);
+        if (textoRaspadita != null)
+            textoRaspadita.SetActive(false); // ← se oculta al terminar
 
-        OnBotonPresionado(); // ← pasa directo al panel2
+        scratchOverlay.gameObject.SetActive(false);
+        OnBotonPresionado();
     }
 
     void OnBotonPresionado()

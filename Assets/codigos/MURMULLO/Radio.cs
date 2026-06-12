@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 {
@@ -24,11 +25,8 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
     [Header("Boton Siguiente")]
     public Button botonSiguiente;
 
-    [Header("Cambio de panel")]
-    public GameObject panelActual;
-    public GameObject panelSiguiente;
-
-    [Header("Sonido al terminar")]
+    [Header("Cambio de escena")]
+    public string nombreEscena = "Cap 3";
     public AudioClip sonidoFinal;
 
     private float _tuning = 0f;
@@ -41,9 +39,15 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
     private bool resuelto = false;
     private int cuadroActual = 0;
     private GameObject[] cuadros;
+    private AudioSource audioFinal;
 
     void Start()
     {
+        // Crear AudioSource extra para el sonido final
+        audioFinal = gameObject.AddComponent<AudioSource>();
+        audioFinal.playOnAwake = false;
+        audioFinal.volume = 1f;
+
         lineRenderer.positionCount = 64;
         audioLimpio.volume = 0f;
         audioLimpio.loop = false;
@@ -63,7 +67,6 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     void Update()
     {
-        // Si ya termino el audio limpio apaga la onda
         if (resuelto && !audioLimpio.isPlaying)
         {
             if (lineRenderer.gameObject.activeSelf)
@@ -157,18 +160,23 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
         }
         else
         {
-            StartCoroutine(SonidoYCambiarPanel());
+            StartCoroutine(SonidoYCambiarEscena());
         }
     }
 
-    IEnumerator SonidoYCambiarPanel()
+    IEnumerator SonidoYCambiarEscena()
     {
-        if (sonidoFinal != null)
-            audioLimpio.PlayOneShot(sonidoFinal);
+        if (sonidoFinal != null && audioFinal != null)
+        {
+            audioFinal.clip = sonidoFinal;
+            audioFinal.Play();
+            yield return new WaitWhile(() => audioFinal.isPlaying);
+        }
+        else
+        {
+            yield return null;
+        }
 
-        yield return new WaitForSeconds(sonidoFinal != null ? sonidoFinal.length : 0f);
-
-        if (panelActual != null) panelActual.SetActive(false);
-        if (panelSiguiente != null) panelSiguiente.SetActive(true);
+        SceneManager.LoadScene(nombreEscena);
     }
 }
