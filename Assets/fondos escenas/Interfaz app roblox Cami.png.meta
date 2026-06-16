@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f2c8bd3f5a8821641a71898b48aeb339
+guid: f60d87e3fc259a34b9aa40761109d851
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6467486633778692558
-    second: Interfaz app de mensajes_0
+      213: 4212500014255170372
+    second: Interfaz app roblox Cami_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interfaz app de mensajes_0
+      name: Interfaz app roblox Cami_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23eb80c3c2fde36a0800000000000000
-      internalID: -6467486633778692558
+      spriteID: 443e106b17ec57a30800000000000000
+      internalID: 4212500014255170372
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Interfaz app de mensajes_0: -6467486633778692558
+      Interfaz app roblox Cami_0: 4212500014255170372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
