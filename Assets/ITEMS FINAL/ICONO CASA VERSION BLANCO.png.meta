@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: a452e6398d26f7642b67d68ffd25383a
+guid: 49e375e516793164c9c98abdc53a354f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1002958766579103367
-    second: PIEZA 12_0
+      213: -2228925160664276707
+    second: ICONO CASA VERSION BLANCO_0
+  - first:
+      213: -4841843372770063782
+    second: ICONO CASA VERSION BLANCO_1
+  - first:
+      213: 8563110644372228633
+    second: ICONO CASA VERSION BLANCO_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,13 +52,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 48, y: 175, z: 122, w: 30}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -100,23 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PIEZA 12_0
+      name: ICONO CASA VERSION BLANCO_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 172
-        width: 832
-        height: 795
+        x: 141
+        y: 155
+        width: 727
+        height: 713
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97940b1d056c412f0800000000000000
-      internalID: -1002958766579103367
+      spriteID: d11ecaf20644111e0800000000000000
+      internalID: -2228925160664276707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICONO CASA VERSION BLANCO_1
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 481
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a06fb0b115eccb0800000000000000
+      internalID: -4841843372770063782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICONO CASA VERSION BLANCO_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 449
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a4c2203c746d670800000000000000
+      internalID: 8563110644372228633
       vertices: []
       indices: 
       edges: []
@@ -125,8 +175,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PIEZA 12_0: -1002958766579103367
+      ICONO CASA VERSION BLANCO_0: -2228925160664276707
+      ICONO CASA VERSION BLANCO_1: -4841843372770063782
+      ICONO CASA VERSION BLANCO_2: 8563110644372228633
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

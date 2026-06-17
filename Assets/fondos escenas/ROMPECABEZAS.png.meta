@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: bb0b6bfd418d3e94a97bb3f30d6ba339
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3908444587605373662
+    second: ROMPECABEZAS_0
+  - first:
+      213: 1985846982713872269
+    second: ROMPECABEZAS_1
+  - first:
+      213: 9084085577504775007
+    second: ROMPECABEZAS_2
+  - first:
+      213: -5762187772533395625
+    second: ROMPECABEZAS_3
+  - first:
+      213: -2066755240978294100
+    second: ROMPECABEZAS_4
+  - first:
+      213: 1671858814676201768
+    second: ROMPECABEZAS_5
+  - first:
+      213: 6485494298001571721
+    second: ROMPECABEZAS_6
+  - first:
+      213: 5160816405255327881
+    second: ROMPECABEZAS_7
+  - first:
+      213: -5001151965142035448
+    second: ROMPECABEZAS_8
+  - first:
+      213: -8680250158333682851
+    second: ROMPECABEZAS_9
+  - first:
+      213: -9022392888719339725
+    second: ROMPECABEZAS_10
+  - first:
+      213: -4800095327931405078
+    second: ROMPECABEZAS_11
+  - first:
+      213: -1300158725621613004
+    second: ROMPECABEZAS_12
+  - first:
+      213: -6438738719607542291
+    second: ROMPECABEZAS_13
+  - first:
+      213: -8365038494848100166
+    second: ROMPECABEZAS_14
+  - first:
+      213: 8400278318959361493
+    second: ROMPECABEZAS_15
+  - first:
+      213: -7985732536076115769
+    second: ROMPECABEZAS_16
+  - first:
+      213: -7673900452590987111
+    second: ROMPECABEZAS_17
+  - first:
+      213: 6538468541698007982
+    second: ROMPECABEZAS_18
+  - first:
+      213: 1532695489712921003
+    second: ROMPECABEZAS_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ROMPECABEZAS_0
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 29
+        width: 528
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dcb7bfa5a62c9c0800000000000000
+      internalID: -3908444587605373662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_1
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 767
+        width: 12
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f01fe2f452f8b10800000000000000
+      internalID: 1985846982713872269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_2
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 816
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bdb6404b7211e70800000000000000
+      internalID: 9084085577504775007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_3
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 555
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f2c0110c89800b0800000000000000
+      internalID: -5762187772533395625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_4
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 516
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caadfc7fe096153e0800000000000000
+      internalID: -2066755240978294100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_5
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 497
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821716bebb2a33710800000000000000
+      internalID: 1671858814676201768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 492
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f7431d3ba110a50800000000000000
+      internalID: 6485494298001571721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_7
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 479
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980904a6d27ee9740800000000000000
+      internalID: 5160816405255327881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_8
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 469
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80456f1f8c6589ab0800000000000000
+      internalID: -5001151965142035448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_9
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 468
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b1efe887e898780800000000000000
+      internalID: -8680250158333682851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_10
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 459
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f8fdb68750ac280800000000000000
+      internalID: -9022392888719339725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_11
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 443
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aece2a23bb2a26db0800000000000000
+      internalID: -4800095327931405078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_12
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 306
+        width: 10
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ef2bf0788e4fde0800000000000000
+      internalID: -1300158725621613004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_13
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 294
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded2d389f3105a6a0800000000000000
+      internalID: -6438738719607542291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_14
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 159
+        width: 11
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab85c1e0fc969eb80800000000000000
+      internalID: -8365038494848100166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_15
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 216
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddfcffdf98c39470800000000000000
+      internalID: 8400278318959361493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_16
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 159
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c067e3919afc2190800000000000000
+      internalID: -7985732536076115769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_17
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 178
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998da994234d08590800000000000000
+      internalID: -7673900452590987111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_18
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 116
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3e9f21f7e4dba50800000000000000
+      internalID: 6538468541698007982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROMPECABEZAS_19
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 123
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba99e256d6a354510800000000000000
+      internalID: 1532695489712921003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ROMPECABEZAS_0: -3908444587605373662
+      ROMPECABEZAS_1: 1985846982713872269
+      ROMPECABEZAS_10: -9022392888719339725
+      ROMPECABEZAS_11: -4800095327931405078
+      ROMPECABEZAS_12: -1300158725621613004
+      ROMPECABEZAS_13: -6438738719607542291
+      ROMPECABEZAS_14: -8365038494848100166
+      ROMPECABEZAS_15: 8400278318959361493
+      ROMPECABEZAS_16: -7985732536076115769
+      ROMPECABEZAS_17: -7673900452590987111
+      ROMPECABEZAS_18: 6538468541698007982
+      ROMPECABEZAS_19: 1532695489712921003
+      ROMPECABEZAS_2: 9084085577504775007
+      ROMPECABEZAS_3: -5762187772533395625
+      ROMPECABEZAS_4: -2066755240978294100
+      ROMPECABEZAS_5: 1671858814676201768
+      ROMPECABEZAS_6: 6485494298001571721
+      ROMPECABEZAS_7: 5160816405255327881
+      ROMPECABEZAS_8: -5001151965142035448
+      ROMPECABEZAS_9: -8680250158333682851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
