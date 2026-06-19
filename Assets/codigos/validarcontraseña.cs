@@ -19,7 +19,7 @@ public class ValidarContrasenia : MonoBehaviour
 
     void Start()
     {
-        contraseniaCorrecta = "12345";
+        contraseniaCorrecta = "04042026";
 
         if (cartelitoMsj != null) cartelitoMsj.SetActive(false);
         if (panelSiguiente != null) panelSiguiente.SetActive(false);
