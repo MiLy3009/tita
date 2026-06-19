@@ -2,10 +2,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ValidarContrasenia : MonoBehaviour
 {
-    string contraseniaCorrecta;
+    HashSet<string> contraseniasCorrectas;
     string contraseniaUsuario;
 
     [Header("Configuración de UI")]
@@ -19,7 +20,14 @@ public class ValidarContrasenia : MonoBehaviour
 
     void Start()
     {
-        contraseniaCorrecta = "04042026";
+        contraseniasCorrectas = new HashSet<string>
+        {
+            "04042026",
+            "04.04.2026",
+            "04_04_2026",
+            "04-04-2026",
+            "04/04/2026"
+        };
 
         if (cartelitoMsj != null) cartelitoMsj.SetActive(false);
         if (panelSiguiente != null) panelSiguiente.SetActive(false);
@@ -29,11 +37,11 @@ public class ValidarContrasenia : MonoBehaviour
     {
         contraseniaUsuario = ingresoUsuario.text;
 
-        if (contraseniaUsuario == contraseniaCorrecta)
+        if (contraseniasCorrectas.Contains(contraseniaUsuario))
         {
             // 1. Mostramos mensaje de éxito brevemente
             cartelitoMsj.SetActive(true);
-            textoMsj.text = "Bienvenido";
+            textoMsj.text = "Bienvenida Emma";
 
             // 2. Ejecutamos el cambio total
             Invoke("CambiarDePanel", 1.2f); // 1.2 segundos para que sea rápido
