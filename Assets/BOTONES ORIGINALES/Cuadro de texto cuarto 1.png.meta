@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: faeae4b25b220bc47ac90ee61b32164f
+guid: e792d9aaa9e0b8344bdba0001e5e8b96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3410021334209517836
-    second: TEXTO PISTA OSO_0
+      213: -6432197825176994924
+    second: Cuadro de texto cuarto 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TEXTO PISTA OSO_0
+      name: Cuadro de texto cuarto 1_0
       rect:
         serializedVersion: 2
-        x: 188
-        y: 92
-        width: 1563
-        height: 209
+        x: 13
+        y: 5
+        width: 560
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c09df0e1654d25f20800000000000000
-      internalID: 3410021334209517836
+      spriteID: 49bf841482e3cb6a0800000000000000
+      internalID: -6432197825176994924
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TEXTO PISTA OSO_0: 3410021334209517836
+      Cuadro de texto cuarto 1_0: -6432197825176994924
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

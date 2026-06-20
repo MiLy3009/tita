@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5797045efe4a0e147b957a72e661865c
+guid: dde1baa52a7e5d04e93bda432c3592e4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1861628847178848766
-    second: CUADRO DE AJUSTE_0
+      213: -4801698738783830256
+    second: CUADRO DE TEXTO PASILLO 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CUADRO DE AJUSTE_0
+      name: CUADRO DE TEXTO PASILLO 1_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 22
         y: 0
-        width: 1920
-        height: 1080
+        width: 878
+        height: 148
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef917bbb295d5d910800000000000000
-      internalID: 1861628847178848766
+      spriteID: 01f39540070fc5db0800000000000000
+      internalID: -4801698738783830256
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CUADRO DE AJUSTE_0: 1861628847178848766
+      CUADRO DE TEXTO PASILLO 1_0: -4801698738783830256
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

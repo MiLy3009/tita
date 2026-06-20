@@ -1,67 +1,67 @@
 fileFormatVersion: 2
-guid: 9e88fef7ba6a077499f4fc9f1a749608
+guid: 637db24f28c51fb4eac3252d41f9a8f4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3908444587605373662
-    second: ROMPECABEZAS_0
+      213: 4548384791847310077
+    second: CELULAR ROMPECABEZAS_0
   - first:
-      213: 1985846982713872269
-    second: ROMPECABEZAS_1
+      213: 4094251055120852411
+    second: CELULAR ROMPECABEZAS_1
   - first:
-      213: 9084085577504775007
-    second: ROMPECABEZAS_2
+      213: 4735250885161488840
+    second: CELULAR ROMPECABEZAS_2
   - first:
-      213: -5762187772533395625
-    second: ROMPECABEZAS_3
+      213: -4318072041091316299
+    second: CELULAR ROMPECABEZAS_3
   - first:
-      213: -2066755240978294100
-    second: ROMPECABEZAS_4
+      213: -6126655723887543459
+    second: CELULAR ROMPECABEZAS_4
   - first:
-      213: 1671858814676201768
-    second: ROMPECABEZAS_5
+      213: -4694827746046187100
+    second: CELULAR ROMPECABEZAS_5
   - first:
-      213: 6485494298001571721
-    second: ROMPECABEZAS_6
+      213: -8832210974270928066
+    second: CELULAR ROMPECABEZAS_6
   - first:
-      213: 5160816405255327881
-    second: ROMPECABEZAS_7
+      213: 2814098530132953031
+    second: CELULAR ROMPECABEZAS_7
   - first:
-      213: -5001151965142035448
-    second: ROMPECABEZAS_8
+      213: -6904960639248273769
+    second: CELULAR ROMPECABEZAS_8
   - first:
-      213: -8680250158333682851
-    second: ROMPECABEZAS_9
+      213: 3498144200805014449
+    second: CELULAR ROMPECABEZAS_9
   - first:
-      213: -9022392888719339725
-    second: ROMPECABEZAS_10
+      213: 7213211926916018379
+    second: CELULAR ROMPECABEZAS_10
   - first:
-      213: -4800095327931405078
-    second: ROMPECABEZAS_11
+      213: -7331372019114703406
+    second: CELULAR ROMPECABEZAS_11
   - first:
-      213: -1300158725621613004
-    second: ROMPECABEZAS_12
+      213: 8956843067722035554
+    second: CELULAR ROMPECABEZAS_12
   - first:
-      213: -6438738719607542291
-    second: ROMPECABEZAS_13
+      213: -777788964701793003
+    second: CELULAR ROMPECABEZAS_13
   - first:
-      213: -8365038494848100166
-    second: ROMPECABEZAS_14
+      213: -2585628852975567007
+    second: CELULAR ROMPECABEZAS_14
   - first:
-      213: 8400278318959361493
-    second: ROMPECABEZAS_15
+      213: 6424354187576229253
+    second: CELULAR ROMPECABEZAS_15
   - first:
-      213: -7985732536076115769
-    second: ROMPECABEZAS_16
+      213: -7937042861137185899
+    second: CELULAR ROMPECABEZAS_16
   - first:
-      213: -7673900452590987111
-    second: ROMPECABEZAS_17
+      213: -5945959195190074244
+    second: CELULAR ROMPECABEZAS_17
   - first:
-      213: 6538468541698007982
-    second: ROMPECABEZAS_18
+      213: 7858724787111687913
+    second: CELULAR ROMPECABEZAS_18
   - first:
-      213: 1532695489712921003
-    second: ROMPECABEZAS_19
+      213: 286654121505746443
+    second: CELULAR ROMPECABEZAS_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -160,10 +160,10 @@ TextureImporter:
       name: pieza1
       rect:
         serializedVersion: 2
-        x: 253
+        x: 248
         y: 667
-        width: 247
-        height: 301
+        width: 252
+        height: 304
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22dcb7bfa5a62c9c0800000000000000
-      internalID: -3908444587605373662
+      spriteID: df219dbaedb1f1f30800000000000000
+      internalID: 4548384791847310077
       vertices: []
       indices: 
       edges: []
@@ -184,8 +184,8 @@ TextureImporter:
         serializedVersion: 2
         x: 500
         y: 667
-        width: 252
-        height: 300
+        width: 255
+        height: 304
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8f01fe2f452f8b10800000000000000
-      internalID: 1985846982713872269
+      spriteID: bb52fb174a3b1d830800000000000000
+      internalID: 4094251055120852411
       vertices: []
       indices: 
       edges: []
@@ -204,9 +204,9 @@ TextureImporter:
       name: pieza3
       rect:
         serializedVersion: 2
-        x: 253
+        x: 248
         y: 334
-        width: 247
+        width: 252
         height: 333
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5bdb6404b7211e70800000000000000
-      internalID: 9084085577504775007
+      spriteID: 8c19764779df6b140800000000000000
+      internalID: 4735250885161488840
       vertices: []
       indices: 
       edges: []
@@ -228,7 +228,7 @@ TextureImporter:
         serializedVersion: 2
         x: 500
         y: 334
-        width: 251
+        width: 255
         height: 333
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -238,8 +238,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75f2c0110c89800b0800000000000000
-      internalID: -5762187772533395625
+      spriteID: 5b5c4345b502314c0800000000000000
+      internalID: -4318072041091316299
       vertices: []
       indices: 
       edges: []
@@ -248,29 +248,7 @@ TextureImporter:
       name: pieza5
       rect:
         serializedVersion: 2
-        x: 253
-        y: 29
-        width: 247
-        height: 305
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: caadfc7fe096153e0800000000000000
-      internalID: -2066755240978294100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pieza6
-      rect:
-        serializedVersion: 2
-        x: 500
+        x: 248
         y: 29
         width: 252
         height: 305
@@ -282,8 +260,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 821716bebb2a33710800000000000000
-      internalID: 1671858814676201768
+      spriteID: d5bb19c541fb9faa0800000000000000
+      internalID: -6126655723887543459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pieza6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 29
+        width: 254
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9e44b0a0f98deb0800000000000000
+      internalID: -4694827746046187100
       vertices: []
       indices: 
       edges: []
@@ -292,8 +292,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f7e060c2988bb29419547f083274851c
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -304,12 +304,12 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":3.0},"gridSpriteSize":{"x":500.0,"y":333.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      pieza1: -3908444587605373662
-      pieza2: 1985846982713872269
-      pieza3: 9084085577504775007
-      pieza4: -5762187772533395625
-      pieza5: -2066755240978294100
-      pieza6: 1671858814676201768
+      pieza1: 4548384791847310077
+      pieza2: 4094251055120852411
+      pieza3: 4735250885161488840
+      pieza4: -4318072041091316299
+      pieza5: -6126655723887543459
+      pieza6: -4694827746046187100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
