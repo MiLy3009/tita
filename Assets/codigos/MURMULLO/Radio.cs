@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
+public class Radio : MonoBehaviour, IPointerDownHandler, IPointerClickHandler
 {
     [Header("Audio")]
     public AudioSource audioLimpio;
@@ -29,17 +29,18 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
     public string nombreEscena = "Cap 3";
     public AudioClip sonidoFinal;
 
-    private float _tuning = 0f;
-    private Vector2 _lastMouse;
-    private float _angulo = -135f;
+    [Header("Animacion de aplastado")]
+    public float escalaAplastado = 0.9f;
+    public float duracionAplastado = 0.1f;
+
     private float[] _spectrum = new float[64];
-    private float _noise = 1f;
     private System.Random _rand = new System.Random();
 
     private bool resuelto = false;
     private int cuadroActual = 0;
     private GameObject[] cuadros;
     private AudioSource audioFinal;
+    private Vector3 _escalaOriginal;
 
     void Start()
     {
@@ -52,7 +53,11 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
         audioLimpio.volume = 0f;
         audioLimpio.loop = false;
         audioEstatica.volume = 1f;
-        ActualizarLED();
+        audioEstatica.loop = true;
+        if (!audioEstatica.isPlaying)
+            audioEstatica.Play();
+
+        ledUnico.color = Color.red;
 
         cuadros = new GameObject[] { cuadro1, cuadro2, cuadro3, cuadro4 };
         foreach (GameObject c in cuadros)
@@ -63,6 +68,8 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
 
         if (botonSiguiente != null)
             botonSiguiente.onClick.AddListener(OnBotonSiguienteClick);
+
+        _escalaOriginal = transform.localScale;
     }
 
     void Update()
@@ -74,56 +81,64 @@ public class Radio : MonoBehaviour, IDragHandler, IBeginDragHandler
             return;
         }
 
-        audioLimpio.GetSpectrumData(_spectrum, 0, FFTWindow.Hamming);
-        _noise = Mathf.Lerp(_noise, 1f - _tuning, Time.deltaTime * 5f);
-
-        for (int i = 0; i < 64; i++)
+        if (resuelto)
         {
-            float x = -3f + i * 0.1f;
-            float cleanY = Mathf.Sqrt(_spectrum[i]) * 3f;
-            float noiseY = (float)(_rand.NextDouble() * 2.0 - 1.0);
-            float y = Mathf.Lerp(cleanY, noiseY, _noise);
-            lineRenderer.SetPosition(i, new Vector3(x, y, 0));
+            // Señal limpia: dibuja el espectro real del audio
+            audioLimpio.GetSpectrumData(_spectrum, 0, FFTWindow.Hamming);
+            for (int i = 0; i < 64; i++)
+            {
+                float x = -3f + i * 0.1f;
+                float y = Mathf.Sqrt(_spectrum[i]) * 3f;
+                lineRenderer.SetPosition(i, new Vector3(x, y, 0));
+            }
+            Color limpio = new Color(0.2f, 1f, 0f);
+            lineRenderer.startColor = limpio;
+            lineRenderer.endColor = limpio;
         }
-
-        Color c = Color.Lerp(new Color(1f, 0.4f, 0f), new Color(0.2f, 1f, 0f), _tuning);
-        lineRenderer.startColor = c;
-        lineRenderer.endColor = c;
-    }
-
-    public void OnBeginDrag(PointerEventData e) => _lastMouse = e.position;
-
-    public void OnDrag(PointerEventData e)
-    {
-        if (resuelto) return;
-
-        float delta = (e.position.y - _lastMouse.y) * 0.5f;
-        _angulo = Mathf.Clamp(_angulo + delta, -135f, 135f);
-        _lastMouse = e.position;
-        transform.rotation = Quaternion.Euler(0, 0, -_angulo);
-        _tuning = Mathf.InverseLerp(-135f, 135f, _angulo);
-        AplicarTuning();
-    }
-
-    void AplicarTuning()
-    {
-        audioEstatica.volume = Mathf.Clamp01(1f - (_tuning / 0.85f));
-        audioLimpio.volume = 0f;
-        ActualizarLED();
-
-        if (_tuning >= 0.95f && !resuelto)
+        else
         {
-            resuelto = true;
-            audioEstatica.Stop();
-            audioLimpio.volume = 1f;
-            audioLimpio.Play();
-            StartCoroutine(EsperarAudioYMostrar());
+            // Ruido/estática mientras no se ha presionado el botón
+            for (int i = 0; i < 64; i++)
+            {
+                float x = -3f + i * 0.1f;
+                float y = (float)(_rand.NextDouble() * 2.0 - 1.0);
+                lineRenderer.SetPosition(i, new Vector3(x, y, 0));
+            }
+            Color estatica = new Color(1f, 0.4f, 0f);
+            lineRenderer.startColor = estatica;
+            lineRenderer.endColor = estatica;
         }
     }
 
-    void ActualizarLED()
+    // Animación de "aplastado" al presionar
+    public void OnPointerDown(PointerEventData e)
     {
-        ledUnico.color = Color.Lerp(Color.red, Color.green, _tuning);
+        StopCoroutine(nameof(AnimarAplastado));
+        StartCoroutine(AnimarAplastado());
+    }
+
+    // Click válido (presionar y soltar dentro del objeto) -> resuelve el puzzle
+    public void OnPointerClick(PointerEventData e)
+    {
+        if (!resuelto)
+            Resolver();
+    }
+
+    IEnumerator AnimarAplastado()
+    {
+        transform.localScale = _escalaOriginal * escalaAplastado;
+        yield return new WaitForSeconds(duracionAplastado);
+        transform.localScale = _escalaOriginal;
+    }
+
+    void Resolver()
+    {
+        resuelto = true;
+        audioEstatica.Stop();
+        audioLimpio.volume = 1f;
+        audioLimpio.Play();
+        ledUnico.color = Color.green;
+        StartCoroutine(EsperarAudioYMostrar());
     }
 
     IEnumerator EsperarAudioYMostrar()
