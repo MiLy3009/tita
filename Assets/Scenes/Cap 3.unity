@@ -1908,7 +1908,6 @@ GameObject:
   - component: {fileID: 156320159}
   - component: {fileID: 156320161}
   - component: {fileID: 156320160}
-  - component: {fileID: 156320162}
   m_Layer: 5
   m_Name: PanelCAPITULO 3
   m_TagString: Untagged
@@ -1981,19 +1980,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156320158}
   m_CullTransparentMesh: 1
---- !u!114 &156320162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156320158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a2fefc2010e9a3469a33b4314c42af5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoClick
-  clip: {fileID: 8300000, guid: cd524a70ccff48e4da6ca70c5f16b287, type: 3}
 --- !u!1 &187444675
 GameObject:
   m_ObjectHideFlags: 0
@@ -6469,6 +6455,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565995176}
   m_CullTransparentMesh: 1
+--- !u!1 &566462303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 566462305}
+  - component: {fileID: 566462304}
+  m_Layer: 5
+  m_Name: clicksonido
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &566462304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566462303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2fefc2010e9a3469a33b4314c42af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoClick
+  clip: {fileID: 8300000, guid: cd524a70ccff48e4da6ca70c5f16b287, type: 3}
+--- !u!224 &566462305
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566462303}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 818, y: 1147}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &568866937
 GameObject:
   m_ObjectHideFlags: 0
@@ -21411,9 +21446,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 566462303}
         m_TargetAssemblyTypeName: RutaSelector, Assembly-CSharp
-        m_MethodName: SeleccionarRutaB
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22585,6 +22620,7 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 945061994}
   - {fileID: 1635367480}
+  - {fileID: 566462305}
   - {fileID: 857783063}
   - {fileID: 156291159}
   - {fileID: 1158781039}

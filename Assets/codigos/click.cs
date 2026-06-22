@@ -7,15 +7,13 @@ public class SonidoClick : MonoBehaviour
 
     private AudioSource fuente;
 
-    private void Start()
+    private void Awake()
     {
         fuente = gameObject.AddComponent<AudioSource>();
         fuente.playOnAwake = false;
-
-        GetComponent<Button>().onClick.AddListener(ReproducirSonido);
     }
 
-    private void ReproducirSonido()
+    public void Reproducir()
     {
         fuente.PlayOneShot(clip);
     }
