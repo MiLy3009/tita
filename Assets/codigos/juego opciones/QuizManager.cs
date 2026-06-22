@@ -11,8 +11,17 @@ public class QuizManager : MonoBehaviour
     [Header("Botón Continuar")]
     public Button continuarButton;
 
+    [Header("Sonidos")]
+    public AudioClip sonidoCorrecto;
+    public AudioClip sonidoIncorrecto;
+
+    private AudioSource fuente;
+
     void Start()
     {
+        fuente = gameObject.AddComponent<AudioSource>();
+        fuente.playOnAwake = false;
+
         if (continuarButton != null)
         {
             continuarButton.gameObject.SetActive(false);
@@ -24,7 +33,6 @@ public class QuizManager : MonoBehaviour
 
     void CargarBotones()
     {
-        // Oculta el botón Continuar
         if (continuarButton != null)
             continuarButton.gameObject.SetActive(false);
 
@@ -48,18 +56,19 @@ public class QuizManager : MonoBehaviour
             Image img = answerButtons[i].GetComponent<Image>();
 
             if (i == selected && correcto)
-                img.color = new Color(0.2f, 0.8f, 0.2f); // Verde
+                img.color = new Color(0.2f, 0.8f, 0.2f);
             else if (i == selected && !correcto)
-                img.color = new Color(0.9f, 0.2f, 0.2f); // Rojo
+                img.color = new Color(0.9f, 0.2f, 0.2f);
         }
 
         if (correcto)
         {
-            if (continuarButton != null)
-                continuarButton.gameObject.SetActive(true);
+            if (sonidoCorrecto != null) fuente.PlayOneShot(sonidoCorrecto);
+            if (continuarButton != null) continuarButton.gameObject.SetActive(true);
         }
         else
         {
+            if (sonidoIncorrecto != null) fuente.PlayOneShot(sonidoIncorrecto);
             Invoke(nameof(Reintentar), 1.5f);
         }
     }

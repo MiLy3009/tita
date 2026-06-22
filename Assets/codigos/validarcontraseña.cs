@@ -15,18 +15,29 @@ public class ValidarContrasenia : MonoBehaviour
     public GameObject cartelitoMsj;
 
     [Header("Paneles de Navegación")]
-    public GameObject panelActual;    // Arrastra aquí: Panel clave
-    public GameObject panelSiguiente; // Arrastra aquí: Panel desbloqueada
+    public GameObject panelActual;
+    public GameObject panelSiguiente;
+
+    [Header("Sonidos")]
+    public AudioClip sonidoCorrecto;
+    public AudioClip sonidoIncorrecto;
+
+    private AudioSource fuente;
 
     void Start()
     {
+        fuente = Camera.main.gameObject.AddComponent<AudioSource>();
+        fuente.playOnAwake = false;
+
         contraseniasCorrectas = new HashSet<string>
         {
             "04042026",
             "04.04.2026",
             "04_04_2026",
             "04-04-2026",
-            "04/04/2026"
+            "04/04/2026",
+            "04 04 2026",
+            "040426"
         };
 
         if (cartelitoMsj != null) cartelitoMsj.SetActive(false);
@@ -39,15 +50,17 @@ public class ValidarContrasenia : MonoBehaviour
 
         if (contraseniasCorrectas.Contains(contraseniaUsuario))
         {
-            // 1. Mostramos mensaje de éxito brevemente
+            if (sonidoCorrecto != null) fuente.PlayOneShot(sonidoCorrecto);
+
             cartelitoMsj.SetActive(true);
             textoMsj.text = "Bienvenida Emma";
 
-            // 2. Ejecutamos el cambio total
-            Invoke("CambiarDePanel", 1.2f); // 1.2 segundos para que sea rápido
+            Invoke("CambiarDePanel", 1.2f);
         }
         else
         {
+            if (sonidoIncorrecto != null) fuente.PlayOneShot(sonidoIncorrecto);
+
             cartelitoMsj.SetActive(true);
             textoMsj.text = "Contraseña Incorrecta";
             StartCoroutine(OcultarMensaje(1.5f));
@@ -66,12 +79,9 @@ public class ValidarContrasenia : MonoBehaviour
     {
         if (panelActual != null && panelSiguiente != null)
         {
-            // APAGAMOS TODO LO ANTERIOR
-            panelActual.SetActive(false);    // Apaga el teclado y el fondo de clave
-            if (cartelitoMsj != null) cartelitoMsj.SetActive(false); // Apaga el "Bienvenido"
-
-            // ENCENDEMOS EL NUEVO
-            panelSiguiente.SetActive(true); // Enciende la pantalla azul de "Última conexión"
+            panelActual.SetActive(false);
+            if (cartelitoMsj != null) cartelitoMsj.SetActive(false);
+            panelSiguiente.SetActive(true);
         }
     }
 }

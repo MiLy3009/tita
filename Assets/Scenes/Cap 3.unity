@@ -1088,6 +1088,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &72275365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1663,6 +1675,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: SecuenciaBotones, Assembly-CSharp
         m_MethodName: IntentarBoton
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2703,6 +2739,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &202482917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3045,6 +3093,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1823910423}
         m_TargetAssemblyTypeName: DesaparecerAlPresionar, Assembly-CSharp
         m_MethodName: Aparecer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3891,8 +3951,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 47.167236, y: 0}
-  m_SizeDelta: {x: 94.3345, y: 0}
+  m_AnchoredPosition: {x: 54.10083, y: 12.581726}
+  m_SizeDelta: {x: 108.2, y: 25.1633}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &310158750
 MonoBehaviour:
@@ -4329,6 +4389,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &336163377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4581,6 +4653,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4973,11 +5057,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1864078862}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 540.676}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1757, y: 157}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 247, y: 293}
   m_SizeDelta: {x: 110, y: 110}
-  m_Pivot: {x: 0.5000001, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &405542816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5039,6 +5123,18 @@ MonoBehaviour:
       - m_Target: {fileID: 405542816}
         m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
         m_MethodName: AlAplastar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6484,7 +6580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2fefc2010e9a3469a33b4314c42af5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoClick
-  clip: {fileID: 8300000, guid: cd524a70ccff48e4da6ca70c5f16b287, type: 3}
+  clip: {fileID: 8300000, guid: 5c55ddd3a6833cf4ea44f10d6084a0d3, type: 3}
 --- !u!224 &566462305
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6589,6 +6685,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1592603978}
         m_TargetAssemblyTypeName: ValidarContrasenia, Assembly-CSharp
         m_MethodName: validarContrasenia
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7043,6 +7151,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &620378559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7319,6 +7439,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &649782317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7546,8 +7678,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
-  m_sharedMaterial: {fileID: -3720296529284288002, guid: 7504aaca09a25564ba13bd3b2130d17f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7710,6 +7842,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9530,6 +9674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 807336866}
   - component: {fileID: 807336865}
+  - component: {fileID: 807336867}
   m_Layer: 5
   m_Name: botonessecuencia
   m_TagString: Untagged
@@ -9575,6 +9720,103 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &807336867
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807336864}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &825411478
 GameObject:
   m_ObjectHideFlags: 0
@@ -9656,7 +9898,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 825411481}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1592603977}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &825411481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10395,7 +10649,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &891294093
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11064,7 +11318,6 @@ RectTransform:
   - {fileID: 891294096}
   - {fileID: 1888709106}
   - {fileID: 849413408}
-  - {fileID: 1733084404}
   - {fileID: 1864078862}
   - {fileID: 1942850509}
   - {fileID: 1669777368}
@@ -12104,6 +12357,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1006112640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12770,6 +13035,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -13743,6 +14020,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1170570562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13914,6 +14203,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14711,6 +15012,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1263279508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15259,6 +15572,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1333713704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15640,18 +15965,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DiarioManager, Assembly-CSharp
-        m_MethodName: AlAbrirDiario
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1367614617}
         m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
         m_MethodName: AlAplastar
@@ -15679,6 +15992,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1635367482}
         m_TargetAssemblyTypeName: DiarioManager, Assembly-CSharp
         m_MethodName: AlAbrirDiario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15920,6 +16245,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1374993636}
         m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
         m_MethodName: AlAplastar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17006,6 +17343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1592603979}
   - component: {fileID: 1592603978}
+  - component: {fileID: 1592603980}
   m_Layer: 0
   m_Name: "VALIDARCONTRASE\xD1A"
   m_TagString: Untagged
@@ -17030,6 +17368,8 @@ MonoBehaviour:
   cartelitoMsj: {fileID: 87737065}
   panelActual: {fileID: 1864078859}
   panelSiguiente: {fileID: 1041589271}
+  sonidoCorrecto: {fileID: 8300000, guid: 61824231f4b18994eb89988de3ffaae7, type: 3}
+  sonidoIncorrecto: {fileID: 8300000, guid: 800e74491c9706f49bc996ebdc63e2df, type: 3}
 --- !u!4 &1592603979
 Transform:
   m_ObjectHideFlags: 0
@@ -17045,6 +17385,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1592603980
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592603977}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1610100609
 GameObject:
   m_ObjectHideFlags: 0
@@ -17131,6 +17568,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -17277,6 +17726,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1610672495}
         m_TargetAssemblyTypeName: BotonPanel, Assembly-CSharp
         m_MethodName: AlAplastar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17442,6 +17903,8 @@ MonoBehaviour:
   panelPregunta: {fileID: 1018829102}
   correctAnswerIndex: 0
   continuarButton: {fileID: 2061106002}
+  sonidoCorrecto: {fileID: 8300000, guid: 61824231f4b18994eb89988de3ffaae7, type: 3}
+  sonidoIncorrecto: {fileID: 8300000, guid: 800e74491c9706f49bc996ebdc63e2df, type: 3}
 --- !u!224 &1635367480
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17641,7 +18104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1669777368}
   - component: {fileID: 1669777367}
-  - component: {fileID: 1669777366}
+  - component: {fileID: 1669777369}
   m_Layer: 0
   m_Name: Rompecapezasmanager
   m_TagString: Untagged
@@ -17649,7 +18112,46 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!82 &1669777366
+--- !u!114 &1669777367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669777365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a54d54d44d662448f9f8a200bd0e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleManager
+  piezas:
+  - {fileID: 675707557}
+  - {fileID: 48815346}
+  - {fileID: 22754673}
+  - {fileID: 187444679}
+  - {fileID: 588325556}
+  - {fileID: 2101334517}
+  sonidoClick: {fileID: 8300000, guid: 1dac9035ff042614dbf4b550c94626b3, type: 3}
+  sonidoCompletado: {fileID: 8300000, guid: 61824231f4b18994eb89988de3ffaae7, type: 3}
+  panelVictoria: {fileID: 1942850508}
+  panelRompecabezas: {fileID: 1888709105}
+  panelCelular: {fileID: 891294092}
+--- !u!4 &1669777368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669777365}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -460.25232, y: -286.67322, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 945061994}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1669777369
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17661,7 +18163,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -17746,45 +18248,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1669777367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669777365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1a54d54d44d662448f9f8a200bd0e59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PuzzleManager
-  piezas:
-  - {fileID: 675707557}
-  - {fileID: 48815346}
-  - {fileID: 22754673}
-  - {fileID: 187444679}
-  - {fileID: 588325556}
-  - {fileID: 2101334517}
-  sonidoClick: {fileID: 8300000, guid: 1dac9035ff042614dbf4b550c94626b3, type: 3}
-  sonidoCompletado: {fileID: 8300000, guid: 61824231f4b18994eb89988de3ffaae7, type: 3}
-  panelVictoria: {fileID: 1942850508}
-  panelRompecabezas: {fileID: 1888709105}
-  panelCelular: {fileID: 891294092}
---- !u!4 &1669777368
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669777365}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -460.25232, y: -286.67322, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 945061994}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1675251269
 GameObject:
   m_ObjectHideFlags: 0
@@ -17970,6 +18433,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1635367481}
         m_TargetAssemblyTypeName: RutaSelector, Assembly-CSharp
         m_MethodName: SeleccionarRutaB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18570,61 +19045,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722057945}
   m_CullTransparentMesh: 1
---- !u!1 &1733084403
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1733084404}
-  - component: {fileID: 1733084405}
-  m_Layer: 5
-  m_Name: botonessecuencia
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1733084404
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733084403}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 945061994}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1733084405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733084403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34b0b5912964ab84a9f28559fb6fa66d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SecuenciaBotones
-  ordenCorrecto:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &1735013291
 GameObject:
   m_ObjectHideFlags: 0
@@ -18788,6 +19208,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -21446,9 +21878,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 566462303}
-        m_TargetAssemblyTypeName: RutaSelector, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21657,6 +22089,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -22035,7 +22479,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2061106003}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 566462304}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2061106003
 MonoBehaviour:
   m_ObjectHideFlags: 0
