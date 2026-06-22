@@ -1876,9 +1876,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b77e8c07b9cee44ea05ef0b2da0add3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SecuenciaBotonesChat
-  boton1: {fileID: 0}
-  boton2: {fileID: 0}
-  boton3: {fileID: 0}
+  boton1: {fileID: 677975252}
+  boton2: {fileID: 1784627226}
+  boton3: {fileID: 557060554}
   onSecuenciaCompleta:
     m_PersistentCalls:
       m_Calls: []
@@ -21036,7 +21036,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 359.705}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -442, y: -160.3}
+  m_AnchoredPosition: {x: -445, y: -160.3}
   m_SizeDelta: {x: 64.8, y: 58.5819}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1988131942
@@ -22499,7 +22499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2141260843
 MonoBehaviour:
   m_ObjectHideFlags: 0
