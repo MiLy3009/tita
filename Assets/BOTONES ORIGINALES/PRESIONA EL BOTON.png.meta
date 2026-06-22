@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dde1baa52a7e5d04e93bda432c3592e4
+guid: 0b7b9426f282d0641aea463d4af6ee0e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4801698738783830256
-    second: CUADRO DE TEXTO PASILLO 1_0
+      213: 1156858098138325511
+    second: PRESIONA EL BOTON_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CUADRO DE TEXTO PASILLO 1_0
+      name: PRESIONA EL BOTON_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 0
+        x: 2
+        y: 8
         width: 878
-        height: 148
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01f39540070fc5db0800000000000000
-      internalID: -4801698738783830256
+      spriteID: 702a11b9f4cfd0010800000000000000
+      internalID: 1156858098138325511
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CUADRO DE TEXTO PASILLO 1_0: -4801698738783830256
+      PRESIONA EL BOTON_0: 1156858098138325511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

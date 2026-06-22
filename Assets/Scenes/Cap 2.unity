@@ -1654,7 +1654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4801698738783830256, guid: dde1baa52a7e5d04e93bda432c3592e4, type: 3}
+  m_Sprite: {fileID: 1156858098138325511, guid: 0b7b9426f282d0641aea463d4af6ee0e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1835,6 +1835,8 @@ MonoBehaviour:
   botonSiguiente: {fileID: 726527826}
   nombreEscena: Cap 3
   sonidoFinal: {fileID: 8300000, guid: 3dfe66cecc8913e4cb36bd6e39fd30c8, type: 3}
+  escalaAplastado: 0.9
+  duracionAplastado: 0.1
 --- !u!114 &1623762484
 MonoBehaviour:
   m_ObjectHideFlags: 0
