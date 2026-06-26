@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7cdfe0973ad193440b73d27784048fa6
+guid: 9d35bbd5707fb644682dcd6c8d9a2ce0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6681595296246913531
-    second: "Diario primera pa\u0301gina _0"
+      213: -7191159669205916346
+    second: interfaz app roblox mati (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Diario primera pa\u0301gina _0"
+      name: interfaz app roblox mati (2)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 506284a8a743643a0800000000000000
-      internalID: -6681595296246913531
+      spriteID: 645add9916ed33c90800000000000000
+      internalID: -7191159669205916346
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Diario primera pa\u0301gina _0": -6681595296246913531
+      interfaz app roblox mati (2)_0: -7191159669205916346
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
