@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f60d87e3fc259a34b9aa40761109d851
+guid: 1f85bdbcb3cda1d4d96cf1dc5d919845
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4212500014255170372
-    second: Interfaz app roblox Cami_0
+      213: -6507952812344284905
+    second: Interfax mensajeria papa_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interfaz app roblox Cami_0
+      name: Interfax mensajeria papa_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 443e106b17ec57a30800000000000000
-      internalID: 4212500014255170372
+      spriteID: 719e635d56b1fa5a0800000000000000
+      internalID: -6507952812344284905
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Interfaz app roblox Cami_0: 4212500014255170372
+      Interfax mensajeria papa_0: -6507952812344284905
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

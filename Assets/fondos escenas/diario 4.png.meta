@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3dde90f20ca5fac44a98b9d4cf437223
+guid: 14cdbc2924ed60249aa6a3e8fb091e0f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7162169210190357805
-    second: CUADRO DE TEXTO 4_0
+      213: 7397347307661874266
+    second: diario 4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CUADRO DE TEXTO 4_0
+      name: diario 4_0
       rect:
         serializedVersion: 2
-        x: 188
-        y: 92
-        width: 1563
-        height: 209
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3da1d55dc0dda9c90800000000000000
-      internalID: -7162169210190357805
+      spriteID: a54d069fe28a8a660800000000000000
+      internalID: 7397347307661874266
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CUADRO DE TEXTO 4_0: -7162169210190357805
+      diario 4_0: 7397347307661874266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

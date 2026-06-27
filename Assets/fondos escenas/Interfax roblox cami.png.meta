@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4f4d931b6334979449bf6946daa6aed9
+guid: d49d3e4e8ee26c64f96979c5a193fb83
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2818419072497061396
-    second: "Diario ultima pa\u0301gina_0"
+      213: -217858837054578279
+    second: Interfax roblox cami_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Diario ultima pa\u0301gina_0"
+      name: Interfax roblox cami_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce170a349c6f2e8d0800000000000000
-      internalID: -2818419072497061396
+      spriteID: 991ae2eba820afcf0800000000000000
+      internalID: -217858837054578279
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Diario ultima pa\u0301gina_0": -2818419072497061396
+      Interfax roblox cami_0: -217858837054578279
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

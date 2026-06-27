@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f17bf30ad5b4e094d8a588b1bffd0fd6
+guid: 100ac065fb5d8c843a22630e42a0569f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2034873074294491676
-    second: "Tercera pa\u0301gina diario_0"
+      213: 636039745511546358
+    second: cuadro textoo 6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Tercera pa\u0301gina diario_0"
+      name: cuadro textoo 6_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 8
+        y: 11
+        width: 1563
+        height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1a8454a7425d3c10800000000000000
-      internalID: 2034873074294491676
+      spriteID: 6fdde3657caa3d800800000000000000
+      internalID: 636039745511546358
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Tercera pa\u0301gina diario_0": 2034873074294491676
+      cuadro textoo 6_0: 636039745511546358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

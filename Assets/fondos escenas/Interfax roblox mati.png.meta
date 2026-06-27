@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7dacd83f7719e9c44b2180e840301120
+guid: fe532091da2e3cc4b8415e5476e24cb6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5618029839416281993
-    second: "Interfaz app mensajeri\u0301a papa\u0301_0"
+      213: 5291968909026193443
+    second: Interfax roblox mati_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Interfaz app mensajeri\u0301a papa\u0301_0"
+      name: Interfax roblox mati_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98bc3f39f5047fd40800000000000000
-      internalID: 5618029839416281993
+      spriteID: 320fae84fa9d07940800000000000000
+      internalID: 5291968909026193443
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Interfaz app mensajeri\u0301a papa\u0301_0": 5618029839416281993
+      Interfax roblox mati_0: 5291968909026193443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
