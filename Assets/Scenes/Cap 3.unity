@@ -2590,7 +2590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 50.99997, y: -203}
+  m_AnchoredPosition: {x: 51, y: -179.60999}
   m_SizeDelta: {x: -1041.3928, y: -833.2174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &197064668
@@ -2622,8 +2622,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9547,7 +9547,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 5d9b77e7e8dd7d642887cb5ffb1e3a0e, type: 3}
+  m_Resource: {fileID: 8300000, guid: c51f8c0f72721c24aa23133dfa5206ea, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -19929,7 +19929,6 @@ GameObject:
   - component: {fileID: 1719377260}
   - component: {fileID: 1719377262}
   - component: {fileID: 1719377261}
-  - component: {fileID: 1719377263}
   m_Layer: 5
   m_Name: 'Panel brilo '
   m_TagString: Untagged
@@ -19994,22 +19993,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719377259}
   m_CullTransparentMesh: 1
---- !u!114 &1719377263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719377259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef447930e9145ec47b7502c57fa4589a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  textoUI: {fileID: 0}
-  textoCompleto: "Escribe aqu\xED tu texto..."
-  velocidad: 0.05
-  iniciarAutomatico: 1
 --- !u!1 &1722057945
 GameObject:
   m_ObjectHideFlags: 0
@@ -20367,8 +20350,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 51, y: -131}
-  m_SizeDelta: {x: 509.5196, y: 82.79498}
+  m_AnchoredPosition: {x: 20.796, y: -131}
+  m_SizeDelta: {x: 569.93, y: 82.795}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1739394722
 MonoBehaviour:
@@ -20392,8 +20375,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'CAPITULOS '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
+  m_sharedMaterial: {fileID: 6900369894191743208, guid: 9f188c805090c9e42bc59c87c62618ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22800,18 +22783,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 842553065}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 281822307}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -22823,6 +22794,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 842553065}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 566462304}
         m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
