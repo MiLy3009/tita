@@ -3166,6 +3166,7 @@ MonoBehaviour:
   zonaAlto: 0.35
   cursorCircle: {fileID: 613226012}
   sistemaImagenes: {fileID: 1067129833}
+  clipRaspado: {fileID: 8300000, guid: 016cc58aaa5d0b04989775bcb04616cb, type: 3}
 --- !u!1 &891512099
 GameObject:
   m_ObjectHideFlags: 0
@@ -4061,6 +4062,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1067129833}
         m_TargetAssemblyTypeName: SistemaImagenesVideo, Assembly-CSharp
         m_MethodName: Siguiente
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 131642757}
+        m_TargetAssemblyTypeName: SonidoClick, Assembly-CSharp
+        m_MethodName: Reproducir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

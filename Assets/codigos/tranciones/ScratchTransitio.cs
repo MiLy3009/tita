@@ -35,6 +35,11 @@ public class ScratchTransition : MonoBehaviour
     [Header("Sistema Imagenes")]
     public SistemaImagenesVideo sistemaImagenes;
 
+    [Header("Audio de Raspado")]
+    public AudioClip clipRaspado;    // solo arrastra aquí el sonido de "rasca rasca"
+
+    private AudioSource audioRaspado; // se crea/obtiene solo, no hace falta arrastrarlo
+
     private Texture2D scratchMask;
     private Color[] maskPixels;
     private int totalPixels;
@@ -43,6 +48,19 @@ public class ScratchTransition : MonoBehaviour
     private bool transitionDone = false;
     private bool raspaditaYaUsada = false;
     private int zonaPixX, zonaPixY, zonaPixW, zonaPixH;
+
+    void Awake()
+    {
+        // Obtiene el AudioSource del mismo objeto, o lo crea si no existe
+        audioRaspado = GetComponent<AudioSource>();
+        if (audioRaspado == null)
+            audioRaspado = gameObject.AddComponent<AudioSource>();
+
+        audioRaspado.clip = clipRaspado;
+        audioRaspado.loop = true;
+        audioRaspado.playOnAwake = false;
+        audioRaspado.Stop(); // por si el AudioSource ya tenía Play On Awake activado, lo forzamos a callar
+    }
 
     void Start()
     {
@@ -157,8 +175,19 @@ public class ScratchTransition : MonoBehaviour
         if (cursorCircle != null)
             cursorCircle.position = new Vector3(cursorPos.x, cursorPos.y, 0);
 
+        // 🔊 Manejo del sonido: suena mientras se está raspando, se detiene al soltar
         if (touching)
+        {
             Scratch(inputPos);
+
+            if (!transitionDone && audioRaspado != null && clipRaspado != null && !audioRaspado.isPlaying)
+                audioRaspado.Play();
+        }
+        else
+        {
+            if (audioRaspado != null && audioRaspado.isPlaying)
+                audioRaspado.Stop();
+        }
     }
 
     void Scratch(Vector2 screenPos)
@@ -209,6 +238,10 @@ public class ScratchTransition : MonoBehaviour
             textoRaspadita.SetActive(false);
 
         scratchOverlay.gameObject.SetActive(false);
+
+        if (audioRaspado != null && audioRaspado.isPlaying)
+            audioRaspado.Stop();
+
         OnBotonPresionado();
     }
 

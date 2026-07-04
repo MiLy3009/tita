@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: edd4866716aa349488a72e1ca8a886a8
+guid: dad19e1b2a28b0f4297f74b635964f9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3616570876529431919
-    second: diario 3_0
+      213: 1322821052197086858
+    second: P1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: diario 3_0
+      name: P1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f655f800d04a03230800000000000000
-      internalID: 3616570876529431919
+      spriteID: a86ad950dba9b5210800000000000000
+      internalID: 1322821052197086858
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      diario 3_0: 3616570876529431919
+      P1_0: 1322821052197086858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

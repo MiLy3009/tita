@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2b5af9fbc5ed74242bd62b2fd54cdd4a
+guid: 3e00d68b20ef79946994d646f69aa810
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 159537543822948164
-    second: "Diario segunda pa\u0301gina_0"
+      213: 1404028623067837608
+    second: Logo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Diario segunda pa\u0301gina_0"
+      name: Logo_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 447b7e30d8ac63200800000000000000
-      internalID: 159537543822948164
+      spriteID: 8a47074089c1c7310800000000000000
+      internalID: 1404028623067837608
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Diario segunda pa\u0301gina_0": 159537543822948164
+      Logo_0: 1404028623067837608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
